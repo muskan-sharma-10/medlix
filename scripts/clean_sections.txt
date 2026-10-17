@@ -1,0 +1,94 @@
+--- STATS FULL SECTION ---
+Extracted Stats: [
+  { value: '9', title: 'Independent Hospitals' },
+  { value: '500', title: 'Beds' },
+  { value: '25', title: 'Medical Specialties' }
+]
+
+--- CIRCLE OF CARE ALL 6 ---
+Extracted Circle: []
+
+--- INSURANCE LOGOS ---
+Extracted Insurance Logos: []
+
+--- LOCATIONS ALL ---
+Extracted Locations: []
+
+--- ABOUT US DETAILS ---
+About us heading & text: uploads/2019/08/image-3-300x277.png 300w, https://medlix.in/wp-content/uploads/2019/08/image-3-600x554.png 600w" sizes="(max-width: 738px) 100vw, 738px" /> About Us Our hospital doctors examine patients ensuring accurate diagnoses & personalized care. <div class="elementor-element elementor-element-da98fd4 elementor-widget__width-initial elementor-widget-tablet__width-inherit medizco_service_box_4 mw-100 ekit-equal-height-disable elementor-invisible elementor-widget elementor-widget-elementsk
+About Images: []
+
+--- SPECIALTIES IN BODY ---
+Last index of Medical Specialities: 342514
+Spec snippet: Medical Specialities Expert care, personalized treatments. Medlix Hospital Services is here to guide you through every step of your wellness journey. <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-3f2ce6f" data-id="3f2
+Body specialties found: [
+  {
+    img: 'https://medlix.in/wp-content/uploads/2024/11/cardiology-new.png',
+    cap: 'Cardiology'
+  },
+  {
+    img: 'https://medlix.in/wp-content/uploads/2024/11/gastrosurgery.png',
+    cap: 'Gastrosurgery'
+  },
+  {
+    img: 'https://medlix.in/wp-content/uploads/2024/11/icu.png',
+    cap: 'Emergency Care CCU & ICU'
+  },
+  {
+    img: 'https://medlix.in/wp-content/uploads/2024/11/internal-medicine.png',
+    cap: 'Internal Medicine'
+  },
+  {
+    img: 'https://medlix.in/wp-content/uploads/2024/11/Ppackages-new.png',
+    cap: 'Health Checkup Packages'
+  },
+  {
+    img: 'https://medlix.in/wp-content/uploads/2024/11/health-check-new.png',
+    cap: 'Health Check'
+  },
+  {
+    img: 'https://medlix.in/wp-content/uploads/2024/11/ivf-1.png',
+    cap: 'IVF'
+  },
+  {
+    img: 'https://medlix.in/wp-content/uploads/2024/11/neurosurgery-1.png',
+    cap: 'Neurosurgery'
+  },
+  {
+    img: 'https://medlix.in/wp-content/uploads/2024/11/kidney-dialysis-new.png',
+    cap: 'Nephrology & Dialysis Centre'
+  },
+  {
+    img: 'https://medlix.in/wp-content/uploads/2024/11/neurology-new.png',
+    cap: 'Neurology'
+  },
+  {
+    img: 'https://medlix.in/wp-content/uploads/2024/11/ophthalmology-new.png',
+    cap: 'Ophthalmology'
+  },
+  {
+    img: 'https://medlix.in/wp-content/uploads/2024/11/orthopaedic.png',
+    cap: 'Orthopaedic'
+  },
+  {
+    img: 'https://medlix.in/wp-content/uploads/2024/11/sleep-clinic.png',
+    cap: 'Sleep Clinic'
+  },
+  {
+    img: 'https://medlix.in/wp-content/uploads/2024/11/paediatrics.png',
+    cap: 'Paediatrics'
+  },
+  {
+    img: 'https://medlix.in/wp-content/uploads/2024/11/urology.png',
+    cap: 'Urology'
+  }
+]
+
+--- TRANSPLANT SERVICES ---
+Transplants: []
+
+--- APPROACH SERVICES ---
+Approach items: []
+
+--- FOOTER ADDRESS & OUTPATIENT ---
+ta-id="4ac66c3" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"> Our Hospitals Medlix Aayu Hospital, Hari Nagar Gurugram Medlix Aarvy Hospital, Civil Lines, Gurugram Medlix Ananta Hospital, Gurugram Medlix Golden Hospital, Palwal Medlix Dr RB Yadav Hospital, Rewari <span class="element

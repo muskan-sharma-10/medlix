@@ -1,0 +1,20 @@
+--- CIRCLE OF CARE (COUNT 0) ---
+
+--- INSURANCE CAROUSEL LOGOS (BODY) ---
+Insurance Logos: [
+  'https://medlix.in/wp-content/uploads/2024/11/bsnl.png',
+  'https://medlix.in/wp-content/uploads/2024/11/acko.png',
+  'https://medlix.in/wp-content/uploads/2024/11/aditya-birla-health.png',
+  'https://medlix.in/wp-content/uploads/2024/11/ahct.png',
+  'https://medlix.in/wp-content/uploads/2024/11/air-india.png',
+  'https://medlix.in/wp-content/uploads/2024/11/anmol-medicare-tpa-ltd.png',
+  'https://medlix.in/wp-content/uploads/2024/11/anyuta-logo.png',
+  'https://medlix.in/wp-content/uploads/2024/11/bajaj-insurance.png',
+  'https://medlix.in/wp-content/uploads/2026/04/Medlix-Aarvy-Hospital.jpg'
+]
+
+--- TRANSPLANT SERVICES (BODY) ---
+
+--- ABOUT US 3 CARDS ---
+
+--- ALL HOSPITALS / LOCATIONS ---

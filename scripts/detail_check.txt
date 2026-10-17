@@ -1,0 +1,32 @@
+--- STAT #4 ---
+Medical Specialties <div clas
+
+--- CIRCLE OF CARE RAW ---
+The CIRCLE of Care: Our Core Values C – Care We believe everyone deserves more than just treatment – they deserve a healing experience. Our approach is always personal, always human, never just routine. I – Integrity Trust is everything. We uphold the highest standards in all we do, staying true to our mission to put patients first and always doing what's best for them. R – Respect We treat every individual with the dignity they deserve, ensuring they feel valued and heard, both during treatment and beyond. <div class="elementor-element elementor-element-1b92d31 ekit-equal-height-disable elementor-widget elementor
+
+--- INSURANCE RAW ---
+Ins images found: []
+
+--- LOCATIONS RAW ---
+Our Locations Medlix Aarvy Hospital Medlix Manavta Hospital Medlix Aayu Hospital <img loading="lazy" decoding="async" width="601" height="801" src="https://medlix.in/w
+Loc images: [
+  'https://medlix.in/wp-content/uploads/2026/04/Medlix-Aarvy-Hospital.jpg',
+  'https://medlix.in/wp-content/uploads/2026/04/Medlix-Aarvy-Hospital-207x300.jpg',
+  'https://medlix.in/wp-content/uploads/2026/04/Medlix-Manavta-Hospital.jpg',
+  'https://medlix.in/wp-content/uploads/2026/04/Medlix-Manavta-Hospital-193x300.jpg',
+  'https://medlix.in/wp-content/uploads/2026/04/Medlix-Manavta-Hospital-600x933.jpg',
+  'https://medlix.in/wp-content/uploads/2026/04/Medlix-Aayu-Hospitalss.jpg',
+  'https://medlix.in/wp-content/uploads/2026/04/Medlix-Aayu-Hospitalss-179x300.jpg',
+  'https://medlix.in/wp-content/uploads/2026/04/Medlix-Aayu-Hospitalss-612x1024.jpg',
+  'https://medlix.in/wp-content/uploads/2026/04/Medlix-Aayu-Hospitalss-768x1285.jpg',
+  'https://medlix.in/wp-content/uploads/2026/04/Medlix-Aayu-Hospitalss-600x1004.jpg'
+]
+
+--- TRANSPLANT RAW ---
+Transplant Services With our transplant services we provide compassionate & expert care focusing on the individual needs of each patient. Lung Transplant Dedicated to improving lives, we offer advanced surgical options for patients with lung disease. </div
+
+--- ABOUT 3 POINTS ---
+About Us Our hospital doctors examine patients ensuring accurate diagnoses & personalized care. Intensive Care In critical moments, our intensive care unit provides specialized attention, supporting patients with advanced, life-saving treatments. Specialized Support Service" /> {"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/medlix.in\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/medlix.in\/#listItem","position":1,"name":"Home"}]},{"@type":"Organization","@id":"https:\/\/medlix.in\/#organization","name":"Medlix Hospital","url":"https:\/\/medlix.in\/"},{"@type":"WebPage","@id":"https:\/\/medlix.in\/#webpage","url":"https:\/\/medlix.in\/","name":"Home - Medlix Hospital","description":"Medical Specialities Expert care, personalized treatments. Medlix Hospital Services is here to guide you through every step of your wellness journey. About Us Our hospital doctors examine patients ensuring accurate diagnoses & personalized care. Intensive Care I
+
+--- OUTPATIENT & FOOTER ---
+ta-id="7e6d680" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default"> Outpatient timings Monday : 08.00 AM - 10.00 PM Tuesday : 08.00 AM - 10.00 PM Wednesday : 08.00 AM - 10.00 PM Thursday : 08.00 AM - 10.00 PM Friday : 09.00 AM - 07.00 PM Saturday : 10.00 AM - 05.00 PM Sunday : 10.00 AM - 05.00 PM <div cl

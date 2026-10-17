@@ -1,0 +1,116 @@
+
+========================================
+1. Medlix at a Glance
+========================================
+[IMAGE] src: https://medlix.in/wp-content/uploads/2024/11/video-popup-bg.png | alt: 
+
+[H2] Medlix at a Glance: Where Care Meets Excellence
+[P] Medlix Hospitals, founded in 2024 by Dr. Yogesh Sharma. We’re a next-gen multispecialty hospital chain on a mission to make affordable, high-quality healthcare accessible to everyone, everywhere.
+[P] Our philosophy is simple: Healthcare that’s built around patients. We’re here to deliver expert care that’s not only effective but also personal, treating every patient with respect, compassion, and individual attention. Whether you’re here for a check-up or a major procedure, you’re in skilled hands.
+
+========================================
+2. Vision & Philosophy Narrative
+========================================
+
+========================================
+3. Stats & Counters
+========================================
+[STAT] Number: 0
++ | Title: Independent Hospitals | Icon: 
+[P] Independent Hospitals
+[STAT] Number: 0
++ | Title: Beds | Icon: 
+[P] Beds
+[STAT] Number: 0
++ | Title: Medical Specialties | Icon: 
+[P] Medical Specialties
+[STAT] Number: 0
++ | Title: Specialist Doctors | Icon: 
+[P] Specialist Doctors
+
+========================================
+4. Vision & Mission (#vision-mission)
+========================================
+
+[H3] Our Drive: Healthcare - Affordable, Accessible, Available for all
+  * [LI] Care That Understands: We’re here to listen, understand, and provide personalized care that makes you feel truly seen and heard.
+  * [LI] Health Made Simple: We bring advanced treatments and the latest medical tech directly to you, making healthcare easier and more accessible.
+  * [LI] Stronger Together: We believe in healthier individuals leading to stronger communities, and we’re here to support that every step of the way.
+
+[H3] Vision Forward: Healthcare Reimagined
+  * [LI] Healthcare on Your Terms: A future where you can access expert care anytime, anywhere – with no barriers and no waiting.
+  * [LI] Healing with Heart: Leading medical innovation while always remembering that healing starts with human connection.
+  * [LI] Your Wellness, Our Purpose: We’re here to be the go-to health partner that helps you live your healthiest, happiest life.
+
+========================================
+5. The CIRCLE of Care (#ourcore)
+========================================
+[IMAGE] src: https://medlix.in/wp-content/uploads/2024/11/6-infograhic-bg.png | alt: 
+
+[H2] The CIRCLE of Care: Our Core Values
+[INFOBOX] Title: C – Care | Icon:  | Desc: We believe everyone deserves more than just treatment – they deserve a healing experience. Our approach is always personal, always human, never just routine.
+
+[H3] C – Care
+[INFOBOX] Title: C – Compassion | Icon:  | Desc: Healthcare can be overwhelming. That's why we go beyond the basics, ensuring every patient and their loved ones feel seen, heard, and supported every step of the way.
+
+[H3] C – Compassion
+[INFOBOX] Title: I – Integrity | Icon:  | Desc: Trust is everything. We uphold the highest standards in all we do, staying true to our mission to put patients first and always doing what's best for them.
+
+[H3] I – Integrity
+[INFOBOX] Title: L – Learning | Icon:  | Desc: We’re committed to continuous growth. From breakthrough research to innovative methods, we evolve to provide better care and outcomes for everyone.
+
+[H3] L – Learning
+[INFOBOX] Title: R – Respect | Icon:  | Desc: We treat every individual with the dignity they deserve, ensuring they feel valued and heard, both during treatment and beyond.
+
+[H3] R – Respect
+[INFOBOX] Title: E – Excellence | Icon:  | Desc: We bring unmatched expertise, using advanced technology and skilled professionals to tackle every health challenge with confidence and precision.
+
+[H3] E – Excellence
+
+========================================
+6. Why Choose Us (#whychoose)
+========================================
+[IMAGE] src: https://medlix.in/wp-content/uploads/2024/11/mind-map.png | alt: 
+[IMAGE] src: https://medlix.in/wp-content/uploads/2024/11/medical-team.png | alt: 
+[IMAGE] src: https://medlix.in/wp-content/uploads/2024/11/patient.png | alt: 
+[IMAGE] src: https://medlix.in/wp-content/uploads/2024/11/cut.png | alt: 
+[IMAGE] src: https://medlix.in/wp-content/uploads/2024/11/omnichannel.png | alt: 
+[IMAGE] src: https://medlix.in/wp-content/uploads/2024/11/handshake.png | alt: 
+
+[H2] Why Choose Medlix Hospital
+
+[H3] Comprehensive Care
+[P] A full range of specialties and advanced treatments, all under one roof.
+
+[H3] Expert Medical Team
+[P] Highly skilled doctors and specialists committed to providing personalized care.
+
+[H3] Patient-Centered Approach
+[P] Tailored treatment plans with a focus on your health and well-being.
+
+[H3] Cutting-Edge Technology
+[P] Using the latest medical advancements for accurate diagnoses and effective treatments.
+
+[H3] Seamless Experience
+[P] Streamlined processes with easy appointment scheduling, minimal wait times, and ongoing support.
+
+[H3] Community Commitment
+[P] Affordable, accessible healthcare designed to improve health outcomes for all.
+
+========================================
+7. The Medlix Approach (#approach)
+========================================
+[IMAGE] src: https://medlix.in/wp-content/uploads/2024/11/expert-care.jpg | alt: 
+[IMAGE] src: https://medlix.in/wp-content/uploads/2024/11/advanced-accessible-healthcare.jpg | alt: 
+[IMAGE] src: https://medlix.in/wp-content/uploads/2024/11/care-focused-systems.jpg | alt: 
+[IMAGE] src: https://medlix.in/wp-content/uploads/2024/11/patient-centered-approach.jpg | alt: 
+
+[H2] The Medlix Approach
+
+[H3] Expert Care
+
+[H3] Advanced, Accessible Healthcare
+
+[H3] Care-Focused Systems
+
+[H3] Patient-Centered Approach

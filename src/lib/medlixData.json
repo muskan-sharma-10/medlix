@@ -1,0 +1,642 @@
+{
+  "circleOfCare": [
+    {
+      "title": "C – Care",
+      "desc": "We believe everyone deserves more than just treatment – they deserve a healing experience. Our approach is always personal, always human, never just routine."
+    },
+    {
+      "title": "I – Integrity",
+      "desc": "Trust is everything. We uphold the highest standards in all we do, staying true to our mission to put patients first and always doing what's best for them."
+    },
+    {
+      "title": "R – Respect",
+      "desc": "We treat every individual with the dignity they deserve, ensuring they feel valued and heard, both during treatment and beyond."
+    },
+    {
+      "title": "C – Compassion",
+      "desc": "Healthcare can be overwhelming. That's why we go beyond the basics, ensuring every patient and their loved ones feel seen, heard, and supported every step of the way."
+    },
+    {
+      "title": "L – Learning",
+      "desc": "We’re committed to continuous growth. From breakthrough research to innovative methods, we evolve to provide better care and outcomes for everyone."
+    },
+    {
+      "title": "E – Excellence",
+      "desc": "We bring unmatched expertise, using advanced technology and skilled professionals to tackle every health challenge with confidence and precision."
+    }
+  ],
+  "whyChoose": [
+    {
+      "title": "Comprehensive Care",
+      "desc": "A full range of specialties and advanced treatments, all under one roof."
+    },
+    {
+      "title": "Expert Medical Team",
+      "desc": "Highly skilled doctors and specialists committed to providing personalized care."
+    },
+    {
+      "title": "Patient-Centered Approach",
+      "desc": "Tailored treatment plans with a focus on your health and well-being."
+    },
+    {
+      "title": "Cutting-Edge Technology",
+      "desc": "Using the latest medical advancements for accurate diagnoses and effective treatments."
+    },
+    {
+      "title": "Seamless Experience",
+      "desc": "Streamlined processes with easy appointment scheduling, minimal wait times, and ongoing support."
+    },
+    {
+      "title": "Community Commitment",
+      "desc": "Affordable, accessible healthcare designed to improve health outcomes for all."
+    }
+  ],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": " +",
+      "title": "Independent Hospitals"
+    },
+    {
+      "value": 289,
+      "suffix": " +",
+      "title": "Beds"
+    },
+    {
+      "value": 14,
+      "suffix": " +",
+      "title": "Medical Specialties"
+    },
+    {
+      "value": 28,
+      "suffix": " +",
+      "title": "Specialist Doctors"
+    }
+  ],
+  "specialties": [
+    {
+      "slug": "cardiology",
+      "title": "Cardiology",
+      "icon": "/images/specialties/cardiology.png",
+      "desc": "Advanced diagnostics, coronary angioplasty, pacemaker implantations, and comprehensive heart care.",
+      "conditions": ["Coronary Artery Disease", "Heart Failure", "Arrhythmia", "Hypertension", "Valvular Heart Disease"]
+    },
+    {
+      "slug": "gastrosurgery",
+      "title": "Gastrosurgery",
+      "icon": "/images/specialties/gastrosurgery.png",
+      "desc": "Comprehensive laparoscopic gastrointestinal surgeries, hepatobiliary, and colorectal treatments.",
+      "conditions": ["Gallstones", "Hernia", "Appendicitis", "GI Bleeding", "Colorectal Cancers"]
+    },
+    {
+      "slug": "emergency-icu",
+      "title": "Emergency Care CCU & ICU",
+      "icon": "/images/specialties/icu.png",
+      "desc": "24x7 state-of-the-art trauma resuscitation, advanced life support systems, and multi-bed intensive care.",
+      "conditions": ["Trauma & Accidents", "Septic Shock", "Respiratory Failure", "Stroke Emergencies", "Cardiac Arrest"]
+    },
+    {
+      "slug": "internal-medicine",
+      "title": "Internal Medicine",
+      "icon": "/images/specialties/internal-medicine.png",
+      "desc": "Diagnosis and management of acute and chronic systemic diseases with patient-centric treatment plans.",
+      "conditions": ["Diabetes Mellitus", "Hypertension", "Infectious Diseases", "Thyroid Disorders", "Metabolic Syndromes"]
+    },
+    {
+      "slug": "health-checkup-packages",
+      "title": "Health Checkup Packages",
+      "icon": "/images/specialties/packages.png",
+      "desc": "Custom preventive screenings, executive executive health audits, and master cardiac checkups.",
+      "conditions": ["Annual Health Screening", "Cardiac Risk Audit", "Senior Citizen Wellness", "Women Health Screening", "Diabetes Screening"]
+    },
+    {
+      "slug": "health-check",
+      "title": "Health Check",
+      "icon": "/images/specialties/health-check.png",
+      "desc": "Fast-track diagnostic testing, ultrasound, digital X-rays, and pathology with same-day reports.",
+      "conditions": ["Routine Blood Tests", "Lipid Profile", "Liver Function", "Kidney Function", "Vitamin Deficiencies"]
+    },
+    {
+      "slug": "ivf",
+      "title": "IVF & Reproductive Medicine",
+      "icon": "/images/specialties/ivf.png",
+      "desc": "Assisted reproductive technology, fertility preservation, ICSI, and compassionate parenthood support.",
+      "conditions": ["Infertility", "Recurrent Miscarriages", "PCOS", "Male Factor Infertility", "Ovarian Reserve Loss"]
+    },
+    {
+      "slug": "neurosurgery",
+      "title": "Neurosurgery",
+      "icon": "/images/specialties/neurosurgery.png",
+      "desc": "Microscopic brain surgeries, minimally invasive spine procedures, and head injury interventions.",
+      "conditions": ["Brain Tumors", "Aneurysms", "Spinal Disc Herniation", "Spinal Stenosis", "Head Trauma"]
+    },
+    {
+      "slug": "nephrology-dialysis",
+      "title": "Nephrology & Dialysis Centre",
+      "icon": "/images/specialties/dialysis.png",
+      "desc": "24x7 hemodialysis, chronic kidney disease clinics, and renal transplant evaluations.",
+      "conditions": ["Chronic Kidney Disease", "Acute Kidney Injury", "End-Stage Renal Disease", "Electrolyte Imbalances", "Glomerulonephritis"]
+    },
+    {
+      "slug": "neurology",
+      "title": "Neurology",
+      "icon": "/images/specialties/neurology.png",
+      "desc": "Treatment of stroke, epilepsy, neuromuscular conditions, and degenerative cognitive disorders.",
+      "conditions": ["Stroke", "Epilepsy", "Parkinson's Disease", "Migraines", "Neuropathy"]
+    },
+    {
+      "slug": "ophthalmology",
+      "title": "Ophthalmology",
+      "icon": "/images/specialties/ophthalmology.png",
+      "desc": "Micro-incision cataract surgeries, glaucoma care, diabetic retinopathy management, and refractive care.",
+      "conditions": ["Cataracts", "Glaucoma", "Diabetic Retinopathy", "Refractive Errors", "Corneal Disorders"]
+    },
+    {
+      "slug": "orthopaedic",
+      "title": "Orthopaedic & Joint Replacement",
+      "icon": "/images/specialties/orthopaedic.png",
+      "desc": "Computer-guided knee & hip replacements, arthroscopic sports injury repair, and fracture trauma.",
+      "conditions": ["Osteoarthritis", "ACL & Meniscus Tears", "Hip Fractures", "Spine Deformities", "Rotator Cuff Tears"]
+    },
+    {
+      "slug": "sleep-clinic",
+      "title": "Sleep Clinic",
+      "icon": "/images/specialties/sleep-clinic.png",
+      "desc": "Polysomnography sleep studies, sleep apnea management, and chronic insomnia therapies.",
+      "conditions": ["Obstructive Sleep Apnea", "Chronic Insomnia", "Restless Leg Syndrome", "Narcolepsy", "Snoring Disorders"]
+    },
+    {
+      "slug": "paediatrics",
+      "title": "Paediatrics & Neonatology",
+      "icon": "/images/specialties/paediatrics.png",
+      "desc": "Comprehensive child care, neonatal ICU (NICU), pediatric emergencies, and immunization clinics.",
+      "conditions": ["Pediatric Infections", "Growth & Development Delays", "Newborn Jaundice", "Asthma & Allergies", "Congenital Anomalies"]
+    },
+    {
+      "slug": "urology",
+      "title": "Urology & Andrology",
+      "icon": "/images/specialties/urology.png",
+      "desc": "Laser kidney stone removal (RIRS/PCNL), prostate surgery (TURP), and reconstructive urology.",
+      "conditions": ["Kidney Stones", "Prostatic Hyperplasia", "Urinary Incontinence", "Urological Cancers", "Erectile Dysfunction"]
+    },
+    {
+      "slug": "dental-sciences",
+      "title": "Dental Sciences",
+      "icon": "/images/specialties/health-check.png",
+      "desc": "Maxillofacial surgery, root canals, dental implants, and cosmetic dental rehabilitation.",
+      "conditions": ["Dental Caries", "Tooth Loss", "Periodontal Disease", "Impacted Molars", "Facial Fractures"]
+    },
+    {
+      "slug": "dermatology",
+      "title": "Dermatology",
+      "icon": "/images/specialties/packages.png",
+      "desc": "Clinical dermatology, laser cosmetic procedures, hair loss therapies, and eczema management.",
+      "conditions": ["Psoriasis", "Acne & Scarring", "Alopecia", "Eczema", "Fungal Skin Infections"]
+    },
+    {
+      "slug": "ent-surgery",
+      "title": "ENT Surgery",
+      "icon": "/images/specialties/cardiology.png",
+      "desc": "Endoscopic sinus surgery, tympanoplasty for eardrums, voice therapy, and hearing restoration.",
+      "conditions": ["Sinusitis", "Deviated Septum", "Chronic Otitis Media", "Tonsillitis", "Tinnitus & Vertigo"]
+    },
+    {
+      "slug": "pulmonology",
+      "title": "Pulmonology & Respiratory Medicine",
+      "icon": "/images/specialties/icu.png",
+      "desc": "Bronchoscopy, allergy testing, management of COPD, severe asthma, and pulmonary rehabilitation.",
+      "conditions": ["COPD", "Bronchial Asthma", "Pneumonia", "Interstitial Lung Disease", "Tuberculosis"]
+    },
+    {
+      "slug": "physiotherapy",
+      "title": "Physiotherapy & Rehabilitation",
+      "icon": "/images/specialties/orthopaedic.png",
+      "desc": "Neuro-rehabilitation, post-joint replacement physio, sports fitness recovery, and ergonomic guidance.",
+      "conditions": ["Post-Surgery Rehab", "Sciatica", "Frozen Shoulder", "Stroke Rehabilitation", "Sports Injuries"]
+    }
+  ],
+  "insuranceGovt": [
+    {
+      "name": "Central Government Health Scheme (CGHS)",
+      "logo": "/images/insurance/cghs.png",
+      "desc": "Comprehensive cashless coverage for central government employees and pensioners."
+    },
+    {
+      "name": "BSNL",
+      "logo": "/images/insurance/bsnl.png",
+      "desc": "Direct cashless empanelment for BSNL employees and their families."
+    },
+    {
+      "name": "Ministry of Defence (ECHS)",
+      "logo": "/images/insurance/echs.png",
+      "desc": "Cashless hospitalization for ex-servicemen, veterans, and military dependents."
+    },
+    {
+      "name": "Ministry of Home Affairs",
+      "logo": "/images/insurance/mha.png",
+      "desc": "Direct billing and coverage for CAPF and MHA personnel."
+    },
+    {
+      "name": "NHAI",
+      "logo": "/images/insurance/nhai.png",
+      "desc": "National Highways Authority of India corporate medical panel."
+    },
+    {
+      "name": "Delhi Police",
+      "logo": "/images/insurance/delhi-police.png",
+      "desc": "Approved healthcare provider for Delhi Police force and beneficiaries."
+    }
+  ],
+  "insurancePrivate": [
+    {
+      "name": "TATA AIG",
+      "logo": "/images/insurance/tata-aig.png"
+    },
+    {
+      "name": "Bajaj Allianz",
+      "logo": "/images/insurance/bajaj.png"
+    },
+    {
+      "name": "Acko General Insurance",
+      "logo": "/images/insurance/acko.png"
+    },
+    {
+      "name": "Aditya Birla Health Insurance",
+      "logo": "/images/insurance/aditya-birla.png"
+    },
+    {
+      "name": "Raksha TPA",
+      "logo": "/images/insurance/raksha.png"
+    },
+    {
+      "name": "United India Insurance",
+      "logo": "/images/insurance/united-india.png"
+    },
+    {
+      "name": "Vision TPA",
+      "logo": "/images/insurance/vision-tpa.png"
+    },
+    {
+      "name": "Universal Sompo",
+      "logo": "/images/insurance/universal-sompo.png"
+    },
+    {
+      "name": "Vipul Medcorp TPA",
+      "logo": "/images/insurance/vipul.png"
+    },
+    {
+      "name": "Vidal Health TPA",
+      "logo": "/images/insurance/vidal.png"
+    },
+    {
+      "name": "United Health Care Parekh",
+      "logo": "/images/insurance/united-healthcare.png"
+    },
+    {
+      "name": "AHCT",
+      "logo": "/images/insurance/ahct.png"
+    },
+    {
+      "name": "Air India",
+      "logo": "/images/insurance/air-india.png"
+    },
+    {
+      "name": "Anmol Medicare TPA",
+      "logo": "/images/insurance/anmol.png"
+    },
+    {
+      "name": "Anyuta TPA",
+      "logo": "/images/insurance/anyuta.png"
+    }
+  ],
+  "locations": [
+    {
+      "slug": "medlix-aarvy-hospital",
+      "name": "Medlix Aarvy Hospital",
+      "type": "Super Specialty Hospital",
+      "address": "530/18 Civil Lines, Opp Nehru Stadium, Near Mor Chowk Gurugram, Haryana",
+      "city": "Gurugram",
+      "phone": "+91 92895 00375",
+      "email": "aarvy@medlix.in",
+      "image": "/images/hospitals/aarvy.jpg",
+      "beds": "120+ Beds",
+      "departments": ["Cardiology", "Emergency & Trauma", "Orthopaedics", "ICU/CCU", "Nephrology", "General Surgery"],
+      "features": ["24x7 Emergency & Trauma", "Advanced Cath Lab", "Dialysis Unit", "Modular Operation Theatres", "Cashless TPA Desk"]
+    },
+    {
+      "slug": "medlix-manavta-hospital",
+      "name": "Medlix Manavta Hospital",
+      "type": "Multi Specialty Hospital",
+      "address": "Gurugram, Haryana",
+      "city": "Gurugram",
+      "phone": "+91 92895 00375",
+      "email": "manavta@medlix.in",
+      "image": "/images/hospitals/manavta.jpg",
+      "beds": "80+ Beds",
+      "departments": ["Internal Medicine", "Paediatrics", "Obstetrics & Gynaecology", "General Surgery", "Diagnostics"],
+      "features": ["24x7 Ambulance & Pharmacy", "ICU & HDU", "Digital Radiography", "Maternity Wing", "Cashless Insurance"]
+    },
+    {
+      "slug": "medlix-aayu-hospital",
+      "name": "Medlix Aayu Hospital",
+      "type": "Multi Specialty Center",
+      "address": "Plot No. 140 Near Vishal Megha Mart, Khandsa Road Hari Nagar Gurugram (Hr.) 122001",
+      "city": "Gurugram",
+      "phone": "+91 92895 00375",
+      "email": "aayu@medlix.in",
+      "image": "/images/hospitals/aayu.jpg",
+      "beds": "75+ Beds",
+      "departments": ["Orthopaedics", "Emergency Care", "Gastroenterology", "Health Checkups", "Urology"],
+      "features": ["24x7 Emergency Response", "Modern Operation Theatres", "Ultrasound & Diagnostics", "Private & Semi-Private Rooms"]
+    },
+    {
+      "slug": "golden-hospital-sohna-road",
+      "name": "Golden Hospital Sohna Road",
+      "type": "Advanced Care Hospital",
+      "address": "Sohna Road, Kalra Colony, Palwal, Haryana 12112",
+      "city": "Palwal",
+      "phone": "+91 92895 00375",
+      "email": "palwal@medlix.in",
+      "image": "/images/hospitals/golden.jpg",
+      "beds": "70+ Beds",
+      "departments": ["Emergency & Trauma", "Cardiology", "General Medicine", "Paediatrics", "General Surgery"],
+      "features": ["24x7 Emergency", "Critical Care ICU", "Pathology Lab", "Ambulance Network"]
+    },
+    {
+      "slug": "medlix-ananta-hospital",
+      "name": "Medlix Ananta Hospital",
+      "type": "Multi Specialty Center",
+      "address": "c48 GF, sector 70A Gurugram, Haryana 122101",
+      "city": "Gurugram",
+      "phone": "+91 92895 00375",
+      "email": "ananta@medlix.in",
+      "image": "/images/hospitals/ananta.jpg",
+      "beds": "60+ Beds",
+      "departments": ["Mother & Child Care", "Internal Medicine", "Dental & Eye", "Physiotherapy", "Health Packages"],
+      "features": ["OPD Clinics", "Executive Health Lounge", "Specialist Consultations", "Daycare Surgeries"]
+    },
+    {
+      "slug": "medlix-gopal-hospital",
+      "name": "Medlix Gopal Hospital",
+      "type": "Multi Specialty Healthcare",
+      "address": "NH-19, Goverdhan and Chauraha, Chhata Rural, Chhata, Uttar Pradesh 281401",
+      "city": "Chhata / Mathura",
+      "phone": "+91 92895 00375",
+      "email": "gopal@medlix.in",
+      "image": "/images/hospitals/gopal.jpg",
+      "beds": "65+ Beds",
+      "departments": ["Highway Trauma & Emergency", "General Surgery", "Orthopaedics", "General Medicine", "Gynaecology"],
+      "features": ["NH-19 Highway Emergency Station", "Trauma Unit", "In-house Pharmacy", "Blood Storage Facility"]
+    },
+    {
+      "slug": "medlix-kumar-hospital",
+      "name": "Medlix Kumar Hospital",
+      "type": "Community & Surgical Hospital",
+      "address": "NH10, Block G, Beta II, Greater Noida, Uttar Pradesh 201310",
+      "city": "Greater Noida",
+      "phone": "+91 92895 00375",
+      "email": "kumar@medlix.in",
+      "image": "/images/hospitals/kumar.jpeg",
+      "beds": "60+ Beds",
+      "departments": ["General Surgery", "Internal Medicine", "Paediatrics", "Gastroenterology", "Diagnostics"],
+      "features": ["24x7 Urgent Care", "Minimally Invasive Surgery", "Digital X-Ray & Ultrasound", "Insurance TPA Desk"]
+    },
+    {
+      "slug": "medlix-dr-rb-yadav-hospital",
+      "name": "Medlix Dr RB Yadav Hospital",
+      "type": "Specialized Medical Center",
+      "address": "Chungi, Circular Road, Near Dharuhera Kayasthwara Mohallah, Rewari, Haryana 123401",
+      "city": "Rewari",
+      "phone": "+91 92895 00375",
+      "email": "rewari@medlix.in",
+      "image": "/images/hospitals/yadav.jpeg",
+      "beds": "70+ Beds",
+      "departments": ["Orthopaedics", "General Surgery", "Cardiology OPD", "Internal Medicine", "Dialysis"],
+      "features": ["Rewari's Premier Care Hub", "Accident & Emergency 24x7", "Physiotherapy & Rehab Center", "Cashless Panels"]
+    }
+  ],
+  "transplant": [
+    {
+      "name": "Lung Transplant",
+      "desc": "Dedicated to improving lives, we offer advanced surgical options for patients with end-stage lung disease with personalized post-operative care.",
+      "points": ["Single and Bilateral Lung Transplants", "Dedicated Sterile Pulmonary ICU", "Pre-transplant Rehabilitation Program", "Lifelong Immunosuppressive Monitoring"]
+    },
+    {
+      "name": "Heart Transplant",
+      "desc": "Comprehensive cardiac transplant care driven by renowned cardiothoracic surgeons, advanced heart-lung machines, and specialized ICU support.",
+      "points": ["End-stage Heart Failure Management", "Mechanical Circulatory Support (LVAD)", "Precision Donor-Recipient Matching", "Dedicated Cardiac Transplant CCU"]
+    },
+    {
+      "name": "Kidney Transplant",
+      "desc": "Pioneering renal transplant procedures with state-of-the-art dialysis integration and high graft survival rates for patients with renal failure.",
+      "points": ["Live Related & Deceased Donor Programs", "Laparoscopic Living Donor Nephrectomy", "ABO-Incompatible Renal Transplants", "Post-transplant Renal Clinic"]
+    },
+    {
+      "name": "Liver Transplant",
+      "desc": "Complete living and deceased donor liver transplant services supported by dedicated hepatobiliary teams and advanced critical care units.",
+      "points": ["Living Donor Liver Transplant (LDLT)", "Pediatric Liver Transplant Expertise", "Advanced Hepatobiliary Surgical ICU", "Dedicated Post-Transplant Dietetics"]
+    }
+  ],
+  "approach": [
+    {
+      "title": "Expert Care",
+      "desc": "At Medlix, we bring together a team of the most skilled and dedicated clinical professionals, each committed to providing exceptional care. With their deep expertise and compassionate approach, our healthcare experts ensure that every patient receives the best possible treatment tailored to their needs."
+    },
+    {
+      "title": "Advanced, Accessible Healthcare",
+      "desc": "We combine the latest medical advancements with a commitment to affordability, making world-class healthcare accessible to all. Our goal is to ensure that cutting-edge diagnostics and therapies are within reach for every family."
+    },
+    {
+      "title": "Care-Focused Systems",
+      "desc": "Our infrastructure and processes are built around patient comfort and clinical efficiency, ensuring reduced waiting times, seamless transitions between departments, and round-the-clock monitoring."
+    },
+    {
+      "title": "Patient-Centered Approach",
+      "desc": "Every care plan is formulated in consultation with the patient and family, upholding transparency, empathy, and holistic recovery beyond the hospital stay."
+    }
+  ],
+  "aboutPoints": [
+    {
+      "title": "Intensive Care",
+      "desc": "In critical moments, our intensive care unit provides specialized attention, supporting patients with advanced, life-saving treatments."
+    },
+    {
+      "title": "Specialized Support Service",
+      "desc": "Our specialized support services offer tailored healthcare solutions, addressing the unique needs of each patient with expert care."
+    },
+    {
+      "title": "Medical & Surgical",
+      "desc": "Providing advanced medical treatments and surgical procedures with cutting-edge technology and experienced medical professionals."
+    }
+  ],
+  "doctors": [
+    {
+      "name": "Dr. Harrison Samuel",
+      "specialty": "Cardiology & Interventional Sciences",
+      "image": "/images/doctors/doctor-02.jpg",
+      "qualification": "MD, DM (Cardiology), FACC",
+      "hospital": "Medlix Aarvy Hospital, Gurugram",
+      "experience": "16+ Years Experience",
+      "bio": "Specializes in complex coronary angioplasty, pacemaker and ICD implantations, and preventive cardiology protocols."
+    },
+    {
+      "name": "Dr. Thomas Henry",
+      "specialty": "Gastrosurgery & Laparoscopy",
+      "image": "/images/doctors/doctor-02.jpg",
+      "qualification": "MS (General Surgery), MCh (Surgical Gastro)",
+      "hospital": "Medlix Aarvy Hospital, Gurugram",
+      "experience": "14+ Years Experience",
+      "bio": "Expert in advanced laparoscopic GI surgeries, bariatric interventions, and hepatobiliary procedures."
+    },
+    {
+      "name": "Dr. James Alexander",
+      "specialty": "Nephrology & Renal Transplant",
+      "image": "/images/doctors/doctor-02.jpg",
+      "qualification": "MD, DM (Nephrology)",
+      "hospital": "Medlix Aayu Hospital, Gurugram",
+      "experience": "15+ Years Experience",
+      "bio": "Pioneer in chronic kidney disease management, dialysis protocols, and living donor kidney transplantation."
+    },
+    {
+      "name": "Dr. Andrew Sebastian",
+      "specialty": "Orthopaedics & Joint Replacement",
+      "image": "/images/doctors/doctor-02.jpg",
+      "qualification": "MS (Orthopaedics), Fellowship Joint Replacement",
+      "hospital": "Medlix Aarvy Hospital, Gurugram",
+      "experience": "18+ Years Experience",
+      "bio": "Renowned for total knee and hip replacements, arthroscopy sports injury management, and trauma reconstruction."
+    },
+    {
+      "name": "Dr. Paul Stanley",
+      "specialty": "Neurology & Stroke Care",
+      "image": "/images/doctors/doctor-02.jpg",
+      "qualification": "MD, DM (Neurology)",
+      "hospital": "Medlix Manavta Hospital, Gurugram",
+      "experience": "12+ Years Experience",
+      "bio": "Focuses on acute ischemic stroke thrombolysis, epilepsy syndromes, Parkinson's disease, and neuropathies."
+    },
+    {
+      "name": "Dr. Austin Shaw",
+      "specialty": "Critical Care Medicine & Anaesthesia",
+      "image": "/images/doctors/doctor-02.jpg",
+      "qualification": "MD (Anaesthesia), IDCCM, EDIC",
+      "hospital": "Medlix Aarvy Hospital, Gurugram",
+      "experience": "13+ Years Experience",
+      "bio": "Leads 24x7 intensive care unit operations, septic shock resuscitation, and advanced mechanical ventilation."
+    },
+    {
+      "name": "Dr. Craig Daniels",
+      "specialty": "Paediatrics & Neonatology",
+      "image": "/images/doctors/doctor-02.jpg",
+      "qualification": "MD (Paediatrics), Fellowship Neonatology",
+      "hospital": "Medlix Ananta Hospital, Gurugram",
+      "experience": "11+ Years Experience",
+      "bio": "Specialist in newborn intensive care (NICU), pediatric growth and developmental disorders, and child health."
+    },
+    {
+      "name": "Dr. Ronald Munoz",
+      "specialty": "Urology & Kidney Stones",
+      "image": "/images/doctors/doctor-02.jpg",
+      "qualification": "MS, MCh (Urology)",
+      "hospital": "Medlix Dr RB Yadav Hospital, Rewari",
+      "experience": "15+ Years Experience",
+      "bio": "Specializes in laser kidney stone extraction (RIRS, PCNL), prostate enucleation, and uro-oncology."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "10-early-signs-your-body-should-never-ignore",
+      "title": "10 Early Signs Your Body Should Never Ignore",
+      "date": "August 11, 2026",
+      "author": "Dr. Medlix Health Editorial",
+      "category": "Health & Wellness",
+      "readTime": "5 min read",
+      "excerpt": "Your body has its own way of sending signals when something isn’t right. While many symptoms may seem minor at first, ignoring them can sometimes lead to serious health issues.",
+      "image": "/images/page-banner.jpg",
+      "content": [
+        "Your body is a remarkable organism that continuously communicates its state of well-being. Often before major illnesses manifest fully, subtle signs indicate that an underlying system requires medical evaluation.",
+        "1. Unexplained Weight Loss or Gain: Rapid fluctuations in body weight without deliberate changes in diet or exercise can point towards endocrine disorders, thyroid dysfunctions, or systemic conditions.",
+        "2. Persistent Shortness of Breath: Dyspnea upon normal exertion can be an early indicator of cardiac conditions or respiratory illnesses like asthma or COPD.",
+        "3. Chronic Fatigue: Persistent fatigue that isn’t relieved by adequate sleep may indicate severe anaemia, heart disease, or chronic metabolic syndromes.",
+        "4. Sudden Vision Changes: Blurred vision, double vision, or temporary loss of sight in one eye can be signs of neurological strain, impending transient ischemic attack (TIA), or diabetes.",
+        "5. Changes in Bowel or Bladder Habits: Chronic alterations in digestion, persistent constipation, or blood in stool or urine require prompt diagnostic screening by a gastroenterologist or urologist.",
+        "6. Unexplained Persistent Fevers: Recurring low-grade fevers may signify an occult infection, autoimmune disorder, or inflammatory reaction that needs investigation.",
+        "7. Non-Healing Sores or Wounds: Slow healing is frequently tied to elevated blood sugar levels or compromised peripheral circulation.",
+        "8. Lingering Cough or Hoarseness: A cough persisting beyond three weeks should be evaluated with chest imaging and clinical examination.",
+        "9. Frequent Headaches with Neck Stiffness: Sudden severe headaches or headaches accompanied by fever or numbness warrant immediate neurological attention.",
+        "10. Swelling in the Legs, Ankles, or Feet: Edema in the lower extremities can signal impaired kidney function, liver disease, or heart failure.",
+        "Conclusion: Prioritizing routine health checkups and seeking timely medical consultation at Medlix Hospital ensures diseases are arrested before progressing. Book an appointment today with our specialist doctors."
+      ]
+    }
+  ],
+  "careers": [
+    {
+      "id": 1,
+      "title": "Consultant Cardiologist",
+      "location": "Medlix Aarvy Hospital, Gurugram",
+      "type": "Full Time",
+      "experience": "5+ Years post DM/DNB",
+      "department": "Cardiac Sciences"
+    },
+    {
+      "id": 2,
+      "title": "Intensivist / Critical Care Specialist",
+      "location": "Medlix Aarvy Hospital, Gurugram",
+      "type": "Full Time / Shift",
+      "experience": "2+ Years post IDCCM / MD",
+      "department": "Critical Care Unit"
+    },
+    {
+      "id": 3,
+      "title": "Senior Nursing Officer (ICU / OT)",
+      "location": "All Medlix Hospital Branches",
+      "type": "Full Time",
+      "experience": "2-5 Years (B.Sc Nursing / GNM)",
+      "department": "Nursing Services"
+    },
+    {
+      "id": 4,
+      "title": "Resident Medical Officer (RMO)",
+      "location": "Palwal, Rewari & Gurugram Locations",
+      "type": "Full Time",
+      "experience": "1-3 Years (MBBS with state registration)",
+      "department": "Emergency & Inpatient"
+    },
+    {
+      "id": 5,
+      "title": "Radiology Technician",
+      "location": "Medlix Aayu Hospital, Gurugram",
+      "type": "Full Time",
+      "experience": "2+ Years in CT/MRI & Digital X-Ray",
+      "department": "Clinical Diagnostics"
+    },
+    {
+      "id": 6,
+      "title": "TPA & Insurance Executive",
+      "location": "Medlix Hospital Network",
+      "type": "Full Time",
+      "experience": "2+ Years in cashless hospitalization claims",
+      "department": "Administration & Billing"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "The care and attention my father received in the ICU was exemplary. The doctors were transparent and the nursing staff treated us like family during a very stressful time.",
+      "name": "Rajesh Sharma",
+      "role": "Gurugram Resident",
+      "rating": 5
+    },
+    {
+      "quote": "Medlix Aarvy Hospital provided seamless diagnosis and laparoscopic surgery for me. Recovery was fast, and the outpatient follow-ups were punctual and helpful.",
+      "name": "Sunita Verma",
+      "role": "Patient",
+      "rating": 5
+    },
+    {
+      "quote": "Having multi-specialty care with affordable insurance tie-ups under one roof made all the difference for our mother's cardiac treatment. Truly trustworthy healthcare.",
+      "name": "Amit Patel",
+      "role": "Family Caregiver",
+      "rating": 5
+    }
+  ]
+}

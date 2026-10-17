@@ -1,0 +1,111 @@
+>>> DUMPING CIRCLE OF CARE:
+
+================ MATCH #1 FOR "The CIRCLE of Care" (idx 381103) ================
+--- CLEAN TEXT ---
+="ekit-heading--title elementskit-section-title ">The CIRCLE of Care: Our Core Values C – Care We believe everyone deserves more than just treatment – they deserve a healing experience. Our approach is always personal, always human, never just routine. I – Integrity Trust is everything. We uphold the highest standards in all we do, staying true to our mission to put patients first and always doing what's best for them. R – Respect We treat every individual with the dignity they deserve, ensuring they feel valued and heard, both during treatment and beyond. <section class="elementor-section elementor-inner-section elementor-element elementor-element-379a01b equal-info-boxes elementor-section-boxed elementor-section-height-default elementor-section-h
+--- RAW HTML (first 800) ---
+="ekit-heading--title elementskit-section-title ">The CIRCLE of Care: Our Core Values</h2></div></div>				</div>
+</div>
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-a87cabf equal-info-boxes elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a87cabf" data-element_type="section" data-e-type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-f6f8c7e" data-id="f6f8c7e" data-element_type="column" data-e-type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-fd8ce14 ekit-equal-height-disable elementor-w
+>>> DUMPING STATS:
+
+================ MATCH #1 FOR "Independent Hospitals" (idx 390886) ================
+--- CLEAN TEXT ---
+dden="true" class="elementskit-funfact-icon icon icon-hospital"> 0 + Independent Hospitals 0 + Beds <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-08537a7 elementor-invisible" data-id="08537a7" data-element_type="column" data-e-type="column" data-settings="{&quot;animation&quo
+--- RAW HTML (first 800) ---
+dden="true" class="elementskit-funfact-icon icon icon-hospital"></i>					</div>
+<div class="funfact-content">
+<div class="number-percentage-wraper">
+<span class="number-percentage"
+data-value="9"
+data-animation-duration="3500"
+data-style="static">0</span>
++											</div>
+<p class="funfact-title">Independent Hospitals</p>								</div>
+</div>
+</div>
+</div>				</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-fdaedce elementor-invisible" data-id="fdaedce" data-element_type="column" data-e-type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:400}">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-c8
+>>> DUMPING SPECIALTIES:
+
+================ MATCH #1 FOR "Medical Specialities" (idx 422) ================
+--- CLEAN TEXT ---
+aioseo.com --> {"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/medlix.in\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/medlix.in\/#listItem","position":1,"name":"Home"}]},{"@type":"Organization","@id":"https:\/\/medlix.in\/#organization","name":"Medlix Hospital","url":"https:\/\/medlix.in\/"},{"@type":"WebPage","@id":"https:\/\/medlix.in\/#webpage","url":"https:\/\/medlix.in\/","name":"Home - Medlix Hospital","description":"Medical Specialities Expert care, personalized treatments. Medlix Hospital Services is here to guide you through every step of your wellness journey. About Us Our hospital doctors examine patients ensuring accurate diagnoses & personalized care. Intensive Care In critical moments, our intensive care unit provides specialized attention, supporting patients with advanced, life-saving treatments. Specialized Support Service","inLanguage":"en-US","isPartOf":{"@id":"https:\/\/medlix.in\/#website"},"breadcrumb":{
+--- RAW HTML (first 800) ---
+ aioseo.com -->
+<meta name="description" content="Medical Specialities Expert care, personalized treatments. Medlix Hospital Services is here to guide you through every step of your wellness journey. About Us Our hospital doctors examine patients ensuring accurate diagnoses &amp; personalized care. Intensive Care In critical moments, our intensive care unit provides specialized attention, supporting patients with advanced, life-saving treatments. Specialized Support Service" />
+<meta name="robots" content="max-image-preview:large" />
+<link rel="canonical" href="https://medlix.in/" />
+<meta name="generator" content="All in One SEO (AIOSEO) 5.0.2" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="Medlix Hospital -" />
+<meta property="og:type" content="we
+
+================ MATCH #2 FOR "Medical Specialities" (idx 1285) ================
+--- CLEAN TEXT ---
+ital" /> {"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/medlix.in\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/medlix.in\/#listItem","position":1,"name":"Home"}]},{"@type":"Organization","@id":"https:\/\/medlix.in\/#organization","name":"Medlix Hospital","url":"https:\/\/medlix.in\/"},{"@type":"WebPage","@id":"https:\/\/medlix.in\/#webpage","url":"https:\/\/medlix.in\/","name":"Home - Medlix Hospital","description":"Medical Specialities Expert care, personalized treatments. Medlix Hospital Services is here to guide you through every step of your wellness journey. About Us Our hospital doctors examine patients ensuring accurate diagnoses & personalized care. Intensive Care In critical moments, our intensive care unit provides specialized attention, supporting patients with advanced, life-saving treatments. Specialized Support Service","inLanguage":"en-US","isPartOf":{"@id":"https:\/\/medlix.in\/#website"},"breadcrumb":{"@id":"https:\/\/medlix.in\/#breadcrumblist"},"datePublished":"2019-08-20T08:31:33+00:00","dateModified":"2026-08-11T17:00:29+00:00"},{"@type":"WebSite","@id":"https:\/\/medlix.in\/#website","url":"https:\/\/medlix.in\/","name":"Medlix Hospital","inLanguage":"en-US","publisher":{"@id":"https:\/\/medlix.in\/#organization"}}]} <link rel="alternate" title
+--- RAW HTML (first 800) ---
+ital" />
+<meta property="og:description" content="Medical Specialities Expert care, personalized treatments. Medlix Hospital Services is here to guide you through every step of your wellness journey. About Us Our hospital doctors examine patients ensuring accurate diagnoses &amp; personalized care. Intensive Care In critical moments, our intensive care unit provides specialized attention, supporting patients with advanced, life-saving treatments. Specialized Support Service" />
+<meta property="og:url" content="https://medlix.in/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Home - Medlix Hospital" />
+<meta name="twitter:description" content="Medical Specialities Expert care, personalized treatments. Medlix Hospital Services is here to gu
+
+================ MATCH #3 FOR "Medical Specialities" (idx 1938) ================
+--- CLEAN TEXT ---
+tal" /> {"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/medlix.in\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/medlix.in\/#listItem","position":1,"name":"Home"}]},{"@type":"Organization","@id":"https:\/\/medlix.in\/#organization","name":"Medlix Hospital","url":"https:\/\/medlix.in\/"},{"@type":"WebPage","@id":"https:\/\/medlix.in\/#webpage","url":"https:\/\/medlix.in\/","name":"Home - Medlix Hospital","description":"Medical Specialities Expert care, personalized treatments. Medlix Hospital Services is here to guide you through every step of your wellness journey. About Us Our hospital doctors examine patients ensuring accurate diagnoses & personalized care. Intensive Care In critical moments, our intensive care unit provides specialized attention, supporting patients with advanced, life-saving treatments. Specialized Support Service","inLanguage":"en-US","isPartOf":{"@id":"https:\/\/medlix.in\/#website"},"breadcrumb":{"@id":"https:\/\/medlix.in\/#breadcrumblist"},"datePublished":"2019-08-20T08:31:33+00:00","dateModified":"2026-08-11T17:00:29+00:00"},{"@type":"WebSite","@id":"https:\/\/medlix.in\/#website","url":"https:\/\/medlix.in\/","name":"Medlix Hospital","inLanguage":"en-US","publisher":{"@id":"https:\/\/medlix.in\/#organization"}}]} img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 150
+--- RAW HTML (first 800) ---
+tal" />
+<meta name="twitter:description" content="Medical Specialities Expert care, personalized treatments. Medlix Hospital Services is here to guide you through every step of your wellness journey. About Us Our hospital doctors examine patients ensuring accurate diagnoses &amp; personalized care. Intensive Care In critical moments, our intensive care unit provides specialized attention, supporting patients with advanced, life-saving treatments. Specialized Support Service" />
+<script type="application/ld+json" class="aioseo-schema">
+{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/medlix.in\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/medlix.in\/#listItem","position":1,"name":"Home"}]},{"@type":"Organization","@id":"http
+>>> DUMPING LOCATIONS:
+
+================ MATCH #1 FOR "Our Locations" (idx 402928) ================
+--- CLEAN TEXT ---
+="ekit-heading--title elementskit-section-title ">Our Locations Medlix Aarvy Hospital Medlix Manavta Hospital <img loading="lazy" decoding="async" width="800" height="1339" src="https://medlix.in/wp-content/uploads/2026/04/Medlix-Aayu-Hospitalss.jpg" class="attachment-full size-full wp-image-7805" alt="" srcset="https://medlix.in/wp-content/uploads/2026/04/Medlix-Aayu-Hosp
+--- RAW HTML (first 800) ---
+="ekit-heading--title elementskit-section-title ">Our Locations</h2></div></div>				</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-d74bca0 elementor-hidden-tablet elementor-hidden-phone" data-id="d74bca0" data-element_type="column" data-e-type="column">
+<div class="elementor-widget-wrap">
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-8a66caa elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8a66caa" data-element_type="section" data-e-type="section">
+<div class="elementor-container elementor-column-gap-narrow">
+<div class="elementor-column elemen
+>>> DUMPING INSURANCE:
+
+================ MATCH #1 FOR "Insurance Tie" (idx 306047) ================
+--- CLEAN TEXT ---
+s://medlix.in/insurances/" class=" dropdown-item">Insurance Tie –Ups Doctors / Medical Specialists Cardiac Sciences Clinical Diagnostics Cosmetic Surgery Critical & Intensive Care Dental Sciences Dermatology ENT Surgery Emergency Medicine Gastro Sciences Genetic Sciences Gynecology & Obstetrics Health Checkup Intervention Joint Replacement <li id="menu-item-6717" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6717 nav-item elementskit-mobile-builder-c
+--- RAW HTML (first 800) ---
+s://medlix.in/insurances/" class=" dropdown-item">Insurance Tie –Ups</a></ul>
+</li>
+<li id="menu-item-6702" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6702 nav-item elementskit-dropdown-has top_position elementskit-dropdown-menu-custom_width elementskit-megamenu-has elementskit-mobile-builder-content" data-vertical-menu=100%><a href="#" class="ekit-menu-nav-link ekit-menu-dropdown-toggle" aria-expanded="false" aria-controls="ekit-megamenu-panel-6702">Doctors / Medical Specialists<i aria-hidden="true" class="icon icon-plus elementskit-submenu-indicator"></i></a>
+<ul class="elementskit-dropdown elementskit-submenu-panel" id="ekit-submenu-6702">
+<li id="menu-item-6703" class="menu-item menu-item-type-custom menu-item-object-custom menu-item
+
+================ MATCH #2 FOR "Insurance Tie" (idx 395707) ================
+--- CLEAN TEXT ---
+="ekit-heading--title elementskit-section-title ">Insurance Tie –Ups​ <img loading="lazy" decoding="async" width="250" height="150" src="https://medlix.in/wp-content/uploads/2024/11/
+--- RAW HTML (first 800) ---
+="ekit-heading--title elementskit-section-title ">Insurance Tie –Ups​</h2></div></div>				</div>
+</div>
+<div class="elementor-element elementor-element-f0a7d77 elementor-widget elementor-widget-elementskit-client-logo" data-id="f0a7d77" data-element_type="widget" data-e-type="widget" data-widget_type="elementskit-client-logo.default">
+<div class="elementor-widget-container">
+<div class="ekit-wid-con" >		<div class="elementskit-clients-slider  simple_logo_image" data-config="{&quot;rtl&quot;:false,&quot;arrows&quot;:false,&quot;dots&quot;:false,&quot;autoplay&quot;:true,&quot;speed&quot;:3000,&quot;slidesPerView&quot;:5,&quot;slidesPerGroup&quot;:1,&quot;pauseOnHover&quot;:false,&quot;loop&quot;:true,&quot;breakpoints&quot;:{&quot;320&quot;:{&quot;slidesPerView&quot;:1,&quot;slidesPerGroup&

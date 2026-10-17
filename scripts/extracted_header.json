@@ -1,0 +1,192 @@
+{
+  "phone": "+91 92895 00375",
+  "email": "info@medlix.in",
+  "appointmentUrl": "https://medlix.in/contact-us/",
+  "logo": "https://medlix.in/wp-content/uploads/elementor/thumbs/logo-2-qve1yet41izqg573wmgwe0a1e0l2y8fdrx70n2bcuw.png",
+  "navLinks": [
+    {
+      "title": "Home",
+      "href": "/"
+    },
+    {
+      "title": "Corporate",
+      "href": "/corporate",
+      "children": [
+        {
+          "title": "Company Overview",
+          "href": "/corporate#company-overview"
+        },
+        {
+          "title": "About Us",
+          "href": "#about-us"
+        },
+        {
+          "title": "Vision & Mission",
+          "href": "#vision-mission"
+        },
+        {
+          "title": "Our Core Values",
+          "href": "#circle-of-care"
+        },
+        {
+          "title": "Why Choose Us",
+          "href": "#why-choose"
+        },
+        {
+          "title": "Medlix Approach",
+          "href": "#approach"
+        }
+      ]
+    },
+    {
+      "title": "Medical Specialties",
+      "href": "#specialties",
+      "children": [
+        {
+          "title": "Cardiac Sciences",
+          "href": "#specialties"
+        },
+        {
+          "title": "Clinical Diagnostics",
+          "href": "#specialties"
+        },
+        {
+          "title": "Cosmetic Surgery",
+          "href": "#specialties"
+        },
+        {
+          "title": "Critical & Intensive Care",
+          "href": "#specialties"
+        },
+        {
+          "title": "Dental Sciences",
+          "href": "#specialties"
+        },
+        {
+          "title": "Dermatology",
+          "href": "#specialties"
+        },
+        {
+          "title": "ENT Surgery",
+          "href": "#specialties"
+        },
+        {
+          "title": "Emergency Medicine",
+          "href": "#specialties"
+        },
+        {
+          "title": "Gastro Sciences",
+          "href": "#specialties"
+        },
+        {
+          "title": "Genetic Sciences",
+          "href": "#specialties"
+        },
+        {
+          "title": "Gynecology & Obstetrics",
+          "href": "#specialties"
+        },
+        {
+          "title": "Health Checkup",
+          "href": "#specialties"
+        },
+        {
+          "title": "Intervention",
+          "href": "#specialties"
+        },
+        {
+          "title": "Joint Replacement",
+          "href": "#specialties"
+        },
+        {
+          "title": "Kidney Transplant",
+          "href": "#specialties"
+        },
+        {
+          "title": "Liver Care",
+          "href": "#specialties"
+        },
+        {
+          "title": "Nephrology",
+          "href": "#specialties"
+        },
+        {
+          "title": "Neuro Sciences",
+          "href": "#specialties"
+        },
+        {
+          "title": "Ophthalmology",
+          "href": "#specialties"
+        },
+        {
+          "title": "Orthopaedics & Trauma",
+          "href": "#specialties"
+        },
+        {
+          "title": "Paediatrics",
+          "href": "#specialties"
+        },
+        {
+          "title": "Pain Clinic",
+          "href": "#specialties"
+        },
+        {
+          "title": "Physiotherapy & Rehabilitation",
+          "href": "#specialties"
+        },
+        {
+          "title": "Pulmonology",
+          "href": "#specialties"
+        },
+        {
+          "title": "Urology",
+          "href": "#specialties"
+        },
+        {
+          "title": "Arthroscopy and Sportsmedicine",
+          "href": "#specialties"
+        },
+        {
+          "title": "IVF",
+          "href": "#specialties"
+        },
+        {
+          "title": "Heart Brain Liver",
+          "href": "#specialties"
+        },
+        {
+          "title": "Sleep Disorder",
+          "href": "#specialties"
+        }
+      ]
+    },
+    {
+      "title": "Transplant Services",
+      "href": "#transplant"
+    },
+    {
+      "title": "Our Hospitals",
+      "href": "#locations"
+    },
+    {
+      "title": "Doctors",
+      "href": "#doctors"
+    },
+    {
+      "title": "Career",
+      "href": "#career"
+    },
+    {
+      "title": "Blogs",
+      "href": "#blogs"
+    },
+    {
+      "title": "News",
+      "href": "#news"
+    },
+    {
+      "title": "Contact Us",
+      "href": "#contact"
+    }
+  ]
+}

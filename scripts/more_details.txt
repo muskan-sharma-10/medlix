@@ -1,0 +1,30 @@
+--- COMPASSION (CIRCLE OF CARE 4,5,6) ---
+/h1> Compassion at the Core. <img loading="lazy" data-src="//medlix.in/wp-content/uploads/2024/11/main-banner-03.jpg" data-
+ody"> L – Learning We’re committed to continuous growth. From breakthrough research to innovative methods, we evolve to provide better care and outcomes for everyone. E – Excellence We bring unmatched expertise, using advanced technology and skilled professionals to tackle every health challenge with confidence and precision. <section class="elementor-section elementor-top-section elementor-element eleme
+
+--- STATS ALL 4 NUMBERS ---
+Stat: 9 -> Independent Hospitals
+Stat: 500 -> Beds
+Stat: 25 -> Medical Specialties
+Stat: 50 -> Specialist Doctors
+
+--- TRANSPLANT 4 SERVICES ---
+Transplant Services With our transplant services we provide compassionate & expert care focusing on the individual needs of each patient. Lung Transplant Dedicated to improving lives, we offer advanced surgical options for patients with lung disease. <div class="elementskit-box-he
+
+--- ABOUT US 3 SERVICES IN BODY ---
+Intensive care indices: [
+     672,   1535,
+    2188,   3156,
+  307612, 322108,
+  364475
+]
+mobile-builder-content" data-vertical-menu=750px> Critical & Intensive Care Dental Sciences Dermatology ENT Surgery Emergency Medicine Gastro Sciences Genetic Sciences <li id="menu-item-6713" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6713 nav-item elementskit-
+t"> Critical & Intensive Care Dermatology Nephrology Neuro Sciences Ophthalmology <spa
+icon icon-heart1"> Intensive Care In critical moments, our intensive care unit provides specialized attention, supporting patients with advanced, life-saving treatments. Specialized Support Service Our specialized support services offer tailored healthcare solutions, addressing the unique needs of each patient with expert care. <div class="elemento
+
+--- INSURANCE CAROUSEL LOGOS ---
+Ins raw html: Insurance Tie –Ups</a></ul>
+</li>
+<li id="menu-item-6702" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6702 nav-item elementskit-dropdown-has top_position elementskit-dropdown-menu-custom_width elementskit-megamenu-has elementskit-mobile-builder-content" data-vertical-menu=100%><a href="#" class="ekit-menu-nav-link ekit-menu-dropdown-toggle" aria-expanded="false" aria-controls="ekit-megamenu-panel-6702">Doctors / Medical Specialists<i aria-hidden="true" class="icon icon-plus elementskit-submenu-indicator"></i></a>
+<ul class="elementskit-dropdown elementskit-submenu-panel" id="ekit-submenu-6702">
+<li id="menu-item-6703" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6703 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class=" dropdown-item">Cardiac Sciences</a>	<li id="menu-item-6704" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6704 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class=" dropdown-item">Clinical Diagnostics</a>	<li id="menu-item-6705" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6705 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class=" dropdown-item">Cosmetic Surgery</a>	<li id="menu-item-6706" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6706 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class=" dropdown-item">Critical &#038; Intensive Care</a>	<li id="menu-item-6707" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6707 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class=" dropdown-item">Dental Sciences</a>	<li id="menu-item-6708" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6708 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class
