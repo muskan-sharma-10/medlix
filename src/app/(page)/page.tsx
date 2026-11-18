@@ -7,9 +7,10 @@ import SpecialtiesCarousel from '@/components/home/specialties-carousel';
 import AboutSection from '@/components/home/about-section';
 import WhyChooseSection from '@/components/home/why-choose-section';
 import StatisticsSection from '@/components/home/statistics-section';
-import LocationsSection from '@/components/home/locations-section';
-import InsuranceSection from '@/components/home/insurance-section';
 import CircleOfCareSection from '@/components/home/circle-of-care-section';
+import InsuranceSection from '@/components/home/insurance-section';
+import LocationsSection from '@/components/home/locations-section';
+import ApproachSection from '@/components/home/approach-section';
 import TransplantSection from '@/components/home/transplant-section';
 import TestimonialsSection from '@/components/home/testimonials-section';
 import AppointmentModal from '@/components/home/appointment-modal';
@@ -22,37 +23,40 @@ export default function HomePage() {
 
   return (
     <div className="w-full flex flex-col">
-      {/* 1. Compelling Hero Slider with Verified Trust Metrics */}
+      {/* 2. Hero Section */}
       <HeroSlider onOpenAppointment={openModal} />
 
-      {/* 2. Quick Action Patient Services: Find Doctor, Find Hospital, Find Medicine, Book Lab Test */}
+      {/* 3. How Can We Help You Today? */}
       <QuickServicesBar />
 
-      {/* 3. 8 Popular Clinical Specialties with 'View All Specialties' Link */}
+      {/* 4. Clinical Institutes */}
       <SpecialtiesCarousel onOpenAppointment={openModal} />
 
-      {/* 4. About Medlix Hospitals & Clinical Care Pillars */}
+      {/* 5. About Medlix */}
       <AboutSection onOpenAppointment={openModal} />
 
-      {/* 5. Why Choose Medlix Hospital (3x2 Pillar Grid) */}
+      {/* 6. Why Choose Medlix */}
       <WhyChooseSection />
 
-      {/* 6. Verified Statistics Counters with Ambient Medical Parallax */}
+      {/* Verified Statistics Counters */}
       <StatisticsSection />
 
-      {/* 7. Focused Hospital Locations (4 Flagship NCR Units + View All 8 Link) */}
-      <LocationsSection onOpenAppointment={openModal} />
-
-      {/* 8. 100% Cashless Insurance & TPA Partners */}
-      <InsuranceSection />
-
-      {/* 9. The CIRCLE of Care: Guiding Principles */}
+      {/* 7. CIRCLE of Care */}
       <CircleOfCareSection />
 
-      {/* 10. Advanced Organ Transplant Institutes */}
+      {/* 8. Insurance & TPA Partners */}
+      <InsuranceSection />
+
+      {/* 9. Hospital Locations */}
+      <LocationsSection onOpenAppointment={openModal} />
+
+      {/* 10. Medlix Approach */}
+      <ApproachSection />
+
+      {/* 11. Transplant Services */}
       <TransplantSection onOpenAppointment={openModal} />
 
-      {/* 11. Patient Healing Experiences & Reviews */}
+      {/* 12. Patient Stories / Testimonials */}
       <TestimonialsSection />
 
       {/* Global Medical Appointment Modal */}

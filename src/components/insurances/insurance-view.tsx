@@ -79,52 +79,52 @@ export function InsuranceView({ initialTab = 'all' }: InsuranceViewProps) {
       </section>
 
       {/* 3. Logos & Details Display */}
-      <section className="py-16 bg-[#FDFEFE] relative overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+      <section className="py-24 sm:py-32 lg:py-36 bg-[#FDFEFE] relative overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
           {/* Government Panels Section */}
           {(activeTab === 'all' || activeTab === 'govt') && (
-            <div className="space-y-6">
-              <div className="flex items-center gap-3 pb-3 border-b border-[#C4DFDF]">
-                <div className="w-12 h-12 rounded-2xl bg-[#DFF8F8] text-[#0A5F6B] flex items-center justify-center shadow-xs">
-                  <ShieldCheck className="w-6 h-6 text-[#0A5F6B]" />
+            <div className="space-y-8">
+              <div className="flex items-center gap-3.5 pb-4 border-b border-[#C4DFDF]">
+                <div className="w-14 h-14 rounded-2xl bg-[#DFF8F8] text-[#0A5F6B] flex items-center justify-center shadow-xs">
+                  <ShieldCheck className="w-7 h-7 text-[#0A5F6B]" />
                 </div>
-                <div>
-                  <h2 className="text-xl sm:text-2xl font-bold font-exo text-[#29363A]">
+                <div className="space-y-1">
+                  <h2 className="text-2xl sm:text-3xl font-bold font-exo text-[#29363A]">
                     Government Health Schemes &amp; PSU Panels
                   </h2>
-                  <p className="text-xs sm:text-sm text-[#719497] font-roboto">
+                  <p className="text-xs sm:text-base text-[#719497] font-roboto">
                     Direct cashless hospitalization for beneficiaries, pensioners, and defense personnel.
                   </p>
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-9">
                 {govt.map((item, idx) => (
                   <div
                     key={idx}
-                    className="p-7 rounded-3xl bg-white border border-[#C4DFDF] shadow-sm hover:shadow-2xl hover:border-[#0A5F6B]/40 transition-all duration-300 flex flex-col justify-between group hover:-translate-y-1.5 relative overflow-hidden"
+                    className="p-8 sm:p-9 rounded-3xl bg-white border border-[#C4DFDF] shadow-sm hover:shadow-2xl hover:border-[#0A5F6B]/40 transition-all duration-300 flex flex-col justify-between group hover:-translate-y-1.5 relative overflow-hidden"
                   >
-                    <div className="absolute top-0 left-0 right-0 h-1 bg-[#0A5F6B] opacity-0 group-hover:opacity-100 transition-opacity" />
+                    <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#0A5F6B] opacity-0 group-hover:opacity-100 transition-opacity" />
                     <div>
-                      <div className="relative h-16 w-full mb-4 flex items-center justify-start">
+                      <div className="relative h-20 w-full mb-5 flex items-center justify-start">
                         <Image
                           src={item.logo}
                           alt={item.name}
-                          width={140}
-                          height={60}
-                          className="object-contain object-left max-h-14"
+                          width={160}
+                          height={70}
+                          className="object-contain object-left max-h-16"
                         />
                       </div>
-                      <h3 className="text-base font-bold text-[#29363A] font-exo group-hover:text-[#0A5F6B] transition-colors mb-2">
+                      <h3 className="text-lg font-bold text-[#29363A] font-exo group-hover:text-[#0A5F6B] transition-colors mb-2">
                         {item.name}
                       </h3>
-                      <p className="text-xs text-[#719497] font-roboto leading-relaxed">
+                      <p className="text-xs sm:text-sm text-[#719497] font-roboto leading-relaxed">
                         {item.desc}
                       </p>
                     </div>
 
-                    <div className="mt-5 pt-3 border-t border-[#C4DFDF] flex items-center gap-1.5 text-xs text-[#0A5F6B] font-semibold">
-                      <CheckCircle2 className="w-3.5 h-3.5 text-[#0A5F6B]" />
+                    <div className="mt-6 pt-4 border-t border-[#C4DFDF] flex items-center gap-2 text-xs sm:text-sm text-[#0A5F6B] font-semibold">
+                      <CheckCircle2 className="w-4 h-4 text-[#0A5F6B]" />
                       <span className="font-exo">Empanelled Network</span>
                     </div>
                   </div>
@@ -135,37 +135,37 @@ export function InsuranceView({ initialTab = 'all' }: InsuranceViewProps) {
 
           {/* Private Insurances Section */}
           {(activeTab === 'all' || activeTab === 'private') && (
-            <div className="space-y-6">
-              <div className="flex items-center gap-3 pb-3 border-b border-[#C4DFDF]">
-                <div className="w-12 h-12 rounded-2xl bg-[#DFF8F8] text-[#0A5F6B] flex items-center justify-center shadow-xs">
-                  <ShieldCheck className="w-6 h-6 text-[#0A5F6B]" />
+            <div className="space-y-8">
+              <div className="flex items-center gap-3.5 pb-4 border-b border-[#C4DFDF]">
+                <div className="w-14 h-14 rounded-2xl bg-[#DFF8F8] text-[#0A5F6B] flex items-center justify-center shadow-xs">
+                  <ShieldCheck className="w-7 h-7 text-[#0A5F6B]" />
                 </div>
-                <div>
-                  <h2 className="text-xl sm:text-2xl font-bold font-exo text-[#29363A]">
+                <div className="space-y-1">
+                  <h2 className="text-2xl sm:text-3xl font-bold font-exo text-[#29363A]">
                     Private Health Insurance &amp; Third-Party Administrators (TPAs)
                   </h2>
-                  <p className="text-xs sm:text-sm text-[#719497] font-roboto">
+                  <p className="text-xs sm:text-base text-[#719497] font-roboto">
                     Fast-track approvals, on-site TPA coordinators, and zero advance deposit for insured procedures.
                   </p>
                 </div>
               </div>
 
-              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 sm:gap-7">
                 {priv.map((item, idx) => (
                   <div
                     key={idx}
-                    className="p-5 rounded-2xl bg-white border border-[#C4DFDF] shadow-sm hover:shadow-xl hover:border-[#0A5F6B]/40 transition-all duration-300 flex flex-col items-center justify-center text-center group h-36 hover:-translate-y-1"
+                    className="p-6 sm:p-7 rounded-2xl bg-white border border-[#C4DFDF] shadow-sm hover:shadow-xl hover:border-[#0A5F6B]/40 transition-all duration-300 flex flex-col items-center justify-center text-center group h-44 sm:h-48 hover:-translate-y-1"
                   >
-                    <div className="relative h-14 w-full flex items-center justify-center mb-2">
+                    <div className="relative h-16 w-full flex items-center justify-center mb-3">
                       <Image
                         src={item.logo}
                         alt={item.name}
-                        width={120}
-                        height={50}
-                        className="object-contain max-h-12 group-hover:scale-108 transition-transform duration-300"
+                        width={140}
+                        height={60}
+                        className="object-contain max-h-14 group-hover:scale-108 transition-transform duration-300"
                       />
                     </div>
-                    <span className="text-xs font-bold text-[#29363A] font-exo group-hover:text-[#0A5F6B] line-clamp-1 transition-colors">
+                    <span className="text-xs sm:text-sm font-bold text-[#29363A] font-exo group-hover:text-[#0A5F6B] line-clamp-1 transition-colors">
                       {item.name}
                     </span>
                   </div>
@@ -177,21 +177,21 @@ export function InsuranceView({ initialTab = 'all' }: InsuranceViewProps) {
       </section>
 
       {/* 4. Cashless Admission Process Steps */}
-      <section className="py-20 bg-[#DFF8F8]/30 border-y border-[#C4DFDF]">
+      <section className="py-24 sm:py-32 lg:py-36 bg-[#DFF8F8]/30 border-y border-[#C4DFDF]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-2xl mx-auto mb-14 space-y-2">
-            <span className="text-xs font-bold uppercase tracking-wider text-[#0A5F6B] bg-[#DFF8F8] px-3.5 py-1.5 rounded-full border border-[#C4DFDF] font-exo inline-block shadow-2xs">
+          <div className="text-center max-w-2xl mx-auto mb-16 sm:mb-20 space-y-3">
+            <span className="text-xs sm:text-sm font-bold uppercase tracking-wider text-[#0A5F6B] bg-[#DFF8F8] px-4 py-1.5 rounded-full border border-[#C4DFDF] font-exo inline-block shadow-2xs">
               Hassle-Free Settlement
             </span>
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#29363A] font-exo tracking-tight">
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#29363A] font-exo tracking-tight">
               4 Steps for Cashless Hospitalization
             </h2>
-            <p className="text-xs sm:text-sm text-[#719497] font-roboto">
+            <p className="text-sm sm:text-base text-[#719497] font-roboto leading-relaxed">
               Dedicated insurance helpdesk stationed 24x7 across all 8 Medlix Hospitals.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-9">
             {[
               {
                 step: '01',
@@ -216,13 +216,13 @@ export function InsuranceView({ initialTab = 'all' }: InsuranceViewProps) {
             ].map((st, i) => (
               <div 
                 key={i}
-                className="p-7 rounded-3xl bg-white border border-[#C4DFDF] shadow-sm hover:shadow-xl hover:border-[#0A5F6B]/40 hover:-translate-y-1.5 transition-all group relative space-y-3 overflow-hidden"
+                className="p-8 sm:p-9 rounded-3xl bg-white border border-[#C4DFDF] shadow-sm hover:shadow-xl hover:border-[#0A5F6B]/40 hover:-translate-y-1.5 transition-all group relative space-y-4 overflow-hidden"
               >
-                <div className="absolute top-0 left-0 right-0 h-1 bg-[#0A5F6B] opacity-0 group-hover:opacity-100 transition-opacity" />
-                <span className="text-4xl font-black text-[#0A5F6B] font-outfit block">
+                <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#0A5F6B] opacity-0 group-hover:opacity-100 transition-opacity" />
+                <span className="text-4xl sm:text-5xl font-black text-[#0A5F6B] font-outfit block">
                   {st.step}
                 </span>
-                <h4 className="text-base font-bold text-[#29363A] font-exo group-hover:text-[#0A5F6B] transition-colors">
+                <h4 className="text-lg font-bold text-[#29363A] font-exo group-hover:text-[#0A5F6B] transition-colors">
                   {st.title}
                 </h4>
                 <p className="text-xs sm:text-sm text-[#719497] font-roboto leading-relaxed">

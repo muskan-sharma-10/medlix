@@ -46,12 +46,12 @@ export default function LocationsPage() {
       />
 
       {/* 2. Premium Apollo-Style Search Section */}
-      <section className="relative -mt-10 z-20 px-4 sm:px-6 lg:px-8 mb-8">
-        <div className="max-w-5xl mx-auto bg-white/95 backdrop-blur-xl rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.08)] border border-slate-100 p-4 sm:p-6 lg:p-8">
+      <section className="relative -mt-12 z-20 px-4 sm:px-6 lg:px-8 mb-12">
+        <div className="max-w-5xl mx-auto bg-white/95 backdrop-blur-xl rounded-3xl shadow-[0_8px_30px_rgba(0,0,0,0.08)] border border-slate-100 p-6 sm:p-8 lg:p-10">
           <div className="flex flex-col gap-6">
             <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-              <h2 className="text-xl font-bold font-exo text-[#0A5F6B] flex items-center gap-2">
-                <Search className="w-5 h-5 text-[#0A5F6B]" />
+              <h2 className="text-xl sm:text-2xl font-bold font-exo text-[#0A5F6B] flex items-center gap-2.5">
+                <Search className="w-6 h-6 text-[#0A5F6B]" />
                 Find a Hospital
               </h2>
               
@@ -65,19 +65,19 @@ export default function LocationsPage() {
                   placeholder="Search by hospital name or area..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full pl-11 pr-4 py-3 bg-slate-50 border border-[#C4DFDF] rounded-xl text-sm focus:outline-none focus:border-[#0A5F6B] focus:ring-2 focus:ring-[#C9F5F3] transition-all shadow-sm font-medium text-[#29363A]"
+                  className="w-full pl-11 pr-4 py-3.5 bg-slate-50 border border-[#C4DFDF] rounded-xl text-sm focus:outline-none focus:border-[#0A5F6B] focus:ring-2 focus:ring-[#C9F5F3] transition-all shadow-sm font-medium text-[#29363A]"
                 />
               </div>
             </div>
 
             {/* Filter Buttons */}
-            <div className="flex flex-wrap items-center gap-2 sm:gap-3 pt-4 border-t border-slate-100">
+            <div className="flex flex-wrap items-center gap-2.5 sm:gap-3 pt-5 border-t border-slate-100">
               <span className="text-sm font-bold text-[#719497] mr-2">Filter by City:</span>
               {cities.map((city) => (
                 <button
                   key={city}
                   onClick={() => setCityFilter(city)}
-                  className={`px-5 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all duration-300 font-exo ${
+                  className={`px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all duration-300 font-exo ${
                     cityFilter === city
                       ? 'bg-gradient-to-r from-[#0A5F6B] to-[#07515C] text-white shadow-md scale-105'
                       : 'bg-white text-[#29363A] border border-[#C4DFDF] hover:bg-[#DFF8F8] hover:border-[#C9F5F3] hover:text-[#0A5F6B]'
@@ -92,9 +92,9 @@ export default function LocationsPage() {
       </section>
 
       {/* 3. Hospital Cards Grid */}
-      <section className="py-16 bg-white relative overflow-hidden">
+      <section className="py-24 sm:py-32 lg:py-36 bg-white relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-9 lg:gap-10">
             {filtered.map((loc, idx) => (
               <div
                 key={idx}

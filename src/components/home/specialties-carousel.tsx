@@ -20,14 +20,14 @@ export default function SpecialtiesCarousel({ onOpenAppointment }: SpecialtiesCa
   const popularSpecialties = allSpecialties.slice(0, 8);
 
   return (
-    <section id="specialties" className="relative py-20 sm:py-28 bg-[#F8FAFC] border-b border-slate-200/80 overflow-hidden font-sans">
+    <section id="specialties" className="relative py-24 sm:py-32 lg:py-36 bg-[#F8FAFC] border-b border-slate-200/80 overflow-hidden font-sans">
       {/* Floating parallax pattern */}
       <ParallaxPattern image="/images/pattern-1.png" position="left" className="-top-12 -left-4 opacity-35 animate-float-reverse" />
       
       <div className="max-w-[1440px] mx-auto px-4 sm:px-8 lg:px-12 relative z-10">
         
         {/* Animated Header with 'View All Specialties' link */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 sm:mb-16 gap-6">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 sm:mb-20 gap-6">
           <SectionHeadingReveal
             badge={
               <div className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold uppercase tracking-wider text-[#0A5F6B] bg-[#E6F7F7] px-4 py-1.5 rounded-full border border-teal-200/80 shadow-2xs">
@@ -68,14 +68,14 @@ export default function SpecialtiesCarousel({ onOpenAppointment }: SpecialtiesCa
                 pauseOnMouseEnter: true
               }}
               loop={true}
-              spaceBetween={24}
+              spaceBetween={28}
               slidesPerView={1.2}
               breakpoints={{
-                480: { slidesPerView: 2, spaceBetween: 20 },
-                640: { slidesPerView: 2.5, spaceBetween: 24 },
-                768: { slidesPerView: 3, spaceBetween: 24 },
-                1024: { slidesPerView: 4, spaceBetween: 24 },
-                1280: { slidesPerView: 4, spaceBetween: 28 }
+                480: { slidesPerView: 2, spaceBetween: 24 },
+                640: { slidesPerView: 2.5, spaceBetween: 26 },
+                768: { slidesPerView: 3, spaceBetween: 28 },
+                1024: { slidesPerView: 4, spaceBetween: 28 },
+                1280: { slidesPerView: 4, spaceBetween: 32 }
               }}
               className="pb-8 pt-2"
             >
@@ -83,7 +83,7 @@ export default function SpecialtiesCarousel({ onOpenAppointment }: SpecialtiesCa
                 <SwiperSlide key={index} className="h-auto">
                   <div 
                     onClick={onOpenAppointment}
-                    className="group h-full bg-white rounded-3xl border border-slate-200/90 shadow-[0_4px_20px_rgba(10,37,64,0.04)] hover:shadow-[0_22px_45px_rgba(10,95,107,0.14)] hover:-translate-y-2 hover:border-[#0A5F6B] transition-all duration-300 p-6 sm:p-7 flex flex-col justify-between cursor-pointer relative overflow-hidden"
+                    className="group h-full bg-white rounded-3xl border border-slate-200/90 shadow-[0_4px_20px_rgba(10,37,64,0.04)] hover:shadow-[0_22px_45px_rgba(10,95,107,0.14)] hover:-translate-y-2 hover:border-[#0A5F6B] transition-all duration-300 p-7 sm:p-8 lg:p-9 flex flex-col justify-between cursor-pointer relative overflow-hidden"
                   >
                     {/* Top brand accent line on hover */}
                     <div className="absolute top-0 inset-x-0 h-1.5 bg-gradient-to-r from-[#0A5F6B] via-[#2DD4BF] to-[#0A5F6B] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -93,33 +93,33 @@ export default function SpecialtiesCarousel({ onOpenAppointment }: SpecialtiesCa
 
                     <div>
                       {/* Specialty Image Container */}
-                      <div className="relative w-full h-36 mb-5 p-3 rounded-2xl bg-gradient-to-b from-slate-50 to-[#E6F7F7]/60 group-hover:from-[#E6F7F7] group-hover:to-[#D5F4F4] transition-all duration-300 flex items-center justify-center border border-slate-100 group-hover:border-teal-200/80 shadow-2xs">
+                      <div className="relative w-full h-40 sm:h-44 mb-6 p-4 rounded-2xl bg-gradient-to-b from-slate-50 to-[#E6F7F7]/60 group-hover:from-[#E6F7F7] group-hover:to-[#D5F4F4] transition-all duration-300 flex items-center justify-center border border-slate-100 group-hover:border-teal-200/80 shadow-2xs">
                         <Image
                           src={(spec as any).icon || (spec as any).image || '/images/specialties/cardiology.png'}
                           alt={spec.title}
-                          width={110}
-                          height={110}
+                          width={120}
+                          height={120}
                           className="object-contain group-hover:scale-110 transition-transform duration-500"
                         />
                       </div>
 
                       {/* Title */}
-                      <h3 className="text-xl font-bold text-[#0A2540] group-hover:text-[#0A5F6B] transition-colors leading-snug mb-2">
+                      <h3 className="text-xl sm:text-2xl font-bold text-[#0A2540] group-hover:text-[#0A5F6B] transition-colors leading-snug mb-3">
                         {spec.title}
                       </h3>
 
                       {/* Description */}
-                      <p className="text-xs sm:text-[13px] text-slate-500 line-clamp-2 leading-relaxed">
+                      <p className="text-sm sm:text-[14.5px] text-slate-600 line-clamp-3 leading-relaxed">
                         {spec.desc}
                       </p>
                     </div>
 
                     {/* Consult Specialist Button */}
-                    <div className="mt-6 pt-4 border-t border-slate-100 w-full flex items-center justify-between">
-                      <span className="text-xs font-bold text-[#0A5F6B] group-hover:underline">
+                    <div className="mt-8 pt-5 border-t border-slate-100 w-full flex items-center justify-between">
+                      <span className="text-sm font-bold text-[#0A5F6B] group-hover:underline">
                         Consult Specialist
                       </span>
-                      <span className="w-8 h-8 rounded-full bg-[#E6F7F7] text-[#0A5F6B] group-hover:bg-[#0A5F6B] group-hover:text-white flex items-center justify-center transition-colors">
+                      <span className="w-9 h-9 rounded-full bg-[#E6F7F7] text-[#0A5F6B] group-hover:bg-[#0A5F6B] group-hover:text-white flex items-center justify-center transition-colors">
                         <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
                       </span>
                     </div>

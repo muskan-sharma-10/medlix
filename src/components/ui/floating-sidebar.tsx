@@ -14,11 +14,11 @@ export default function FloatingSidebar({ onOpenAppointment }: FloatingSidebarPr
       <button
         onClick={onOpenAppointment}
         title="Book Appointment"
-        className="p-3.5 text-white hover:bg-[#07515C] transition-colors flex items-center justify-center group relative border-b border-white/20"
+        className="p-4 text-white hover:bg-[#07515C] transition-colors flex items-center justify-center group relative border-b border-white/20"
         aria-label="Book Appointment"
       >
         <Calendar className="w-5 h-5 group-hover:scale-110 transition-transform" />
-        <span className="absolute left-full ml-2 px-3 py-1.5 bg-[#07515C] text-white text-xs font-bold rounded-lg shadow-xl opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-opacity whitespace-nowrap z-50 font-exo">
+        <span className="absolute left-full ml-2.5 px-4 py-2 bg-[#07515C] text-white text-xs font-bold rounded-xl shadow-xl opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-opacity whitespace-nowrap z-50">
           Book Appointment
         </span>
       </button>
@@ -27,11 +27,11 @@ export default function FloatingSidebar({ onOpenAppointment }: FloatingSidebarPr
       <a
         href="tel:+919220143473"
         title="Call Helpline"
-        className="p-3.5 text-white hover:bg-[#07515C] transition-colors flex items-center justify-center group relative border-b border-white/20"
+        className="p-4 text-white hover:bg-[#07515C] transition-colors flex items-center justify-center group relative border-b border-white/20"
         aria-label="Call Helpline"
       >
         <Phone className="w-5 h-5 group-hover:scale-110 transition-transform" />
-        <span className="absolute left-full ml-2 px-3 py-1.5 bg-[#07515C] text-white text-xs font-bold rounded-lg shadow-xl opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-opacity whitespace-nowrap z-50 font-exo">
+        <span className="absolute left-full ml-2.5 px-4 py-2 bg-[#07515C] text-white text-xs font-bold rounded-xl shadow-xl opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-opacity whitespace-nowrap z-50">
           Call: +91-9220143473
         </span>
       </a>
@@ -42,11 +42,11 @@ export default function FloatingSidebar({ onOpenAppointment }: FloatingSidebarPr
         target="_blank"
         rel="noopener noreferrer"
         title="Chat on WhatsApp"
-        className="p-3.5 text-white hover:bg-[#07515C] transition-colors flex items-center justify-center group relative"
+        className="p-4 text-white hover:bg-[#07515C] transition-colors flex items-center justify-center group relative"
         aria-label="WhatsApp Chat"
       >
         <MessageCircle className="w-5 h-5 group-hover:scale-110 transition-transform" />
-        <span className="absolute left-full ml-2 px-3 py-1.5 bg-[#07515C] text-white text-xs font-bold rounded-lg shadow-xl opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-opacity whitespace-nowrap z-50 font-exo">
+        <span className="absolute left-full ml-2.5 px-4 py-2 bg-[#07515C] text-white text-xs font-bold rounded-xl shadow-xl opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-opacity whitespace-nowrap z-50">
           WhatsApp Chat
         </span>
       </a>

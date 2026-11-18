@@ -130,13 +130,13 @@ export default function HeroSlider({ onOpenAppointment }: HeroSliderProps = {}) 
 
             return (
               <SwiperSlide key={slide.id} className="relative w-full">
-                <div className="px-4 sm:px-8 lg:px-14 pt-10 sm:pt-14 lg:pt-16 pb-16 sm:pb-20 lg:pb-24 flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-12 min-h-[540px] sm:min-h-[580px] lg:min-h-[620px]">
+                <div className="px-4 sm:px-8 lg:px-14 pt-14 sm:pt-18 lg:pt-22 pb-20 sm:pb-24 lg:pb-28 flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-14 min-h-[580px] sm:min-h-[620px] lg:min-h-[660px]">
                   
                   {/* Left Column: Headline, Copy & CTAs */}
-                  <div className="w-full lg:max-w-2xl xl:max-w-[700px] text-left z-10">
+                  <div className="w-full lg:max-w-2xl xl:max-w-[720px] text-left z-10">
                     
                     {/* Badge Pill */}
-                    <div className="mb-4 sm:mb-5">
+                    <div className="mb-5 sm:mb-6">
                       <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-teal-500/15 border border-teal-400/30 text-teal-300 text-xs sm:text-sm font-bold uppercase tracking-wider backdrop-blur-md shadow-sm">
                         <BadgeIcon className="w-4 h-4 text-teal-300 shrink-0" />
                         <span>{slide.badgeText}</span>
@@ -145,7 +145,7 @@ export default function HeroSlider({ onOpenAppointment }: HeroSliderProps = {}) 
 
                     {/* Main Headline */}
                     <div>
-                      <h1 className="text-3xl sm:text-5xl lg:text-[54px] xl:text-[58px] font-black text-white tracking-tight leading-[1.12]">
+                      <h1 className="text-3xl sm:text-5xl lg:text-[56px] xl:text-[60px] font-black text-white tracking-tight leading-[1.15]">
                         {slide.headlineMain}{' '}
                         <span className="bg-gradient-to-r from-teal-300 via-teal-200 to-emerald-300 bg-clip-text text-transparent">
                           {slide.headlineAccent}
@@ -154,18 +154,18 @@ export default function HeroSlider({ onOpenAppointment }: HeroSliderProps = {}) 
                     </div>
 
                     {/* Supporting Description */}
-                    <div className="mt-4 sm:mt-5">
-                      <p className="text-slate-200 text-sm sm:text-base lg:text-lg leading-relaxed font-normal max-w-xl">
+                    <div className="mt-5 sm:mt-6">
+                      <p className="text-slate-200 text-base sm:text-lg lg:text-[19px] leading-relaxed font-normal max-w-2xl">
                         {slide.subtitle}
                       </p>
                     </div>
 
                     {/* CTA Actions */}
-                    <div className="mt-8 flex flex-wrap items-center gap-3.5 sm:gap-4">
+                    <div className="mt-9 flex flex-wrap items-center gap-4 sm:gap-5">
                       {/* Primary Button */}
                       <button
                         onClick={onOpenAppointment}
-                        className="px-7 sm:px-8 py-3.5 sm:py-4 bg-[#14B8A6] hover:bg-[#0D9488] text-[#0A192F] font-extrabold text-sm sm:text-base rounded-2xl shadow-lg shadow-teal-500/30 hover:shadow-xl hover:shadow-teal-500/40 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 flex items-center gap-2.5 cursor-pointer shine-sweep"
+                        className="px-7 sm:px-8 py-4 bg-[#14B8A6] hover:bg-[#0D9488] text-[#0A192F] font-extrabold text-sm sm:text-base rounded-2xl shadow-lg shadow-teal-500/30 hover:shadow-xl hover:shadow-teal-500/40 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 flex items-center gap-2.5 cursor-pointer shine-sweep"
                       >
                         <Calendar className="w-5 h-5 text-[#0A192F]" />
                         <span>{slide.ctaPrimary}</span>
@@ -174,7 +174,7 @@ export default function HeroSlider({ onOpenAppointment }: HeroSliderProps = {}) 
                       {/* Secondary Action */}
                       <Link
                         href={slide.linkSecondary}
-                        className="px-6 sm:px-7 py-3.5 sm:py-4 bg-white/10 hover:bg-white/20 text-white border border-white/20 hover:border-white/40 font-bold text-sm sm:text-base rounded-2xl backdrop-blur-md shadow-xs hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 flex items-center gap-2 group"
+                        className="px-6 sm:px-7 py-4 bg-white/10 hover:bg-white/20 text-white border border-white/20 hover:border-white/40 font-bold text-sm sm:text-base rounded-2xl backdrop-blur-md shadow-xs hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 flex items-center gap-2 group"
                       >
                         <Stethoscope className="w-5 h-5 text-teal-300" />
                         <span>{slide.ctaSecondary}</span>
@@ -184,7 +184,7 @@ export default function HeroSlider({ onOpenAppointment }: HeroSliderProps = {}) 
                       {/* Emergency Callout */}
                       <a
                         href="tel:+919220143473"
-                        className="hidden sm:inline-flex items-center gap-2 px-5 py-3.5 rounded-2xl text-rose-200 hover:text-white bg-rose-600/30 hover:bg-rose-600/50 border border-rose-500/40 text-xs sm:text-sm font-bold transition-all backdrop-blur-md"
+                        className="hidden sm:inline-flex items-center gap-2 px-5 py-4 rounded-2xl text-rose-200 hover:text-white bg-rose-600/30 hover:bg-rose-600/50 border border-rose-500/40 text-xs sm:text-sm font-bold transition-all backdrop-blur-md"
                       >
                         <Phone className="w-4 h-4 text-rose-300" />
                         <span>24/7 Helpline: +91-9220143473</span>
@@ -192,7 +192,7 @@ export default function HeroSlider({ onOpenAppointment }: HeroSliderProps = {}) 
                     </div>
 
                     {/* Compact Trust Indicators Strip */}
-                    <div className="mt-7 pt-5 border-t border-white/10 flex flex-wrap items-center gap-4 sm:gap-6 text-xs font-semibold text-slate-300">
+                    <div className="mt-9 pt-7 border-t border-white/15 flex flex-wrap items-center gap-4 sm:gap-6 text-xs sm:text-[13px] font-semibold text-slate-300">
                       <span className="flex items-center gap-1.5 text-teal-300">
                         <CheckCircle2 className="w-4 h-4 text-teal-400" />
                         <span>Guaranteed Zero-Wait OPD</span>

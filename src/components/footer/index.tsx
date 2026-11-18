@@ -64,7 +64,7 @@ export default function Footer({ onOpenAppointment }: FooterProps) {
           
           {/* Left: Reach Out via Email */}
           <div 
-            className="relative bg-cover bg-center py-10 px-8 sm:px-14 flex items-center gap-6 overflow-hidden group bg-[#0A5F6B]"
+            className="relative bg-cover bg-center py-12 sm:py-14 px-8 sm:px-16 flex items-center gap-6 overflow-hidden group bg-[#0A5F6B]"
             style={{ backgroundImage: "url('/images/emergency_num_bg.jpg')" }}
           >
             <div className="absolute inset-0 bg-[#0A2540]/90 backdrop-blur-[1px] group-hover:bg-[#0A2540]/85 transition-colors" />
@@ -79,17 +79,17 @@ export default function Footer({ onOpenAppointment }: FooterProps) {
               </div>
               <a 
                 href="mailto:care@medlix.in" 
-                className="text-2xl sm:text-3xl font-extrabold hover:text-teal-200 transition-colors block text-white mt-0.5 tracking-tight"
+                className="text-2xl sm:text-3xl lg:text-4xl font-extrabold hover:text-teal-200 transition-colors block text-white mt-1 tracking-tight"
               >
                 care@medlix.in
               </a>
-              <div className="text-xs text-slate-300 mt-0.5">24/7 Patient Coordination &amp; Query Desk</div>
+              <div className="text-xs sm:text-sm text-slate-300 mt-1">24/7 Patient Coordination &amp; Query Desk</div>
             </div>
           </div>
 
           {/* Right: 24/7 Emergency Medical Response */}
           <div 
-            className="relative bg-cover bg-center py-10 px-8 sm:px-14 flex items-center gap-6 overflow-hidden group bg-[#0A2540]"
+            className="relative bg-cover bg-center py-12 sm:py-14 px-8 sm:px-16 flex items-center gap-6 overflow-hidden group bg-[#0A2540]"
             style={{ backgroundImage: "url('/images/subscribe-bg-2.jpg')" }}
           >
             <div className="absolute inset-0 bg-rose-950/90 backdrop-blur-[1px] group-hover:bg-rose-950/85 transition-colors" />
@@ -104,11 +104,11 @@ export default function Footer({ onOpenAppointment }: FooterProps) {
               </div>
               <a 
                 href="tel:+919220143473" 
-                className="text-2xl sm:text-3xl font-extrabold hover:text-rose-200 transition-colors block text-white mt-0.5 tracking-tight"
+                className="text-2xl sm:text-3xl lg:text-4xl font-extrabold hover:text-rose-200 transition-colors block text-white mt-1 tracking-tight"
               >
                 +91-9220143473
               </a>
-              <div className="text-xs text-rose-200/80 mt-0.5">Trauma Care, Cardiac CCU &amp; Ambulance 24x7</div>
+              <div className="text-xs sm:text-sm text-rose-200/80 mt-1">Trauma Care, Cardiac CCU &amp; Ambulance 24x7</div>
             </div>
           </div>
 
@@ -116,9 +116,9 @@ export default function Footer({ onOpenAppointment }: FooterProps) {
       </div>
 
       {/* 2. Main Deep Navy Footer Body */}
-      <div className="relative bg-[#0A192F] text-slate-300 overflow-hidden py-16 lg:py-20 border-t border-slate-800">
+      <div className="relative bg-[#0A192F] text-slate-300 overflow-hidden py-20 lg:py-24 border-t border-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-10">
             
             {/* Column 1: Brand & Contact Info (4 cols) */}
             <div className="md:col-span-1 lg:col-span-4 space-y-6">

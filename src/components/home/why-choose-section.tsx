@@ -27,7 +27,7 @@ export default function WhyChooseSection() {
   ];
 
   return (
-    <section id="why-choose" className="py-20 sm:py-28 bg-[#F8FAFC] border-b border-slate-200/80 font-sans">
+    <section id="why-choose" className="py-24 sm:py-32 lg:py-36 bg-[#F8FAFC] border-b border-slate-200/80 font-sans">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
@@ -40,11 +40,11 @@ export default function WhyChooseSection() {
           }
           title="Why Choose Medlix Hospital"
           subtitle="Delivering comprehensive, patient-centered care with state-of-the-art medical technology, renowned super specialists, and zero-wait OPDs."
-          className="mb-14 sm:mb-18"
+          className="mb-16 sm:mb-20"
         />
 
-        {/* 3x2 Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        {/* 3x2 Grid - Generous breathing room */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-9 lg:gap-10">
           {items.map((item, index) => (
             <ScrollReveal 
               key={index}
@@ -53,35 +53,35 @@ export default function WhyChooseSection() {
               delay={0.08 * index}
             >
               <div
-                className="bg-white rounded-3xl p-7 sm:p-8 shadow-[0_4px_20px_rgba(10,37,64,0.04)] border border-slate-200/90 hover:shadow-[0_20px_45px_rgba(10,95,107,0.14)] hover:border-[#0A5F6B] transition-all duration-300 flex flex-col justify-between group hover:-translate-y-1.5 relative h-full cursor-default overflow-hidden"
+                className="bg-white rounded-3xl p-8 sm:p-9 lg:p-10 shadow-[0_4px_20px_rgba(10,37,64,0.04)] border border-slate-200/90 hover:shadow-[0_22px_45px_rgba(10,95,107,0.14)] hover:border-[#0A5F6B] transition-all duration-300 flex flex-col justify-between group hover:-translate-y-2 relative h-full cursor-default overflow-hidden"
               >
                 {/* Top border shine on hover */}
                 <div className="absolute top-0 inset-x-0 h-1.5 bg-gradient-to-r from-[#0A5F6B] via-[#2DD4BF] to-[#0A5F6B] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
                 {/* Number watermark */}
-                <div className="absolute top-5 right-6 font-black text-4xl sm:text-5xl text-slate-100 group-hover:text-teal-100/60 transition-colors pointer-events-none select-none">
+                <div className="absolute top-6 right-7 font-black text-4xl sm:text-5xl text-slate-100 group-hover:text-teal-100/60 transition-colors pointer-events-none select-none">
                   0{index + 1}
                 </div>
 
                 <div>
                   {/* Icon */}
-                  <div className="w-14 h-14 rounded-2xl bg-[#E6F7F7] text-[#0A5F6B] group-hover:bg-[#0A5F6B] group-hover:text-white transition-all duration-300 flex items-center justify-center mb-5 group-hover:scale-105 shadow-2xs border border-teal-200/80 shrink-0">
+                  <div className="w-16 h-16 rounded-2xl bg-[#E6F7F7] text-[#0A5F6B] group-hover:bg-[#0A5F6B] group-hover:text-white transition-all duration-300 flex items-center justify-center mb-6 group-hover:scale-105 shadow-2xs border border-teal-200/80 shrink-0">
                     {icons[index]}
                   </div>
 
                   {/* Title */}
-                  <h3 className="text-xl sm:text-2xl font-bold text-[#0A2540] group-hover:text-[#0A5F6B] transition-colors mb-2.5 leading-snug">
+                  <h3 className="text-xl sm:text-2xl font-bold text-[#0A2540] group-hover:text-[#0A5F6B] transition-colors mb-3 leading-snug">
                     {item.title}
                   </h3>
 
                   {/* Description */}
-                  <p className="text-sm sm:text-[15px] text-slate-600 leading-relaxed font-normal">
+                  <p className="text-[15px] sm:text-base text-slate-600 leading-relaxed font-normal">
                     {item.desc}
                   </p>
                 </div>
 
                 {/* Bottom Footer Accent */}
-                <div className="mt-7 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold">
+                <div className="mt-8 pt-5 border-t border-slate-100 flex items-center justify-between text-xs font-bold">
                   <div className="flex items-center gap-2">
                     <span className="w-2.5 h-1 rounded-full bg-[#0A5F6B]" />
                     <span className="text-slate-500 uppercase tracking-wider text-[11px]">

@@ -91,16 +91,16 @@ export default function DoctorsPage() {
       </section>
 
       {/* 3. Doctors List */}
-      <section className="py-16 bg-white relative overflow-hidden">
+      <section className="py-24 sm:py-32 lg:py-36 bg-white relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-9">
             {filteredDoctors.map((doc, idx) => (
               <div
                 key={idx}
                 className="bg-white rounded-3xl overflow-hidden border border-[#C4DFDF] shadow-sm hover:shadow-2xl transition-all duration-300 flex flex-col justify-between group hover:border-[#0A5F6B] hover:-translate-y-2 relative"
               >
                 {/* Top Subtle Gradient Accent */}
-                <div className="absolute top-0 left-0 right-0 h-1 bg-[#0A5F6B] opacity-0 group-hover:opacity-100 transition-opacity z-10" />
+                <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#0A5F6B] opacity-0 group-hover:opacity-100 transition-opacity z-10" />
 
                 <div>
                   {/* Doctor Portrait */}
@@ -127,24 +127,24 @@ export default function DoctorsPage() {
                   </div>
 
                   {/* Doctor Info */}
-                  <div className="p-5 space-y-3">
+                  <div className="p-6 sm:p-7 space-y-4">
                     <div>
-                      <h3 className="text-lg font-bold font-exo text-[#29363A] group-hover:text-[#0A5F6B] transition-colors leading-snug">
+                      <h3 className="text-xl font-bold font-exo text-[#29363A] group-hover:text-[#0A5F6B] transition-colors leading-snug">
                         {doc.name}
                       </h3>
-                      <div className="text-xs text-[#719497] font-roboto mt-0.5 flex items-center gap-1">
+                      <div className="text-xs text-[#719497] font-roboto mt-1 flex items-center gap-1.5">
                         <Award className="w-3.5 h-3.5 text-[#0A5F6B] shrink-0" />
                         <span className="truncate">{doc.qualification}</span>
                       </div>
                     </div>
 
-                    <div className="flex items-start gap-1.5 text-xs text-[#29363A] font-roboto bg-[#DFF8F8] p-2.5 rounded-xl border border-[#C4DFDF]">
-                      <MapPin className="w-3.5 h-3.5 text-[#0A5F6B] shrink-0 mt-0.5" />
-                      <span className="line-clamp-1">{doc.hospital}</span>
+                    <div className="flex items-start gap-2 text-xs text-[#29363A] font-roboto bg-[#DFF8F8] p-3 rounded-xl border border-[#C4DFDF]">
+                      <MapPin className="w-4 h-4 text-[#0A5F6B] shrink-0 mt-0.5" />
+                      <span className="line-clamp-2 leading-relaxed">{doc.hospital}</span>
                     </div>
 
                     {doc.bio && (
-                      <p className="text-xs text-[#719497] font-roboto line-clamp-2 leading-relaxed pt-1 border-t border-[#C4DFDF]">
+                      <p className="text-xs sm:text-sm text-[#719497] font-roboto line-clamp-2 leading-relaxed pt-2 border-t border-[#C4DFDF]">
                         {doc.bio}
                       </p>
                     )}
@@ -152,12 +152,12 @@ export default function DoctorsPage() {
                 </div>
 
                 {/* Card Action */}
-                <div className="p-5 pt-0">
+                <div className="p-6 sm:p-7 pt-0">
                   <Link
                     href={`/book-appointment`}
-                    className="w-full py-3 bg-[#0A5F6B] hover:bg-[#07515C] text-white text-xs font-bold rounded-xl transition-all flex items-center justify-center gap-1.5 shadow-sm hover:shadow-md active:scale-[0.98]"
+                    className="w-full py-3.5 bg-[#0A5F6B] hover:bg-[#07515C] text-white text-xs sm:text-sm font-bold rounded-xl transition-all flex items-center justify-center gap-2 shadow-sm hover:shadow-md active:scale-[0.98]"
                   >
-                    <Calendar className="w-3.5 h-3.5" />
+                    <Calendar className="w-4 h-4" />
                     <span>Book Consultation</span>
                   </Link>
                 </div>

@@ -81,44 +81,44 @@ export default function InsuranceSection() {
     return (
       <div
         key={keyIdx}
-        className="shrink-0 w-64 sm:w-72 mx-3 p-5 rounded-3xl bg-white border border-slate-200/90 shadow-[0_4px_20px_rgba(10,37,64,0.04)] hover:shadow-[0_20px_45px_rgba(10,95,107,0.14)] hover:border-[#0A5F6B] hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group relative overflow-hidden select-none cursor-pointer"
+        className="shrink-0 w-72 sm:w-80 mx-3.5 p-6 sm:p-7 rounded-3xl bg-white border border-slate-200/90 shadow-[0_4px_20px_rgba(10,37,64,0.04)] hover:shadow-[0_22px_45px_rgba(10,95,107,0.14)] hover:border-[#0A5F6B] hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between group relative overflow-hidden select-none cursor-pointer"
       >
         {/* Top hover gradient line accent */}
         <div className="absolute top-0 inset-x-0 h-1.5 bg-gradient-to-r from-[#0A5F6B] via-[#2DD4BF] to-[#0A5F6B] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
         {/* Top Header Row */}
-        <div className="flex items-center justify-between mb-3">
+        <div className="flex items-center justify-between mb-4">
           <span 
-            className="text-[10px] sm:text-[10.5px] font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-[#E6F7F7] text-[#0A5F6B] border border-teal-200/80 flex items-center gap-1 shadow-2xs"
+            className="text-[11px] sm:text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-[#E6F7F7] text-[#0A5F6B] border border-teal-200/80 flex items-center gap-1.5 shadow-2xs"
           >
             <ShieldCheck className="w-3.5 h-3.5 text-[#0A5F6B]" />
             <span>{isGovt ? 'Govt Panel' : 'Cashless TPA'}</span>
           </span>
 
-          <span className="inline-flex items-center gap-1 text-[10px] font-bold text-[#0A5F6B] bg-teal-50 px-2 py-0.5 rounded-full border border-teal-200/60">
+          <span className="inline-flex items-center gap-1.5 text-[11px] font-bold text-[#0A5F6B] bg-teal-50 px-2.5 py-0.5 rounded-full border border-teal-200/60">
             <span className="w-1.5 h-1.5 rounded-full bg-[#0A5F6B] animate-pulse" />
             Empaneled
           </span>
         </div>
 
         {/* Center Framed Logo Badge Box with fixed height */}
-        <div className="w-full h-20 bg-slate-50/70 group-hover:bg-[#E6F7F7]/40 rounded-2xl p-2.5 flex items-center justify-center border border-slate-100 group-hover:border-teal-200/70 transition-all duration-300 shadow-2xs overflow-hidden">
+        <div className="w-full h-24 bg-slate-50/70 group-hover:bg-[#E6F7F7]/40 rounded-2xl p-3 flex items-center justify-center border border-slate-100 group-hover:border-teal-200/70 transition-all duration-300 shadow-2xs overflow-hidden">
           <img
             src={item.logo}
             alt={item.name}
-            className="max-h-12 max-w-[170px] w-auto h-auto object-contain transition-transform duration-300 group-hover:scale-105"
+            className="max-h-14 max-w-[190px] w-auto h-auto object-contain transition-transform duration-300 group-hover:scale-105"
             loading="lazy"
           />
         </div>
 
         {/* Bottom Provider Name Caption */}
-        <div className="mt-3.5 pt-2.5 border-t border-slate-100 flex items-center justify-between">
-          <p className="text-xs font-bold text-[#0A2540] truncate max-w-[170px] group-hover:text-[#0A5F6B] transition-colors">
+        <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+          <p className="text-sm font-bold text-[#0A2540] truncate max-w-[190px] group-hover:text-[#0A5F6B] transition-colors">
             {item.name}
           </p>
-          <span className="text-[11px] font-bold text-[#0A5F6B] flex items-center gap-1 shrink-0">
+          <span className="text-xs font-bold text-[#0A5F6B] flex items-center gap-1 shrink-0">
             <span>Cashless</span>
-            <CheckCircle2 className="w-3.5 h-3.5 text-[#0A5F6B]" />
+            <CheckCircle2 className="w-4 h-4 text-[#0A5F6B]" />
           </span>
         </div>
       </div>
@@ -126,7 +126,7 @@ export default function InsuranceSection() {
   };
 
   return (
-    <section id="insurance" className="py-20 sm:py-28 bg-[#F8FAFC] border-b border-slate-200/80 overflow-hidden relative font-sans">
+    <section id="insurance" className="py-24 sm:py-32 lg:py-36 bg-[#F8FAFC] border-b border-slate-200/80 overflow-hidden relative font-sans">
       
       {/* Background Soft Glows */}
       <div className="absolute top-0 right-1/4 w-96 h-96 bg-[#C9F5F3]/30 rounded-full blur-3xl pointer-events-none animate-float" />
@@ -239,50 +239,50 @@ export default function InsuranceSection() {
       </div>
 
       {/* Trust Pillars & TPA Callout Bar */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 sm:mt-14">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 sm:mt-20">
         <ScrollReveal direction="up" duration={0.65} delay={0.15}>
-          <div className="bg-white rounded-3xl p-6 sm:p-9 border border-slate-200/90 shadow-[0_8px_30px_rgba(10,37,64,0.06)] relative overflow-hidden">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 divide-y sm:divide-y-0 sm:divide-x divide-slate-100">
+          <div className="bg-white rounded-3xl p-8 sm:p-10 lg:p-12 border border-slate-200/90 shadow-[0_8px_30px_rgba(10,37,64,0.06)] relative overflow-hidden">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 divide-y sm:divide-y-0 sm:divide-x divide-slate-100">
               {/* Feature 1 */}
-              <div className="pt-4 sm:pt-0 sm:px-4 space-y-2">
-                <div className="w-12 h-12 rounded-2xl bg-[#E6F7F7] text-[#0A5F6B] flex items-center justify-center mb-3 border border-teal-200/60 shadow-2xs">
-                  <CreditCard className="w-6 h-6 text-[#0A5F6B]" />
+              <div className="pt-4 sm:pt-0 sm:px-5 space-y-3">
+                <div className="w-14 h-14 rounded-2xl bg-[#E6F7F7] text-[#0A5F6B] flex items-center justify-center mb-4 border border-teal-200/60 shadow-2xs">
+                  <CreditCard className="w-7 h-7 text-[#0A5F6B]" />
                 </div>
-                <h4 className="text-base font-bold text-[#0A2540]">100% Cashless Facility</h4>
-                <p className="text-xs text-slate-500 leading-relaxed">
+                <h4 className="text-lg sm:text-xl font-bold text-[#0A2540]">100% Cashless Facility</h4>
+                <p className="text-sm sm:text-[14.5px] text-slate-600 leading-relaxed font-normal">
                   Direct billing with all major empanelled TPAs across our 8 hospitals.
                 </p>
               </div>
 
               {/* Feature 2 */}
-              <div className="pt-4 sm:pt-0 sm:px-4 space-y-2">
-                <div className="w-12 h-12 rounded-2xl bg-[#E6F7F7] text-[#0A5F6B] flex items-center justify-center mb-3 border border-teal-200/60 shadow-2xs">
-                  <Clock className="w-6 h-6 text-[#0A5F6B]" />
+              <div className="pt-4 sm:pt-0 sm:px-5 space-y-3">
+                <div className="w-14 h-14 rounded-2xl bg-[#E6F7F7] text-[#0A5F6B] flex items-center justify-center mb-4 border border-teal-200/60 shadow-2xs">
+                  <Clock className="w-7 h-7 text-[#0A5F6B]" />
                 </div>
-                <h4 className="text-base font-bold text-[#0A2540]">30-Min Pre-Authorization</h4>
-                <p className="text-xs text-slate-500 leading-relaxed">
+                <h4 className="text-lg sm:text-xl font-bold text-[#0A2540]">30-Min Pre-Authorization</h4>
+                <p className="text-sm sm:text-[14.5px] text-slate-600 leading-relaxed font-normal">
                   Dedicated on-site TPA coordinators to expedite approvals without delay.
                 </p>
               </div>
 
               {/* Feature 3 */}
-              <div className="pt-4 sm:pt-0 sm:px-4 space-y-2">
-                <div className="w-12 h-12 rounded-2xl bg-[#E6F7F7] text-[#0A5F6B] flex items-center justify-center mb-3 border border-teal-200/60 shadow-2xs">
-                  <ShieldCheck className="w-6 h-6 text-[#0A5F6B]" />
+              <div className="pt-4 sm:pt-0 sm:px-5 space-y-3">
+                <div className="w-14 h-14 rounded-2xl bg-[#E6F7F7] text-[#0A5F6B] flex items-center justify-center mb-4 border border-teal-200/60 shadow-2xs">
+                  <ShieldCheck className="w-7 h-7 text-[#0A5F6B]" />
                 </div>
-                <h4 className="text-base font-bold text-[#0A2540]">Zero Advance Deposit</h4>
-                <p className="text-xs text-slate-500 leading-relaxed">
+                <h4 className="text-lg sm:text-xl font-bold text-[#0A2540]">Zero Advance Deposit</h4>
+                <p className="text-sm sm:text-[14.5px] text-slate-600 leading-relaxed font-normal">
                   Immediate patient admission in emergency cases with approved coverage.
                 </p>
               </div>
 
               {/* Feature 4 */}
-              <div className="pt-4 sm:pt-0 sm:px-4 space-y-2">
-                <div className="w-12 h-12 rounded-2xl bg-[#E6F7F7] text-[#0A5F6B] flex items-center justify-center mb-3 border border-teal-200/60 shadow-2xs">
-                  <PhoneCall className="w-6 h-6 text-[#0A5F6B]" />
+              <div className="pt-4 sm:pt-0 sm:px-5 space-y-3">
+                <div className="w-14 h-14 rounded-2xl bg-[#E6F7F7] text-[#0A5F6B] flex items-center justify-center mb-4 border border-teal-200/60 shadow-2xs">
+                  <PhoneCall className="w-7 h-7 text-[#0A5F6B]" />
                 </div>
-                <h4 className="text-base font-bold text-[#0A2540]">24x7 TPA Help Desk</h4>
-                <p className="text-xs text-slate-500 leading-relaxed">
+                <h4 className="text-lg sm:text-xl font-bold text-[#0A2540]">24x7 TPA Help Desk</h4>
+                <p className="text-sm sm:text-[14.5px] text-slate-600 leading-relaxed font-normal">
                   Direct phone support for queries, pre-auth, and discharge billing.
                 </p>
               </div>

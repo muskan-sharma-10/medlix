@@ -198,10 +198,10 @@ export default function Header({ onOpenAppointment }: HeaderProps) {
       {/* 2. Main Premium Navbar */}
       <div 
         className={`w-full bg-white/95 backdrop-blur-md text-slate-900 border-b border-slate-200/90 transition-all duration-300 ${
-          isScrolled ? 'shadow-[0_4px_20px_rgba(10,37,64,0.08)] py-1.5' : 'py-2.5 sm:py-3'
+          isScrolled ? 'shadow-[0_4px_20px_rgba(10,37,64,0.08)] py-2' : 'py-3 sm:py-3.5'
         }`}
       >
-        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-[64px] lg:h-[72px]">
+        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-[72px] lg:h-[80px]">
           
           {/* Brand Logo Container */}
           <Link 
@@ -213,12 +213,12 @@ export default function Header({ onOpenAppointment }: HeaderProps) {
           </Link>
 
           {/* Desktop Navigation Menu Links */}
-          <nav className="hidden lg:flex items-center gap-1 xl:gap-2 text-[14px] font-semibold text-slate-700">
+          <nav className="hidden lg:flex items-center gap-1.5 xl:gap-2.5 text-[15px] font-semibold text-slate-700">
             
             {/* Home */}
             <Link 
               href="/" 
-              className="px-3 py-2 rounded-xl text-slate-800 hover:text-[#0A5F6B] hover:bg-[#E6F7F7]/60 transition-all whitespace-nowrap"
+              className="px-3.5 py-2 rounded-xl text-slate-800 hover:text-[#0A5F6B] hover:bg-[#E6F7F7]/70 transition-all whitespace-nowrap"
             >
               Home
             </Link>
@@ -455,7 +455,7 @@ export default function Header({ onOpenAppointment }: HeaderProps) {
           <div className="hidden lg:flex items-center gap-3 shrink-0">
             <button
               onClick={onOpenAppointment}
-              className="px-6 py-2.5 rounded-full bg-[#0A5F6B] hover:bg-[#07515C] text-white font-bold text-xs uppercase tracking-wider shadow-md shadow-[#0A5F6B]/20 hover:shadow-lg hover:shadow-[#0A5F6B]/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 flex items-center gap-2 cursor-pointer whitespace-nowrap shine-sweep btn-pulse"
+              className="px-7 py-3 rounded-full bg-[#0A5F6B] hover:bg-[#07515C] text-white font-bold text-[13px] uppercase tracking-wider shadow-md shadow-[#0A5F6B]/25 hover:shadow-lg hover:shadow-[#0A5F6B]/35 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 flex items-center gap-2.5 cursor-pointer whitespace-nowrap shine-sweep btn-pulse"
             >
               <Calendar className="w-4 h-4 text-white" />
               <span>Book Appointment</span>

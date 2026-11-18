@@ -223,13 +223,13 @@ export default function AboutUsPage() {
       </div>
 
       {/* 2. Main Narrative & Overview Section */}
-      <section id="overview" className="py-20 lg:py-24 bg-white scroll-mt-28 relative overflow-hidden">
+      <section id="overview" className="py-24 sm:py-32 lg:py-36 bg-white scroll-mt-28 relative overflow-hidden">
         {/* Subtle decorative background gradient circles */}
         <div className="absolute top-10 right-0 w-96 h-96 bg-teal-50/50 rounded-full blur-3xl pointer-events-none -z-0" />
         <div className="absolute bottom-10 left-0 w-80 h-80 bg-[#DFF8F8]/40 rounded-full blur-3xl pointer-events-none -z-0" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-14 lg:gap-20 items-center">
             {/* Visual Column */}
             <div className="lg:col-span-5 relative">
               <ScrollReveal direction="left" duration={0.7}>
@@ -335,7 +335,7 @@ export default function AboutUsPage() {
       {/* 3. Stats & Impact Counters Section */}
       <section 
         ref={statsRef}
-        className="relative py-24 bg-cover bg-center overflow-hidden text-white"
+        className="relative py-24 sm:py-32 lg:py-36 bg-cover bg-center overflow-hidden text-white"
         style={{ backgroundImage: "url('/images/home-3-counter-bg.jpg')" }}
       >
         <div className="absolute inset-0 bg-slate-950/80 backdrop-blur-[3px]" />
@@ -405,7 +405,7 @@ export default function AboutUsPage() {
       </section>
 
       {/* 4. Vision & Mission Section (#vision-mission) */}
-      <section id="vision-mission" className="py-20 lg:py-24 bg-slate-50 border-b border-slate-200/80 scroll-mt-28">
+      <section id="vision-mission" className="py-24 sm:py-32 lg:py-36 bg-slate-50 border-b border-slate-200/80 scroll-mt-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeadingReveal
             badge={
@@ -517,7 +517,7 @@ export default function AboutUsPage() {
       </section>
 
       {/* 5. The CIRCLE of Care: Our Core Values (#ourcore) */}
-      <section id="ourcore" className="py-20 lg:py-24 bg-[#DFF8F8]/40 border-b border-slate-200/80 scroll-mt-28">
+      <section id="ourcore" className="py-24 sm:py-32 lg:py-36 bg-[#DFF8F8]/40 border-b border-slate-200/80 scroll-mt-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeadingReveal
             badge={
@@ -618,7 +618,7 @@ export default function AboutUsPage() {
       </section>
 
       {/* 6. Why Choose Medlix Hospital (#whychoose) */}
-      <section id="whychoose" className="py-20 lg:py-24 bg-white border-b border-slate-100 scroll-mt-28">
+      <section id="whychoose" className="py-24 sm:py-32 lg:py-36 bg-white border-b border-slate-100 scroll-mt-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeadingReveal
             badge={
@@ -677,7 +677,7 @@ export default function AboutUsPage() {
       </section>
 
       {/* 7. The Medlix Approach (#approach) */}
-      <section id="approach" className="py-20 lg:py-24 bg-slate-50 border-b border-slate-200/80 scroll-mt-28">
+      <section id="approach" className="py-24 sm:py-32 lg:py-36 bg-slate-50 border-b border-slate-200/80 scroll-mt-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeadingReveal
             badge={

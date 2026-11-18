@@ -99,7 +99,7 @@ export function SectionHeadingReveal({
 
   return (
     <div
-      className={`space-y-4 ${
+      className={`space-y-4 sm:space-y-5 ${
         isCenter ? `text-center mx-auto ${maxWidth}` : 'text-left'
       } ${className}`}
     >
@@ -125,7 +125,7 @@ export function SectionHeadingReveal({
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.65, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
       >
-        <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-slate-900 font-sans tracking-tight leading-[1.2]">
+        <h2 className="text-3xl sm:text-4xl lg:text-[46px] font-extrabold text-[#0A2540] font-sans tracking-tight leading-[1.2]">
           {title}
         </h2>
       </motion.div>

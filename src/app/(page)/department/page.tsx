@@ -69,19 +69,19 @@ export default function DepartmentPage() {
       </section>
 
       {/* 3. Specialties Grid with Detailed Cards */}
-      <section className="py-16 bg-white relative overflow-hidden">
+      <section className="py-24 sm:py-32 lg:py-36 bg-white relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-9">
             {filtered.map((spec, idx) => (
               <div
                 key={idx}
                 id={spec.slug}
-                className="bg-white rounded-3xl border border-[#C4DFDF] shadow-sm hover:shadow-2xl transition-all duration-300 p-7 flex flex-col justify-between group hover:border-[#0A5F6B] hover:-translate-y-2 relative overflow-hidden"
+                className="bg-white rounded-3xl border border-[#C4DFDF] shadow-sm hover:shadow-2xl transition-all duration-300 p-8 sm:p-9 flex flex-col justify-between group hover:border-[#0A5F6B] hover:-translate-y-2 relative overflow-hidden"
               >
                 {/* Top Subtle Gradient Accent */}
-                <div className="absolute top-0 left-0 right-0 h-1 bg-[#0A5F6B] opacity-0 group-hover:opacity-100 transition-opacity" />
+                <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#0A5F6B] opacity-0 group-hover:opacity-100 transition-opacity" />
 
-                <div className="space-y-4">
+                <div className="space-y-5">
                   {/* Top Icon & Slug */}
                   <div className="flex items-center justify-between">
                     <div className="w-16 h-16 rounded-2xl bg-[#DFF8F8] p-3 shadow-xs border border-[#C4DFDF] flex items-center justify-center group-hover:bg-[#0A5F6B] group-hover:scale-110 transition-all duration-300">
@@ -93,16 +93,16 @@ export default function DepartmentPage() {
                         className="object-contain group-hover:brightness-0 group-hover:invert transition-all"
                       />
                     </div>
-                    <span className="text-[11px] font-bold text-[#0A5F6B] bg-[#DFF8F8] px-3 py-1 rounded-full border border-[#C4DFDF] font-exo shadow-2xs">
+                    <span className="text-[11px] font-bold text-[#0A5F6B] bg-[#DFF8F8] px-3.5 py-1 rounded-full border border-[#C4DFDF] font-exo shadow-2xs">
                       Center of Excellence
                     </span>
                   </div>
 
                   <div>
-                    <h3 className="text-xl font-bold font-exo text-[#29363A] group-hover:text-[#0A5F6B] transition-colors">
+                    <h3 className="text-xl sm:text-2xl font-bold font-exo text-[#29363A] group-hover:text-[#0A5F6B] transition-colors">
                       {spec.title}
                     </h3>
-                    <p className="text-xs sm:text-sm text-[#719497] font-roboto mt-2 leading-relaxed">
+                    <p className="text-sm sm:text-base text-slate-600 font-roboto mt-2.5 leading-relaxed font-normal">
                       {spec.desc}
                     </p>
                   </div>

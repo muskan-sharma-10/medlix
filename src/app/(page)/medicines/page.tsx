@@ -148,9 +148,9 @@ export default function MedicinesPage() {
       />
 
       {/* 2. Prescription Order Callout Banner */}
-      <section className="py-8 bg-[#FDFEFE]">
+      <section className="py-14 sm:py-20 lg:py-24 bg-[#FDFEFE]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="relative bg-gradient-to-r from-[#07515C] via-[#0A5F6B] to-[#07515C] rounded-3xl p-6 sm:p-9 shadow-xl border border-[#C4DFDF]/40 overflow-hidden group">
+          <div className="relative bg-gradient-to-r from-[#07515C] via-[#0A5F6B] to-[#07515C] rounded-3xl p-8 sm:p-12 lg:p-14 shadow-xl border border-[#C4DFDF]/40 overflow-hidden group">
             {/* Background ambient shine */}
             <div className="absolute -right-10 -bottom-10 w-72 h-72 bg-[#C9F5F3]/15 rounded-full blur-2xl pointer-events-none" />
 
@@ -191,26 +191,26 @@ export default function MedicinesPage() {
       </section>
 
       {/* 3. Search & Interactive Filter Hub */}
-      <section className="py-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <section className="py-20 sm:py-28 lg:py-32 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         {/* Search Box Card */}
-        <div className="bg-white rounded-3xl p-6 sm:p-8 border border-[#C4DFDF] shadow-md mb-10 relative overflow-hidden">
-          <div className="flex items-center justify-between mb-4">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-[#DFF8F8] text-[#0A5F6B] flex items-center justify-center font-bold">
-                <Search className="w-4 h-4 text-[#0A5F6B]" />
+        <div className="bg-white rounded-3xl p-8 sm:p-10 border border-[#C4DFDF] shadow-md mb-16 relative overflow-hidden">
+          <div className="flex items-center justify-between mb-5">
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-xl bg-[#DFF8F8] text-[#0A5F6B] flex items-center justify-center font-bold">
+                <Search className="w-5 h-5 text-[#0A5F6B]" />
               </div>
-              <h3 className="font-bold text-[#29363A] text-lg font-exo">Search Medicine Catalog</h3>
+              <h3 className="font-bold text-[#29363A] text-xl font-exo">Search Medicine Catalog</h3>
             </div>
 
             {cartCount > 0 && (
-              <span className="text-xs font-bold px-3 py-1.5 rounded-full bg-[#0A5F6B] text-white font-exo flex items-center gap-1.5 shadow-sm animate-pulse">
-                <ShoppingBag className="w-3.5 h-3.5" />
+              <span className="text-xs font-bold px-4 py-2 rounded-full bg-[#0A5F6B] text-white font-exo flex items-center gap-2 shadow-sm animate-pulse">
+                <ShoppingBag className="w-4 h-4" />
                 <span>{cartCount} Items in Order</span>
               </span>
             )}
           </div>
 
-          <div className="relative flex items-center gap-2">
+          <div className="relative flex items-center gap-3">
             <div className="relative flex-1">
               <Search className="w-5 h-5 text-[#0A5F6B] absolute left-4.5 top-1/2 -translate-y-1/2 pointer-events-none" />
               <input
@@ -224,7 +224,7 @@ export default function MedicinesPage() {
             {searchQuery && (
               <button
                 onClick={() => setSearchQuery('')}
-                className="px-4 py-4 text-xs font-bold text-[#719497] hover:text-[#29363A] bg-[#DFF8F8] rounded-2xl font-exo"
+                className="px-5 py-4 text-xs font-bold text-[#719497] hover:text-[#29363A] bg-[#DFF8F8] rounded-2xl font-exo"
               >
                 Clear
               </button>
@@ -232,16 +232,16 @@ export default function MedicinesPage() {
           </div>
 
           {/* Category Filter Pills */}
-          <div className="mt-5 pt-4 border-t border-[#C4DFDF]/60 flex items-center gap-2 overflow-x-auto invisible-scrollbar pb-1">
-            <span className="text-xs font-bold text-[#719497] uppercase tracking-wider font-exo shrink-0 mr-1 flex items-center gap-1">
-              <Filter className="w-3.5 h-3.5 text-[#0A5F6B]" />
+          <div className="mt-6 pt-5 border-t border-[#C4DFDF]/60 flex items-center gap-2.5 overflow-x-auto invisible-scrollbar pb-1">
+            <span className="text-xs font-bold text-[#719497] uppercase tracking-wider font-exo shrink-0 mr-1 flex items-center gap-1.5">
+              <Filter className="w-4 h-4 text-[#0A5F6B]" />
               Category:
             </span>
             {categories.map((cat, idx) => (
               <button
                 key={idx}
                 onClick={() => setSelectedCategory(cat)}
-                className={`px-3.5 py-1.5 rounded-full text-xs font-bold font-exo transition-all shrink-0 border ${
+                className={`px-4 py-2 rounded-full text-xs sm:text-sm font-bold font-exo transition-all shrink-0 border ${
                   selectedCategory === cat
                     ? 'bg-[#0A5F6B] text-white border-[#0A5F6B] shadow-xs'
                     : 'bg-[#FDFEFE] text-[#29363A] border-[#C4DFDF] hover:bg-[#DFF8F8]/60 hover:text-[#0A5F6B]'
@@ -254,49 +254,49 @@ export default function MedicinesPage() {
         </div>
 
         {/* 3 Guarantee Badges */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-          <div className="p-6 bg-white rounded-3xl border border-[#C4DFDF] shadow-xs hover:shadow-md transition-all duration-300 flex items-center gap-4 group relative overflow-hidden">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+          <div className="p-7 sm:p-8 bg-white rounded-3xl border border-[#C4DFDF] shadow-xs hover:shadow-md transition-all duration-300 flex items-center gap-5 group relative overflow-hidden">
             <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-[#0A5F6B] to-[#C9F5F3] opacity-0 group-hover:opacity-100 transition-opacity" />
-            <div className="w-12 h-12 rounded-2xl bg-[#DFF8F8] text-[#0A5F6B] group-hover:bg-[#0A5F6B] group-hover:text-white transition-colors flex items-center justify-center shrink-0 border border-[#C4DFDF]">
-              <ShieldCheck className="w-6 h-6" />
+            <div className="w-14 h-14 rounded-2xl bg-[#DFF8F8] text-[#0A5F6B] group-hover:bg-[#0A5F6B] group-hover:text-white transition-colors flex items-center justify-center shrink-0 border border-[#C4DFDF]">
+              <ShieldCheck className="w-7 h-7" />
             </div>
-            <div>
-              <h4 className="font-bold font-exo text-[#29363A] text-sm group-hover:text-[#0A5F6B] transition-colors">100% Genuine Medicines</h4>
-              <p className="text-xs text-[#719497] font-roboto mt-0.5">Sourced directly from certified pharmaceutical manufacturers</p>
+            <div className="space-y-1">
+              <h4 className="font-bold font-exo text-[#29363A] text-base group-hover:text-[#0A5F6B] transition-colors">100% Genuine Medicines</h4>
+              <p className="text-xs sm:text-sm text-[#719497] font-roboto leading-relaxed">Sourced directly from certified pharmaceutical manufacturers</p>
             </div>
           </div>
 
-          <div className="p-6 bg-white rounded-3xl border border-[#C4DFDF] shadow-xs hover:shadow-md transition-all duration-300 flex items-center gap-4 group relative overflow-hidden">
+          <div className="p-7 sm:p-8 bg-white rounded-3xl border border-[#C4DFDF] shadow-xs hover:shadow-md transition-all duration-300 flex items-center gap-5 group relative overflow-hidden">
             <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-[#0A5F6B] to-[#C9F5F3] opacity-0 group-hover:opacity-100 transition-opacity" />
-            <div className="w-12 h-12 rounded-2xl bg-[#DFF8F8] text-[#0A5F6B] group-hover:bg-[#0A5F6B] group-hover:text-white transition-colors flex items-center justify-center shrink-0 border border-[#C4DFDF]">
-              <Truck className="w-6 h-6" />
+            <div className="w-14 h-14 rounded-2xl bg-[#DFF8F8] text-[#0A5F6B] group-hover:bg-[#0A5F6B] group-hover:text-white transition-colors flex items-center justify-center shrink-0 border border-[#C4DFDF]">
+              <Truck className="w-7 h-7" />
             </div>
-            <div>
-              <h4 className="font-bold font-exo text-[#29363A] text-sm group-hover:text-[#0A5F6B] transition-colors">2-Hour Express Delivery</h4>
-              <p className="text-xs text-[#719497] font-roboto mt-0.5">Fastest doorstep medicine delivery across NCR</p>
+            <div className="space-y-1">
+              <h4 className="font-bold font-exo text-[#29363A] text-base group-hover:text-[#0A5F6B] transition-colors">2-Hour Express Delivery</h4>
+              <p className="text-xs sm:text-sm text-[#719497] font-roboto leading-relaxed">Fastest doorstep medicine delivery across NCR</p>
             </div>
           </div>
 
-          <div className="p-6 bg-white rounded-3xl border border-[#C4DFDF] shadow-xs hover:shadow-md transition-all duration-300 flex items-center gap-4 group relative overflow-hidden">
+          <div className="p-7 sm:p-8 bg-white rounded-3xl border border-[#C4DFDF] shadow-xs hover:shadow-md transition-all duration-300 flex items-center gap-5 group relative overflow-hidden">
             <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-[#0A5F6B] to-[#C9F5F3] opacity-0 group-hover:opacity-100 transition-opacity" />
-            <div className="w-12 h-12 rounded-2xl bg-[#DFF8F8] text-[#0A5F6B] group-hover:bg-[#0A5F6B] group-hover:text-white transition-colors flex items-center justify-center shrink-0 border border-[#C4DFDF]">
-              <Percent className="w-6 h-6" />
+            <div className="w-14 h-14 rounded-2xl bg-[#DFF8F8] text-[#0A5F6B] group-hover:bg-[#0A5F6B] group-hover:text-white transition-colors flex items-center justify-center shrink-0 border border-[#C4DFDF]">
+              <Percent className="w-7 h-7" />
             </div>
-            <div>
-              <h4 className="font-bold font-exo text-[#29363A] text-sm group-hover:text-[#0A5F6B] transition-colors">Flat 20-35% Savings</h4>
-              <p className="text-xs text-[#719497] font-roboto mt-0.5">Maximum savings guaranteed on essential medications</p>
+            <div className="space-y-1">
+              <h4 className="font-bold font-exo text-[#29363A] text-base group-hover:text-[#0A5F6B] transition-colors">Flat 20-35% Savings</h4>
+              <p className="text-xs sm:text-sm text-[#719497] font-roboto leading-relaxed">Maximum savings guaranteed on essential medications</p>
             </div>
           </div>
         </div>
 
         {/* Medicines Catalog Grid */}
-        <div className="space-y-6">
-          <div className="flex items-center justify-between pb-3 border-b border-[#C4DFDF]">
-            <div>
-              <h3 className="text-2xl font-bold font-exo text-[#29363A]">Essential Medicines &amp; Healthcare Products</h3>
-              <p className="text-xs text-[#719497] font-roboto mt-0.5">Showing medicines for {selectedCategory}</p>
+        <div className="space-y-8">
+          <div className="flex items-center justify-between pb-4 border-b border-[#C4DFDF]">
+            <div className="space-y-1">
+              <h3 className="text-2xl sm:text-3xl font-bold font-exo text-[#29363A]">Essential Medicines &amp; Healthcare Products</h3>
+              <p className="text-xs sm:text-sm text-[#719497] font-roboto">Showing medicines for {selectedCategory}</p>
             </div>
-            <span className="text-xs font-bold text-[#0A5F6B] font-exo bg-[#DFF8F8] px-3.5 py-1.5 rounded-full border border-[#C4DFDF]">
+            <span className="text-xs sm:text-sm font-bold text-[#0A5F6B] font-exo bg-[#DFF8F8] px-4 py-2 rounded-full border border-[#C4DFDF]">
               {filteredMedicines.length} Products Found
             </span>
           </div>
@@ -317,64 +317,64 @@ export default function MedicinesPage() {
               </button>
             </div>
           ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-9">
               {filteredMedicines.map((med) => (
                 <div
                   key={med.id}
-                  className="bg-white rounded-3xl p-6 border border-[#C4DFDF] shadow-xs hover:shadow-xl hover:border-[#0A5F6B] transition-all duration-300 flex flex-col justify-between group hover:-translate-y-1.5 relative overflow-hidden"
+                  className="bg-white rounded-3xl p-7 sm:p-8 border border-[#C4DFDF] shadow-xs hover:shadow-xl hover:border-[#0A5F6B] transition-all duration-300 flex flex-col justify-between group hover:-translate-y-1.5 relative overflow-hidden"
                 >
                   {/* Top hover accent */}
-                  <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-[#0A5F6B] via-[#C9F5F3] to-[#0A5F6B] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <div className="absolute top-0 inset-x-0 h-1.5 bg-gradient-to-r from-[#0A5F6B] via-[#C9F5F3] to-[#0A5F6B] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
                   <div>
                     {/* Category Pill & Discount Tag */}
-                    <div className="flex items-center justify-between mb-3">
-                      <span className="text-[10.5px] font-bold text-[#719497] uppercase tracking-wider font-exo bg-[#FDFEFE] px-2.5 py-0.5 rounded-full border border-[#C4DFDF]">
+                    <div className="flex items-center justify-between mb-4">
+                      <span className="text-xs font-bold text-[#719497] uppercase tracking-wider font-exo bg-[#FDFEFE] px-3 py-1 rounded-full border border-[#C4DFDF]">
                         {med.category}
                       </span>
-                      <span className="text-[10px] font-extrabold text-[#0A5F6B] bg-[#DFF8F8] px-2.5 py-0.5 rounded-full border border-[#C4DFDF] font-exo">
+                      <span className="text-xs font-extrabold text-[#0A5F6B] bg-[#DFF8F8] px-3 py-1 rounded-full border border-[#C4DFDF] font-exo">
                         {med.discount}
                       </span>
                     </div>
 
                     {/* Product Icon Box */}
-                    <div className="w-full h-24 rounded-2xl bg-gradient-to-b from-[#FDFEFE] to-[#DFF8F8]/60 border border-[#C4DFDF]/60 flex items-center justify-center mb-4 group-hover:bg-[#DFF8F8] transition-colors">
-                      <Pill className="w-10 h-10 text-[#0A5F6B] group-hover:scale-110 transition-transform duration-300" />
+                    <div className="w-full h-28 rounded-2xl bg-gradient-to-b from-[#FDFEFE] to-[#DFF8F8]/60 border border-[#C4DFDF]/60 flex items-center justify-center mb-5 group-hover:bg-[#DFF8F8] transition-colors">
+                      <Pill className="w-12 h-12 text-[#0A5F6B] group-hover:scale-110 transition-transform duration-300" />
                     </div>
 
                     {/* Product Title */}
-                    <h4 className="text-base font-bold font-exo text-[#29363A] group-hover:text-[#0A5F6B] transition-colors leading-snug">
+                    <h4 className="text-lg font-bold font-exo text-[#29363A] group-hover:text-[#0A5F6B] transition-colors leading-snug">
                       {med.name}
                     </h4>
                     
-                    <p className="text-xs text-[#719497] font-roboto mt-1">
+                    <p className="text-xs sm:text-sm text-[#719497] font-roboto mt-1.5">
                       {med.brand} • {med.packSize}
                     </p>
 
                     {/* Price & Savings */}
-                    <div className="mt-4 pt-3 border-t border-[#C4DFDF]/60 flex items-center justify-between">
+                    <div className="mt-5 pt-4 border-t border-[#C4DFDF]/60 flex items-center justify-between">
                       <div>
                         <div className="flex items-baseline gap-2">
-                          <span className="text-xl font-bold font-exo text-[#29363A]">₹{med.price}</span>
+                          <span className="text-2xl font-bold font-exo text-[#29363A]">₹{med.price}</span>
                           <span className="text-xs text-slate-400 line-through font-roboto">MRP ₹{med.mrp}</span>
                         </div>
-                        <span className="text-[10px] font-bold text-[#0A5F6B] font-exo">
+                        <span className="text-xs font-bold text-[#0A5F6B] font-exo">
                           Save {med.savings}
                         </span>
                       </div>
 
-                      <span className="text-[10px] font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200 font-exo flex items-center gap-1">
-                        <Check className="w-3 h-3 text-emerald-600" />
+                      <span className="text-xs font-bold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-lg border border-emerald-200 font-exo flex items-center gap-1.5">
+                        <Check className="w-3.5 h-3.5 text-emerald-600" />
                         In Stock
                       </span>
                     </div>
                   </div>
 
                   {/* Add to Order Button */}
-                  <div className="mt-5">
+                  <div className="mt-6">
                     <button
                       onClick={() => setCartCount(c => c + 1)}
-                      className="w-full py-3 bg-[#DFF8F8] hover:bg-[#0A5F6B] text-[#0A5F6B] hover:text-white font-bold text-xs uppercase tracking-wider rounded-2xl transition-all duration-200 font-exo flex items-center justify-center gap-2 border border-[#C4DFDF] hover:border-[#0A5F6B] cursor-pointer shadow-2xs"
+                      className="w-full py-3.5 bg-[#DFF8F8] hover:bg-[#0A5F6B] text-[#0A5F6B] hover:text-white font-bold text-xs uppercase tracking-wider rounded-2xl transition-all duration-200 font-exo flex items-center justify-center gap-2 border border-[#C4DFDF] hover:border-[#0A5F6B] cursor-pointer shadow-2xs"
                     >
                       <Plus className="w-4 h-4" />
                       <span>Add to Order</span>

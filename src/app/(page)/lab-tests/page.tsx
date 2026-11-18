@@ -191,28 +191,28 @@ export default function LabTestsPage() {
       />
 
       {/* 2. Key Highlights Bar */}
-      <section className="bg-gradient-to-r from-[#07515C] to-[#0A5F6B] text-white py-6 shadow-md">
+      <section className="bg-gradient-to-r from-[#07515C] to-[#0A5F6B] text-white py-10 sm:py-12 shadow-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div className="flex flex-col items-center">
-              <Home className="w-7 h-7 mb-2 text-[#C9F5F3]" />
+              <Home className="w-8 h-8 mb-2.5 text-[#C9F5F3]" />
               <h4 className="font-bold font-exo text-sm sm:text-base">Free Home Collection</h4>
-              <p className="text-xs text-teal-100">Trained phlebotomists at your doorstep</p>
+              <p className="text-xs text-teal-100 mt-1">Trained phlebotomists at your doorstep</p>
             </div>
             <div className="flex flex-col items-center">
-              <Clock className="w-7 h-7 mb-2 text-[#C9F5F3]" />
+              <Clock className="w-8 h-8 mb-2.5 text-[#C9F5F3]" />
               <h4 className="font-bold font-exo text-sm sm:text-base">Express 6-12 Hr Reports</h4>
-              <p className="text-xs text-teal-100">Digital PDF reports via WhatsApp & Email</p>
+              <p className="text-xs text-teal-100 mt-1">Digital PDF reports via WhatsApp & Email</p>
             </div>
             <div className="flex flex-col items-center">
-              <ShieldCheck className="w-7 h-7 mb-2 text-[#C9F5F3]" />
+              <ShieldCheck className="w-8 h-8 mb-2.5 text-[#C9F5F3]" />
               <h4 className="font-bold font-exo text-sm sm:text-base">NABL & ISO Certified</h4>
-              <p className="text-xs text-teal-100">100% verified clinical accuracy</p>
+              <p className="text-xs text-teal-100 mt-1">100% verified clinical accuracy</p>
             </div>
             <div className="flex flex-col items-center">
-              <Zap className="w-7 h-7 mb-2 text-[#C9F5F3]" />
+              <Zap className="w-8 h-8 mb-2.5 text-[#C9F5F3]" />
               <h4 className="font-bold font-exo text-sm sm:text-base">Up to 70% Off</h4>
-              <p className="text-xs text-teal-100">Affordable preventive healthcare</p>
+              <p className="text-xs text-teal-100 mt-1">Affordable preventive healthcare</p>
             </div>
           </div>
         </div>
@@ -235,7 +235,7 @@ export default function LabTestsPage() {
             </div>
 
             {/* Category Pills */}
-            <div className="flex items-center gap-2 overflow-x-auto w-full md:w-auto pb-2 md:pb-0 scrollbar-none">
+            <div className="flex items-center gap-2.5 overflow-x-auto w-full md:w-auto pb-2 md:pb-0 scrollbar-none">
               <Filter className="w-4 h-4 text-slate-400 shrink-0 hidden sm:block" />
               {categories.map((cat) => (
                 <button
@@ -256,23 +256,23 @@ export default function LabTestsPage() {
       </section>
 
       {/* 4. Packages Grid */}
-      <section className="py-14 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-        <div className="mb-8 flex items-center justify-between">
-          <div>
-            <h2 className="text-2xl sm:text-3xl font-extrabold font-exo text-[#29363A]">
+      <section className="py-20 sm:py-28 lg:py-32 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        <div className="mb-12 flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+          <div className="space-y-2">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold font-exo text-[#29363A]">
               Popular Health Packages & Diagnostic Tests
             </h2>
-            <p className="text-xs sm:text-sm text-[#719497] font-roboto">
+            <p className="text-sm sm:text-base text-[#719497] font-roboto leading-relaxed">
               Choose from verified preventative health checkup packages with free home sample collection
             </p>
           </div>
-          <a href="tel:+919220143473" className="hidden sm:flex items-center gap-2 text-xs font-bold text-[#0A5F6B] bg-[#DFF8F8] px-4 py-2 rounded-xl border border-[#C4DFDF] hover:bg-[#C9F5F3]">
+          <a href="tel:+919220143473" className="hidden sm:flex items-center gap-2 text-xs sm:text-sm font-bold text-[#0A5F6B] bg-[#DFF8F8] px-5 py-3 rounded-xl border border-[#C4DFDF] hover:bg-[#C9F5F3] shrink-0">
             <Phone className="w-4 h-4" />
             <span>Call Lab Helpline: +91-9220143473</span>
           </a>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-9">
           {filteredPackages.map((pkg) => (
             <div
               key={pkg.id}
@@ -284,15 +284,15 @@ export default function LabTestsPage() {
                 </div>
               )}
 
-              <div className="p-7 space-y-5">
-                <div className="space-y-1.5">
-                  <span className="text-xs font-bold uppercase tracking-wider text-[#0A5F6B] bg-[#DFF8F8] px-3 py-1 rounded-full border border-[#C4DFDF] inline-block font-exo">
+              <div className="p-8 sm:p-9 space-y-6">
+                <div className="space-y-2">
+                  <span className="text-xs font-bold uppercase tracking-wider text-[#0A5F6B] bg-[#DFF8F8] px-3.5 py-1 rounded-full border border-[#C4DFDF] inline-block font-exo">
                     {pkg.category}
                   </span>
-                  <h3 className="text-xl font-bold font-exo text-[#29363A] leading-snug group-hover:text-[#0A5F6B] transition-colors">
+                  <h3 className="text-xl sm:text-2xl font-bold font-exo text-[#29363A] leading-snug group-hover:text-[#0A5F6B] transition-colors">
                     {pkg.title}
                   </h3>
-                  <div className="flex items-center gap-3 text-xs text-[#719497] font-roboto pt-1">
+                  <div className="flex items-center gap-3 text-xs sm:text-sm text-[#719497] font-roboto pt-1">
                     <span className="flex items-center gap-1 font-semibold text-[#29363A]">
                       <Microscope className="w-3.5 h-3.5 text-[#0A5F6B]" />
                       {pkg.testsCount} Tests Included
@@ -306,24 +306,24 @@ export default function LabTestsPage() {
                 </div>
 
                 {/* Price Section */}
-                <div className="bg-slate-50 p-4 rounded-2xl border border-[#C4DFDF] flex items-center justify-between">
+                <div className="bg-slate-50 p-4 sm:p-5 rounded-2xl border border-[#C4DFDF] flex items-center justify-between">
                   <div>
                     <div className="text-xs text-slate-400 line-through">₹{pkg.originalPrice}</div>
                     <div className="flex items-baseline gap-2">
-                      <span className="text-2xl font-extrabold font-exo text-[#29363A]">₹{pkg.discountedPrice}</span>
-                      <span className="text-xs font-bold text-[#0A5F6B] bg-[#DFF8F8] px-2 py-0.5 rounded-full">{pkg.discountPercent}</span>
+                      <span className="text-2xl sm:text-3xl font-extrabold font-exo text-[#29363A]">₹{pkg.discountedPrice}</span>
+                      <span className="text-xs font-bold text-[#0A5F6B] bg-[#DFF8F8] px-2.5 py-0.5 rounded-full">{pkg.discountPercent}</span>
                     </div>
                   </div>
-                  <div className="text-right text-[11px] text-[#719497] font-medium">
+                  <div className="text-right text-[11px] sm:text-xs text-[#719497] font-medium">
                     <span className="block text-[#0A5F6B] font-bold">Free Home Pickup</span>
                     <span>No extra charges</span>
                   </div>
                 </div>
 
                 {/* Key Tests Included */}
-                <div className="space-y-2 pt-1">
+                <div className="space-y-2.5 pt-1">
                   <h4 className="text-xs font-bold uppercase tracking-wider text-slate-400 font-exo">Top Tests Included:</h4>
-                  <ul className="space-y-1.5 text-xs text-[#719497] font-roboto">
+                  <ul className="space-y-2 text-xs sm:text-sm text-[#719497] font-roboto">
                     {pkg.testsIncluded.slice(0, 4).map((test, i) => (
                       <li key={i} className="flex items-start gap-2">
                         <CheckCircle2 className="w-3.5 h-3.5 text-[#0A5F6B] shrink-0 mt-0.5" />
@@ -332,7 +332,7 @@ export default function LabTestsPage() {
                     ))}
                   </ul>
                   {pkg.testsIncluded.length > 4 && (
-                    <p className="text-[11px] font-bold text-[#0A5F6B] font-exo hover:underline cursor-pointer">
+                    <p className="text-xs font-bold text-[#0A5F6B] font-exo hover:underline cursor-pointer pt-1">
                       + {pkg.testsIncluded.length - 4} More Diagnostic Parameters Included
                     </p>
                   )}
@@ -340,10 +340,10 @@ export default function LabTestsPage() {
               </div>
 
               {/* Card Action */}
-              <div className="p-7 pt-0">
+              <div className="p-8 sm:p-9 pt-0">
                 <button
                   onClick={() => setSelectedPackage(pkg)}
-                  className="w-full py-3.5 bg-[#0A5F6B] hover:bg-[#07515C] text-white font-bold text-xs uppercase tracking-wider rounded-2xl transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2 font-exo"
+                  className="w-full py-3.5 bg-[#0A5F6B] hover:bg-[#07515C] text-white font-bold text-xs uppercase tracking-wider rounded-2xl transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2 font-exo cursor-pointer"
                 >
                   <TestTube className="w-4 h-4" />
                   <span>Book Free Home Collection</span>
