@@ -27,11 +27,11 @@ export default function PageBanner({
   imageSrc = '/images/page-banner.jpg'
 }: PageBannerProps) {
   return (
-    <div className="relative w-full bg-[#C9F5F3] text-[#29363A] py-8 sm:py-10 lg:py-12 overflow-hidden border-b border-[#C4DFDF] font-['Outfit',sans-serif]">
+    <div className="relative w-full bg-gradient-to-r from-[#0A192F] via-[#0A2540] to-[#0A5F6B] text-white py-10 sm:py-12 lg:py-14 overflow-hidden border-b border-teal-900/40">
       {/* Background Graphic & Texture Overlay */}
       <motion.div 
-        initial={{ scale: 1.04, opacity: 0 }}
-        animate={{ scale: 1, opacity: 0.15 }}
+        initial={{ scale: 1.05, opacity: 0 }}
+        animate={{ scale: 1, opacity: 0.22 }}
         transition={{ duration: 1, ease: 'easeOut' }}
         className="absolute inset-0 pointer-events-none"
       >
@@ -39,31 +39,34 @@ export default function PageBanner({
           src={imageSrc}
           alt={title}
           fill
-          className="object-cover object-center"
+          className="object-cover object-center mix-blend-overlay"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#C9F5F3] via-[#DFF8F8]/90 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0A192F]/95 via-[#0A2540]/85 to-transparent" />
       </motion.div>
+
+      {/* Decorative luminous orb */}
+      <div className="absolute -top-24 -right-24 w-96 h-96 bg-teal-400/10 rounded-full blur-3xl pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div 
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-          className="max-w-3xl space-y-2.5 sm:space-y-3"
+          className="max-w-3xl space-y-3"
         >
           {/* Breadcrumb Path */}
-          <nav className="flex items-center gap-1.5 text-xs text-[#719497] font-medium">
-            <Link href="/" className="hover:text-[#0A5F6B] transition-colors">Home</Link>
+          <nav className="flex items-center gap-1.5 text-xs text-slate-300 font-medium">
+            <Link href="/" className="hover:text-teal-300 transition-colors">Home</Link>
             {breadcrumbs.map((crumb, idx) => (
               <React.Fragment key={idx}>
-                <ChevronRight className="w-3.5 h-3.5 text-[#0A5F6B]" />
+                <ChevronRight className="w-3.5 h-3.5 text-teal-400" />
                 {crumb.href ? (
-                  <Link href={crumb.href} className="hover:text-[#0A5F6B] transition-colors">
+                  <Link href={crumb.href} className="hover:text-teal-300 transition-colors">
                     {crumb.label}
                   </Link>
                 ) : (
-                  <span className="text-[#29363A] font-semibold">{crumb.label}</span>
+                  <span className="text-white font-semibold">{crumb.label}</span>
                 )}
               </React.Fragment>
             ))}
@@ -74,18 +77,18 @@ export default function PageBanner({
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.1, duration: 0.3 }}
-              className="inline-block px-3 py-0.5 rounded-full bg-[#DFF8F8] text-[#0A5F6B] border border-[#C4DFDF] text-[11px] font-bold uppercase tracking-wider font-exo"
+              className="inline-block px-3 py-1 rounded-full bg-teal-400/15 text-teal-300 border border-teal-400/30 text-xs font-bold uppercase tracking-wider font-exo"
             >
               {badge}
             </motion.div>
           )}
 
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold font-exo text-[#29363A] tracking-tight leading-snug">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold font-exo text-white tracking-tight leading-snug">
             {title}
           </h1>
 
           {subtitle && (
-            <p className="text-[#719497] text-xs sm:text-sm font-roboto leading-relaxed max-w-2xl">
+            <p className="text-slate-200 text-xs sm:text-sm font-roboto leading-relaxed max-w-2xl">
               {subtitle}
             </p>
           )}

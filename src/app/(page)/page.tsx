@@ -6,11 +6,10 @@ import QuickServicesBar from '@/components/home/quick-services-bar';
 import SpecialtiesCarousel from '@/components/home/specialties-carousel';
 import AboutSection from '@/components/home/about-section';
 import WhyChooseSection from '@/components/home/why-choose-section';
-import CircleOfCareSection from '@/components/home/circle-of-care-section';
 import StatisticsSection from '@/components/home/statistics-section';
-import InsuranceSection from '@/components/home/insurance-section';
 import LocationsSection from '@/components/home/locations-section';
-import ApproachSection from '@/components/home/approach-section';
+import InsuranceSection from '@/components/home/insurance-section';
+import CircleOfCareSection from '@/components/home/circle-of-care-section';
 import TransplantSection from '@/components/home/transplant-section';
 import TestimonialsSection from '@/components/home/testimonials-section';
 import AppointmentModal from '@/components/home/appointment-modal';
@@ -23,43 +22,40 @@ export default function HomePage() {
 
   return (
     <div className="w-full flex flex-col">
-      {/* 1. Full-Width Hero Slider */}
+      {/* 1. Compelling Hero Slider with Verified Trust Metrics */}
       <HeroSlider onOpenAppointment={openModal} />
 
-      {/* 1b. Interactive Quick Health Services Bar (Find Doctor, Find Medicine, Book Lab Test, 24/7 Ambulance) */}
+      {/* 2. Quick Action Patient Services: Find Doctor, Find Hospital, Find Medicine, Book Lab Test */}
       <QuickServicesBar />
 
-      {/* 2. Medical Specialities Carousel */}
+      {/* 3. 8 Popular Clinical Specialties with 'View All Specialties' Link */}
       <SpecialtiesCarousel onOpenAppointment={openModal} />
 
-      {/* 3. About Us Section with Doctor Image & 3 Support Pillars */}
+      {/* 4. About Medlix Hospitals & Clinical Care Pillars */}
       <AboutSection onOpenAppointment={openModal} />
 
-      {/* 4. Why Choose Medlix Hospital (3x2 Grid) */}
+      {/* 5. Why Choose Medlix Hospital (3x2 Pillar Grid) */}
       <WhyChooseSection />
 
-      {/* 5. The CIRCLE of Care: Our Core Values */}
-      <CircleOfCareSection />
-
-      {/* 6. Key Statistics Counters (5+ Hospitals, 289+ Beds, 14+ Specialties, 28+ Doctors) */}
+      {/* 6. Verified Statistics Counters with Ambient Medical Parallax */}
       <StatisticsSection />
 
-      {/* 7. Insurance Tie-Ups Carousel */}
-      <InsuranceSection />
-
-      {/* 8. Our Locations (8 Hospital Branches across Haryana & NCR) */}
+      {/* 7. Focused Hospital Locations (4 Flagship NCR Units + View All 8 Link) */}
       <LocationsSection onOpenAppointment={openModal} />
 
-      {/* 9. The Medlix Approach */}
-      <ApproachSection />
+      {/* 8. 100% Cashless Insurance & TPA Partners */}
+      <InsuranceSection />
 
-      {/* 10. Transplant Services */}
+      {/* 9. The CIRCLE of Care: Guiding Principles */}
+      <CircleOfCareSection />
+
+      {/* 10. Advanced Organ Transplant Institutes */}
       <TransplantSection onOpenAppointment={openModal} />
 
-      {/* 11. What Our Patient Says (Testimonials) */}
+      {/* 11. Patient Healing Experiences & Reviews */}
       <TestimonialsSection />
 
-      {/* Global Appointment Modal */}
+      {/* Global Medical Appointment Modal */}
       <AppointmentModal isOpen={appointmentOpen} onClose={closeModal} />
     </div>
   );
