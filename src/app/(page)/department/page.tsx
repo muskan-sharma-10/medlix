@@ -69,14 +69,14 @@ export default function DepartmentPage() {
       </section>
 
       {/* 3. Specialties Grid with Detailed Cards */}
-      <section className="py-24 sm:py-32 lg:py-36 bg-white relative overflow-hidden">
+      <section className="py-12 sm:py-20 lg:py-36 bg-white relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-9">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8 lg:gap-9">
             {filtered.map((spec, idx) => (
               <div
                 key={idx}
                 id={spec.slug}
-                className="bg-white rounded-3xl border border-[#C4DFDF] shadow-sm hover:shadow-2xl transition-all duration-300 p-8 sm:p-9 flex flex-col justify-between group hover:border-[#0A5F6B] hover:-translate-y-2 relative overflow-hidden"
+                className="bg-white rounded-3xl border border-[#C4DFDF] shadow-sm hover:shadow-2xl transition-all duration-300 p-5 sm:p-7 lg:p-9 flex flex-col justify-between group hover:border-[#0A5F6B] hover:-translate-y-2 relative overflow-hidden"
               >
                 {/* Top Subtle Gradient Accent */}
                 <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#0A5F6B] opacity-0 group-hover:opacity-100 transition-opacity" />

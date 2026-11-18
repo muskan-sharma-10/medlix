@@ -42,9 +42,9 @@ export default function HospitalDetailPage({ slug }: HospitalDetailPageProps) {
       />
 
       {/* 2. Main Hospital Showcase */}
-      <section className="py-20 bg-white relative overflow-hidden">
+      <section className="py-12 sm:py-20 lg:py-28 bg-white relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
             {/* Visual Column */}
             <div className="lg:col-span-6 relative">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white ring-1 ring-slate-200/80 group">
@@ -59,19 +59,19 @@ export default function HospitalDetailPage({ slug }: HospitalDetailPageProps) {
               </div>
 
               {/* Bed Count Tag */}
-              <div className="absolute -bottom-6 left-6 bg-[#0A5F6B] text-white p-5 rounded-2xl shadow-xl border border-[#C4DFDF] flex items-center gap-4 transition-transform duration-300 hover:scale-105">
-                <div className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center shrink-0">
-                  <Building2 className="w-6 h-6 text-[#C9F5F3]" />
+              <div className="absolute bottom-3 left-3 sm:-bottom-6 sm:left-6 bg-[#0A5F6B] text-white p-3 sm:p-5 rounded-2xl shadow-xl border border-[#C4DFDF] flex items-center gap-3 sm:gap-4 transition-transform duration-300 hover:scale-105">
+                <div className="w-10 sm:w-12 h-10 sm:h-12 rounded-xl bg-white/10 flex items-center justify-center shrink-0">
+                  <Building2 className="w-5 sm:w-6 h-5 sm:h-6 text-[#C9F5F3]" />
                 </div>
                 <div>
-                  <div className="text-base font-bold font-exo">{hospital.beds} Facility</div>
-                  <div className="text-xs text-[#DFF8F8]">NABH Aligned Clinical Systems</div>
+                  <div className="text-sm sm:text-base font-bold font-exo">{hospital.beds} Facility</div>
+                  <div className="text-[11px] sm:text-xs text-[#DFF8F8]">NABH Aligned Clinical Systems</div>
                 </div>
               </div>
             </div>
 
             {/* Information Column */}
-            <div className="lg:col-span-6 space-y-6">
+            <div className="lg:col-span-6 space-y-5 sm:space-y-6 mt-4 lg:mt-0">
               <div className="space-y-3">
                 <span className="text-xs font-bold uppercase tracking-wider text-[#0A5F6B] bg-[#DFF8F8] px-3.5 py-1.5 rounded-full border border-[#C4DFDF] font-exo inline-flex items-center gap-1.5 shadow-xs">
                   <span className="w-2 h-2 rounded-full bg-[#0A5F6B] animate-pulse" />
@@ -120,18 +120,18 @@ export default function HospitalDetailPage({ slug }: HospitalDetailPageProps) {
                 </div>
               </div>
 
-              <div className="pt-4 flex flex-wrap items-center gap-4">
+              <div className="pt-4 flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4">
                 <Link
                   href="/book-appointment"
-                  className="px-7 py-3.5 bg-[#0A5F6B] hover:bg-[#07515C] text-white font-bold text-sm rounded-xl shadow-md hover:shadow-lg transition-all flex items-center gap-2 hover:-translate-y-0.5"
+                  className="w-full sm:w-auto justify-center px-6 sm:px-7 py-3.5 bg-[#0A5F6B] hover:bg-[#07515C] text-white font-bold text-sm rounded-xl shadow-md hover:shadow-lg transition-all flex items-center gap-2 hover:-translate-y-0.5 text-center"
                 >
                   <Calendar className="w-4 h-4" />
-                  <span>Book Consultation at {hospital.name}</span>
+                  <span>Book Consultation</span>
                 </Link>
 
                 <a
                   href={`tel:${hospital.phone.replace(/\s+/g, '')}`}
-                  className="px-7 py-3.5 bg-[#DFF8F8] hover:bg-[#C9F5F3] text-[#0A5F6B] border border-[#C4DFDF] font-bold text-sm rounded-xl transition-all flex items-center gap-2 hover:-translate-y-0.5"
+                  className="w-full sm:w-auto justify-center px-6 sm:px-7 py-3.5 bg-[#DFF8F8] hover:bg-[#C9F5F3] text-[#0A5F6B] border border-[#C4DFDF] font-bold text-sm rounded-xl transition-all flex items-center gap-2 hover:-translate-y-0.5 text-center"
                 >
                   <Phone className="w-4 h-4" />
                   <span>Call Hospital Reception</span>
@@ -143,9 +143,9 @@ export default function HospitalDetailPage({ slug }: HospitalDetailPageProps) {
       </section>
 
       {/* 3. Departments at this branch */}
-      <section className="py-20 bg-[#DFF8F8]/30 border-y border-[#C4DFDF]">
+      <section className="py-12 sm:py-20 lg:py-28 bg-[#DFF8F8]/30 border-y border-[#C4DFDF]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-2xl mx-auto mb-12 space-y-2">
+          <div className="text-center max-w-2xl mx-auto mb-8 sm:mb-12 space-y-2">
             <span className="text-xs font-bold uppercase tracking-wider text-[#0A5F6B] bg-[#DFF8F8] px-3.5 py-1.5 rounded-full border border-[#C4DFDF] font-exo inline-block shadow-2xs">
               Clinical Specializations
             </span>
@@ -154,16 +154,16 @@ export default function HospitalDetailPage({ slug }: HospitalDetailPageProps) {
             </h2>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3 sm:gap-4">
             {(hospital.departments || []).map((dept, dIdx) => (
               <div 
                 key={dIdx} 
-                className="bg-white p-5 rounded-2xl border border-[#C4DFDF] shadow-sm text-center flex flex-col items-center justify-center space-y-3 hover:border-[#0A5F6B] hover:shadow-xl hover:-translate-y-1 transition-all group"
+                className="bg-white p-3.5 sm:p-5 rounded-2xl border border-[#C4DFDF] shadow-sm text-center flex flex-col items-center justify-center space-y-2 sm:space-y-3 hover:border-[#0A5F6B] hover:shadow-xl hover:-translate-y-1 transition-all group"
               >
-                <div className="w-12 h-12 rounded-xl bg-[#DFF8F8] text-[#0A5F6B] flex items-center justify-center group-hover:bg-[#0A5F6B] group-hover:text-white transition-all duration-300 shadow-xs">
-                  <Stethoscope className="w-6 h-6" />
+                <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-[#DFF8F8] text-[#0A5F6B] flex items-center justify-center group-hover:bg-[#0A5F6B] group-hover:text-white transition-all duration-300 shadow-xs">
+                  <Stethoscope className="w-5 h-5 sm:w-6 sm:h-6" />
                 </div>
-                <div className="text-xs font-bold text-[#29363A] font-exo leading-tight group-hover:text-[#0A5F6B] transition-colors">
+                <div className="text-[11px] sm:text-xs font-bold text-[#29363A] font-exo leading-tight group-hover:text-[#0A5F6B] transition-colors">
                   {dept}
                 </div>
               </div>
@@ -173,10 +173,10 @@ export default function HospitalDetailPage({ slug }: HospitalDetailPageProps) {
       </section>
 
       {/* 4. Cashless TPA & Emergency Support */}
-      <section className="py-20 bg-[#FDFEFE]">
+      <section className="py-12 sm:py-20 lg:py-28 bg-[#FDFEFE]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="p-8 sm:p-10 rounded-3xl bg-gradient-to-br from-[#07515C] to-[#0A5F6B] text-white space-y-4 shadow-xl relative overflow-hidden">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+            <div className="p-6 sm:p-10 rounded-3xl bg-gradient-to-br from-[#07515C] to-[#0A5F6B] text-white space-y-4 shadow-xl relative overflow-hidden">
               <div className="w-14 h-14 rounded-2xl bg-white/10 flex items-center justify-center shadow-xs">
                 <Ambulance className="w-7 h-7 text-[#C9F5F3]" />
               </div>
@@ -197,7 +197,7 @@ export default function HospitalDetailPage({ slug }: HospitalDetailPageProps) {
               </div>
             </div>
 
-            <div className="p-8 sm:p-10 rounded-3xl bg-white border border-[#C4DFDF] space-y-4 shadow-md hover:shadow-xl transition-all">
+            <div className="p-6 sm:p-10 rounded-3xl bg-white border border-[#C4DFDF] space-y-4 shadow-md hover:shadow-xl transition-all">
               <div className="w-14 h-14 rounded-2xl bg-[#DFF8F8] border border-[#C4DFDF] text-[#0A5F6B] flex items-center justify-center shadow-xs">
                 <ShieldCheck className="w-7 h-7 text-[#0A5F6B]" />
               </div>

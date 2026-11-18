@@ -148,7 +148,7 @@ export default function MedicinesPage() {
       />
 
       {/* 2. Prescription Order Callout Banner */}
-      <section className="py-14 sm:py-20 lg:py-24 bg-[#FDFEFE]">
+      <section className="py-8 sm:py-16 lg:py-24 bg-[#FDFEFE]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative bg-gradient-to-r from-[#07515C] via-[#0A5F6B] to-[#07515C] rounded-3xl p-8 sm:p-12 lg:p-14 shadow-xl border border-[#C4DFDF]/40 overflow-hidden group">
             {/* Background ambient shine */}
@@ -191,7 +191,7 @@ export default function MedicinesPage() {
       </section>
 
       {/* 3. Search & Interactive Filter Hub */}
-      <section className="py-20 sm:py-28 lg:py-32 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <section className="py-12 sm:py-20 lg:py-32 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         {/* Search Box Card */}
         <div className="bg-white rounded-3xl p-8 sm:p-10 border border-[#C4DFDF] shadow-md mb-16 relative overflow-hidden">
           <div className="flex items-center justify-between mb-5">

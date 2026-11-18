@@ -81,7 +81,7 @@ export default function InsuranceSection() {
     return (
       <div
         key={keyIdx}
-        className="shrink-0 w-72 sm:w-80 mx-3.5 p-6 sm:p-7 rounded-3xl bg-white border border-slate-200/90 shadow-[0_4px_20px_rgba(10,37,64,0.04)] hover:shadow-[0_22px_45px_rgba(10,95,107,0.14)] hover:border-[#0A5F6B] hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between group relative overflow-hidden select-none cursor-pointer"
+        className="shrink-0 w-64 sm:w-80 mx-2.5 sm:mx-3.5 p-5 sm:p-7 rounded-3xl bg-white border border-slate-200/90 shadow-[0_4px_20px_rgba(10,37,64,0.04)] hover:shadow-[0_22px_45px_rgba(10,95,107,0.14)] hover:border-[#0A5F6B] hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between group relative overflow-hidden select-none cursor-pointer"
       >
         {/* Top hover gradient line accent */}
         <div className="absolute top-0 inset-x-0 h-1.5 bg-gradient-to-r from-[#0A5F6B] via-[#2DD4BF] to-[#0A5F6B] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -126,7 +126,7 @@ export default function InsuranceSection() {
   };
 
   return (
-    <section id="insurance" className="py-24 sm:py-32 lg:py-36 bg-[#F8FAFC] border-b border-slate-200/80 overflow-hidden relative font-sans">
+    <section id="insurance" className="py-12 sm:py-20 lg:py-36 bg-[#F8FAFC] border-b border-slate-200/80 overflow-hidden relative font-sans">
       
       {/* Background Soft Glows */}
       <div className="absolute top-0 right-1/4 w-96 h-96 bg-[#C9F5F3]/30 rounded-full blur-3xl pointer-events-none animate-float" />
@@ -239,9 +239,9 @@ export default function InsuranceSection() {
       </div>
 
       {/* Trust Pillars & TPA Callout Bar */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 sm:mt-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 sm:mt-16 lg:mt-20">
         <ScrollReveal direction="up" duration={0.65} delay={0.15}>
-          <div className="bg-white rounded-3xl p-8 sm:p-10 lg:p-12 border border-slate-200/90 shadow-[0_8px_30px_rgba(10,37,64,0.06)] relative overflow-hidden">
+          <div className="bg-white rounded-3xl p-6 sm:p-10 lg:p-12 border border-slate-200/90 shadow-[0_8px_30px_rgba(10,37,64,0.06)] relative overflow-hidden">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 divide-y sm:divide-y-0 sm:divide-x divide-slate-100">
               {/* Feature 1 */}
               <div className="pt-4 sm:pt-0 sm:px-5 space-y-3">

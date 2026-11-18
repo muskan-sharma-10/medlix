@@ -79,8 +79,8 @@ export function InsuranceView({ initialTab = 'all' }: InsuranceViewProps) {
       </section>
 
       {/* 3. Logos & Details Display */}
-      <section className="py-24 sm:py-32 lg:py-36 bg-[#FDFEFE] relative overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
+      <section className="py-12 sm:py-20 lg:py-36 bg-[#FDFEFE] relative overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12 sm:space-y-20">
           {/* Government Panels Section */}
           {(activeTab === 'all' || activeTab === 'govt') && (
             <div className="space-y-8">
@@ -98,11 +98,11 @@ export function InsuranceView({ initialTab = 'all' }: InsuranceViewProps) {
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-9">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-9">
                 {govt.map((item, idx) => (
                   <div
                     key={idx}
-                    className="p-8 sm:p-9 rounded-3xl bg-white border border-[#C4DFDF] shadow-sm hover:shadow-2xl hover:border-[#0A5F6B]/40 transition-all duration-300 flex flex-col justify-between group hover:-translate-y-1.5 relative overflow-hidden"
+                    className="p-5 sm:p-9 rounded-3xl bg-white border border-[#C4DFDF] shadow-sm hover:shadow-2xl hover:border-[#0A5F6B]/40 transition-all duration-300 flex flex-col justify-between group hover:-translate-y-1.5 relative overflow-hidden"
                   >
                     <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#0A5F6B] opacity-0 group-hover:opacity-100 transition-opacity" />
                     <div>
@@ -177,13 +177,13 @@ export function InsuranceView({ initialTab = 'all' }: InsuranceViewProps) {
       </section>
 
       {/* 4. Cashless Admission Process Steps */}
-      <section className="py-24 sm:py-32 lg:py-36 bg-[#DFF8F8]/30 border-y border-[#C4DFDF]">
+      <section className="py-12 sm:py-20 lg:py-36 bg-[#DFF8F8]/30 border-y border-[#C4DFDF]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-2xl mx-auto mb-16 sm:mb-20 space-y-3">
+          <div className="text-center max-w-2xl mx-auto mb-8 sm:mb-16 lg:mb-20 space-y-3">
             <span className="text-xs sm:text-sm font-bold uppercase tracking-wider text-[#0A5F6B] bg-[#DFF8F8] px-4 py-1.5 rounded-full border border-[#C4DFDF] font-exo inline-block shadow-2xs">
               Hassle-Free Settlement
             </span>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#29363A] font-exo tracking-tight">
+            <h2 className="text-2xl sm:text-4xl font-extrabold text-[#29363A] font-exo tracking-tight">
               4 Steps for Cashless Hospitalization
             </h2>
             <p className="text-sm sm:text-base text-[#719497] font-roboto leading-relaxed">
@@ -191,7 +191,7 @@ export function InsuranceView({ initialTab = 'all' }: InsuranceViewProps) {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-9">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 lg:gap-9">
             {[
               {
                 step: '01',
@@ -216,13 +216,13 @@ export function InsuranceView({ initialTab = 'all' }: InsuranceViewProps) {
             ].map((st, i) => (
               <div 
                 key={i}
-                className="p-8 sm:p-9 rounded-3xl bg-white border border-[#C4DFDF] shadow-sm hover:shadow-xl hover:border-[#0A5F6B]/40 hover:-translate-y-1.5 transition-all group relative space-y-4 overflow-hidden"
+                className="p-5 sm:p-8 lg:p-9 rounded-3xl bg-white border border-[#C4DFDF] shadow-sm hover:shadow-xl hover:border-[#0A5F6B]/40 hover:-translate-y-1.5 transition-all group relative space-y-3 sm:space-y-4 overflow-hidden"
               >
                 <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#0A5F6B] opacity-0 group-hover:opacity-100 transition-opacity" />
-                <span className="text-4xl sm:text-5xl font-black text-[#0A5F6B] font-outfit block">
+                <span className="text-3xl sm:text-5xl font-black text-[#0A5F6B] font-outfit block">
                   {st.step}
                 </span>
-                <h4 className="text-lg font-bold text-[#29363A] font-exo group-hover:text-[#0A5F6B] transition-colors">
+                <h4 className="text-base sm:text-lg font-bold text-[#29363A] font-exo group-hover:text-[#0A5F6B] transition-colors">
                   {st.title}
                 </h4>
                 <p className="text-xs sm:text-sm text-[#719497] font-roboto leading-relaxed">
@@ -235,9 +235,9 @@ export function InsuranceView({ initialTab = 'all' }: InsuranceViewProps) {
       </section>
 
       {/* 5. TPA Helpdesk Direct Contact */}
-      <section className="py-12 bg-[#FDFEFE]">
+      <section className="py-8 sm:py-12 bg-[#FDFEFE]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="rounded-3xl bg-gradient-to-r from-[#DFF8F8] to-[#C9F5F3] p-8 sm:p-10 border border-[#C4DFDF] flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="rounded-3xl bg-gradient-to-r from-[#DFF8F8] to-[#C9F5F3] p-5 sm:p-8 lg:p-10 border border-[#C4DFDF] flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="space-y-2 text-center md:text-left">
               <h3 className="text-xl sm:text-2xl font-bold font-exo text-[#29363A]">
                 Need Help Checking Your Insurance Eligibility?

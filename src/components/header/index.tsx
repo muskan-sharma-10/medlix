@@ -142,11 +142,20 @@ export default function Header({ onOpenAppointment }: HeaderProps) {
   return (
     <header className="w-full sticky top-0 z-50 font-sans">
       {/* 1. Refined Top Utility Bar */}
-      <div className="bg-[#0A2540] text-slate-200 text-xs py-2 px-4 sm:px-6 lg:px-8 border-b border-slate-800/80 relative z-20">
-        <div className="max-w-[1440px] mx-auto flex items-center justify-between">
+      <div className="bg-[#0A2540] text-slate-200 text-xs py-1.5 sm:py-2 px-3 sm:px-6 lg:px-8 border-b border-slate-800/80 relative z-20">
+        <div className="max-w-[1440px] mx-auto flex items-center justify-between gap-2">
           
-          {/* Left: Quick Location Badges */}
-          <div className="flex items-center gap-2 sm:gap-3 overflow-x-auto no-scrollbar text-slate-300 text-[11.5px] sm:text-xs">
+          {/* Mobile Locations Quick Link */}
+          <Link 
+            href="/locations" 
+            className="flex md:hidden items-center gap-1 text-[11px] font-semibold text-teal-300 hover:text-white transition-colors shrink-0"
+          >
+            <MapPin className="w-3.5 h-3.5 text-[#14B8A6]" />
+            <span>8 NCR Hospitals</span>
+          </Link>
+
+          {/* Desktop/Tablet Locations List */}
+          <div className="hidden md:flex items-center gap-2 sm:gap-3 overflow-x-auto no-scrollbar text-slate-300 text-[11.5px] sm:text-xs">
             <span className="font-semibold text-teal-300 flex items-center gap-1 shrink-0">
               <MapPin className="w-3.5 h-3.5 text-[#14B8A6]" />
               <span>Locations:</span>
@@ -158,18 +167,19 @@ export default function Header({ onOpenAppointment }: HeaderProps) {
             <Link href="/locations" className="hover:text-white transition-colors shrink-0">Rewari</Link>
             <span className="text-slate-600">•</span>
             <Link href="/locations" className="hover:text-white transition-colors shrink-0">Palwal</Link>
-            <span className="text-slate-600 hidden md:inline">•</span>
-            <Link href="/locations" className="hover:text-white transition-colors hidden md:inline shrink-0">Greater Noida</Link>
+            <span className="text-slate-600">•</span>
+            <Link href="/locations" className="hover:text-white transition-colors shrink-0">Greater Noida</Link>
           </div>
 
           {/* Right: 24/7 Emergency Helpline & Insurance Quick Links */}
-          <div className="flex items-center gap-3 sm:gap-5 font-medium shrink-0">
+          <div className="flex items-center gap-2.5 sm:gap-5 font-medium shrink-0">
             <a 
               href="tel:+919220143473" 
-              className="flex items-center gap-1.5 text-white hover:text-teal-300 transition-colors font-bold whitespace-nowrap bg-rose-600/90 hover:bg-rose-600 px-3 py-0.5 rounded-full text-[11px] sm:text-xs shadow-sm"
+              className="flex items-center gap-1 sm:gap-1.5 text-white hover:text-teal-300 transition-colors font-bold whitespace-nowrap bg-rose-600/90 hover:bg-rose-600 px-2.5 sm:px-3 py-0.5 rounded-full text-[10.5px] sm:text-xs shadow-sm"
             >
               <span className="w-1.5 h-1.5 rounded-full bg-white animate-ping" />
-              <span>24x7 Emergency: +91-9220143473</span>
+              <span className="hidden sm:inline">24x7 Emergency: +91-9220143473</span>
+              <span className="inline sm:hidden">24x7: +91-9220143473</span>
             </a>
 
             <span className="hidden lg:block w-px h-3.5 bg-slate-700" />
@@ -198,10 +208,10 @@ export default function Header({ onOpenAppointment }: HeaderProps) {
       {/* 2. Main Premium Navbar */}
       <div 
         className={`w-full bg-white/95 backdrop-blur-md text-slate-900 border-b border-slate-200/90 transition-all duration-300 ${
-          isScrolled ? 'shadow-[0_4px_20px_rgba(10,37,64,0.08)] py-2' : 'py-3 sm:py-3.5'
+          isScrolled ? 'shadow-[0_4px_20px_rgba(10,37,64,0.08)] py-2' : 'py-2.5 sm:py-3.5'
         }`}
       >
-        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-[72px] lg:h-[80px]">
+        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-[64px] sm:h-[72px] lg:h-[80px]">
           
           {/* Brand Logo Container */}
           <Link 

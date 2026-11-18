@@ -256,7 +256,7 @@ export default function LabTestsPage() {
       </section>
 
       {/* 4. Packages Grid */}
-      <section className="py-20 sm:py-28 lg:py-32 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <section className="py-12 sm:py-20 lg:py-32 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="mb-12 flex flex-col sm:flex-row sm:items-end justify-between gap-4">
           <div className="space-y-2">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold font-exo text-[#29363A]">

@@ -70,12 +70,12 @@ export default function AppointmentModal({ isOpen, onClose }: AppointmentModalPr
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
-        <div className="bg-[#0A5F6B] px-8 py-6 text-white flex items-center justify-between">
+        <div className="bg-[#0A5F6B] px-5 sm:px-8 py-4 sm:py-6 text-white flex items-center justify-between">
           <div>
             <span className="text-xs font-semibold tracking-wider uppercase text-[#0A5F6B] bg-[#DFF8F8] px-3 py-1 rounded-full inline-block mb-1.5 font-sans font-bold">
               Medlix Hospital
             </span>
-            <h3 className="text-2xl font-bold tracking-tight text-[#FDFEFE]">Book a Medical Appointment</h3>
+            <h3 className="text-xl sm:text-2xl font-bold tracking-tight text-[#FDFEFE]">Book a Medical Appointment</h3>
           </div>
           <button 
             onClick={onClose}
@@ -87,12 +87,12 @@ export default function AppointmentModal({ isOpen, onClose }: AppointmentModalPr
         </div>
 
         {submitted ? (
-          <div className="p-10 text-center space-y-5 bg-[#FDFEFE]">
+          <div className="p-6 sm:p-10 text-center space-y-5 bg-[#FDFEFE]">
             <div className="w-16 h-16 bg-[#DFF8F8] text-[#0A5F6B] rounded-full flex items-center justify-center mx-auto">
               <CheckCircle2 className="w-10 h-10" />
             </div>
-            <h4 className="text-2xl font-bold text-[#29363A]">Appointment Requested!</h4>
-            <p className="text-[#719497] text-base max-w-md mx-auto leading-relaxed">
+            <h4 className="text-xl sm:text-2xl font-bold text-[#29363A]">Appointment Requested!</h4>
+            <p className="text-[#719497] text-sm sm:text-base max-w-md mx-auto leading-relaxed">
               Thank you, <span className="font-semibold text-[#29363A]">{formData.name}</span>. Our patient coordinator from <span className="font-semibold text-[#29363A]">{formData.hospital.split('-')[0]}</span> will call you shortly at <span className="font-semibold text-[#29363A]">{formData.phone}</span> to confirm your slot.
             </p>
             <div className="p-4 bg-[#DFF8F8]/40 rounded-xl text-xs sm:text-sm text-[#719497] border border-[#C4DFDF]">
@@ -106,7 +106,7 @@ export default function AppointmentModal({ isOpen, onClose }: AppointmentModalPr
             </button>
           </div>
         ) : (
-          <form onSubmit={handleSubmit} className="p-8 space-y-5 max-h-[80vh] overflow-y-auto bg-[#FDFEFE]">
+          <form onSubmit={handleSubmit} className="p-5 sm:p-8 space-y-4 sm:space-y-5 max-h-[85vh] overflow-y-auto bg-[#FDFEFE]">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
               <div>
                 <label className="block text-xs font-bold text-[#29363A] uppercase tracking-wider mb-2 flex items-center gap-1.5">

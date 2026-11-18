@@ -125,7 +125,7 @@ export function SectionHeadingReveal({
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.65, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
       >
-        <h2 className="text-3xl sm:text-4xl lg:text-[46px] font-extrabold text-[#0A2540] font-sans tracking-tight leading-[1.2]">
+        <h2 className="text-2xl sm:text-4xl lg:text-[46px] font-extrabold text-[#0A2540] font-sans tracking-tight leading-[1.2]">
           {title}
         </h2>
       </motion.div>
@@ -150,7 +150,7 @@ export function SectionHeadingReveal({
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.65, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-          className={`text-base sm:text-lg lg:text-[19px] font-normal leading-relaxed text-slate-600 font-sans ${
+          className={`text-sm sm:text-lg lg:text-[19px] font-normal leading-relaxed text-slate-600 font-sans ${
             isCenter ? 'max-w-3xl mx-auto' : ''
           }`}
         >

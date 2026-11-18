@@ -64,51 +64,51 @@ export default function Footer({ onOpenAppointment }: FooterProps) {
           
           {/* Left: Reach Out via Email */}
           <div 
-            className="relative bg-cover bg-center py-12 sm:py-14 px-8 sm:px-16 flex items-center gap-6 overflow-hidden group bg-[#0A5F6B]"
+            className="relative bg-cover bg-center py-8 sm:py-12 lg:py-14 px-5 sm:px-12 lg:px-16 flex items-center gap-4 sm:gap-6 overflow-hidden group bg-[#0A5F6B]"
             style={{ backgroundImage: "url('/images/emergency_num_bg.jpg')" }}
           >
             <div className="absolute inset-0 bg-[#0A2540]/90 backdrop-blur-[1px] group-hover:bg-[#0A2540]/85 transition-colors" />
 
-            <div className="relative z-10 w-16 h-16 rounded-2xl bg-white/10 border border-white/20 flex items-center justify-center shrink-0 shadow-lg text-white group-hover:scale-105 transition-transform">
-              <Mail className="w-8 h-8 text-teal-300" />
+            <div className="relative z-10 w-12 h-12 sm:w-16 sm:h-16 rounded-2xl bg-white/10 border border-white/20 flex items-center justify-center shrink-0 shadow-lg text-white group-hover:scale-105 transition-transform">
+              <Mail className="w-6 h-6 sm:w-8 sm:h-8 text-teal-300" />
             </div>
 
             <div className="relative z-10 text-white">
-              <div className="text-xs font-bold uppercase tracking-wider text-teal-300">
+              <div className="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-teal-300">
                 Reach Out to Us
               </div>
               <a 
                 href="mailto:care@medlix.in" 
-                className="text-2xl sm:text-3xl lg:text-4xl font-extrabold hover:text-teal-200 transition-colors block text-white mt-1 tracking-tight"
+                className="text-xl sm:text-3xl lg:text-4xl font-extrabold hover:text-teal-200 transition-colors block text-white mt-0.5 sm:mt-1 tracking-tight"
               >
                 care@medlix.in
               </a>
-              <div className="text-xs sm:text-sm text-slate-300 mt-1">24/7 Patient Coordination &amp; Query Desk</div>
+              <div className="text-xs sm:text-sm text-slate-300 mt-0.5 sm:mt-1">24/7 Patient Coordination &amp; Query Desk</div>
             </div>
           </div>
 
           {/* Right: 24/7 Emergency Medical Response */}
           <div 
-            className="relative bg-cover bg-center py-12 sm:py-14 px-8 sm:px-16 flex items-center gap-6 overflow-hidden group bg-[#0A2540]"
+            className="relative bg-cover bg-center py-8 sm:py-12 lg:py-14 px-5 sm:px-12 lg:px-16 flex items-center gap-4 sm:gap-6 overflow-hidden group bg-[#0A2540]"
             style={{ backgroundImage: "url('/images/subscribe-bg-2.jpg')" }}
           >
             <div className="absolute inset-0 bg-rose-950/90 backdrop-blur-[1px] group-hover:bg-rose-950/85 transition-colors" />
 
-            <div className="relative z-10 w-16 h-16 rounded-2xl bg-rose-600 flex items-center justify-center shrink-0 shadow-lg text-white group-hover:scale-105 transition-transform">
-              <Phone className="w-8 h-8 text-white" />
+            <div className="relative z-10 w-12 h-12 sm:w-16 sm:h-16 rounded-2xl bg-rose-600 flex items-center justify-center shrink-0 shadow-lg text-white group-hover:scale-105 transition-transform">
+              <Phone className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
             </div>
 
             <div className="relative z-10 text-white">
-              <div className="text-xs font-bold uppercase tracking-wider text-rose-200">
+              <div className="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-rose-200">
                 Emergency Medical Response
               </div>
               <a 
                 href="tel:+919220143473" 
-                className="text-2xl sm:text-3xl lg:text-4xl font-extrabold hover:text-rose-200 transition-colors block text-white mt-1 tracking-tight"
+                className="text-xl sm:text-3xl lg:text-4xl font-extrabold hover:text-rose-200 transition-colors block text-white mt-0.5 sm:mt-1 tracking-tight"
               >
                 +91-9220143473
               </a>
-              <div className="text-xs sm:text-sm text-rose-200/80 mt-1">Trauma Care, Cardiac CCU &amp; Ambulance 24x7</div>
+              <div className="text-xs sm:text-sm text-rose-200/80 mt-0.5 sm:mt-1">Trauma Care, Cardiac CCU &amp; Ambulance 24x7</div>
             </div>
           </div>
 
@@ -116,7 +116,7 @@ export default function Footer({ onOpenAppointment }: FooterProps) {
       </div>
 
       {/* 2. Main Deep Navy Footer Body */}
-      <div className="relative bg-[#0A192F] text-slate-300 overflow-hidden py-20 lg:py-24 border-t border-slate-800">
+      <div className="relative bg-[#0A192F] text-slate-300 overflow-hidden py-12 sm:py-16 lg:py-24 border-t border-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-10">
             

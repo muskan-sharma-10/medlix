@@ -56,11 +56,11 @@ export default function BookAppointmentPage() {
       />
 
       {/* 2. Main Booking Section */}
-      <section className="py-20 bg-slate-50/70 relative overflow-hidden">
+      <section className="py-12 sm:py-20 lg:py-28 bg-slate-50/70 relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {bookingConfirmed ? (
             /* Confirmation Card */
-            <div className="bg-white rounded-3xl p-8 sm:p-12 border border-[#C4DFDF] shadow-2xl text-center space-y-6 relative overflow-hidden">
+            <div className="bg-white rounded-3xl p-5 sm:p-12 border border-[#C4DFDF] shadow-2xl text-center space-y-6 relative overflow-hidden">
               <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#0A5F6B]" />
 
               <div className="w-20 h-20 rounded-full bg-[#DFF8F8] text-[#0A5F6B] flex items-center justify-center mx-auto border-4 border-[#C4DFDF] shadow-sm">
@@ -129,7 +129,7 @@ export default function BookAppointmentPage() {
             </div>
           ) : (
             /* Booking Form */
-            <div className="bg-white rounded-3xl p-8 sm:p-12 border border-[#C4DFDF] shadow-2xl space-y-8 relative overflow-hidden">
+            <div className="bg-white rounded-3xl p-5 sm:p-12 border border-[#C4DFDF] shadow-2xl space-y-6 sm:space-y-8 relative overflow-hidden">
               <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#0A5F6B]" />
 
               <div className="space-y-2 pb-4 border-b border-[#C4DFDF]">

@@ -92,9 +92,9 @@ export default function LocationsPage() {
       </section>
 
       {/* 3. Hospital Cards Grid */}
-      <section className="py-24 sm:py-32 lg:py-36 bg-white relative overflow-hidden">
+      <section className="py-12 sm:py-20 lg:py-36 bg-white relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-9 lg:gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8 lg:gap-10">
             {filtered.map((loc, idx) => (
               <div
                 key={idx}

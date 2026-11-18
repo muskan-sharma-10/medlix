@@ -130,22 +130,22 @@ export default function HeroSlider({ onOpenAppointment }: HeroSliderProps = {}) 
 
             return (
               <SwiperSlide key={slide.id} className="relative w-full">
-                <div className="px-4 sm:px-8 lg:px-14 pt-14 sm:pt-18 lg:pt-22 pb-20 sm:pb-24 lg:pb-28 flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-14 min-h-[580px] sm:min-h-[620px] lg:min-h-[660px]">
+                <div className="px-4 sm:px-8 lg:px-14 pt-6 sm:pt-12 lg:pt-22 pb-12 sm:pb-20 lg:pb-28 flex flex-col lg:flex-row items-center justify-between gap-6 sm:gap-10 lg:gap-14 min-h-0 lg:min-h-[660px]">
                   
                   {/* Left Column: Headline, Copy & CTAs */}
                   <div className="w-full lg:max-w-2xl xl:max-w-[720px] text-left z-10">
                     
                     {/* Badge Pill */}
-                    <div className="mb-5 sm:mb-6">
-                      <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-teal-500/15 border border-teal-400/30 text-teal-300 text-xs sm:text-sm font-bold uppercase tracking-wider backdrop-blur-md shadow-sm">
-                        <BadgeIcon className="w-4 h-4 text-teal-300 shrink-0" />
+                    <div className="mb-4 sm:mb-6">
+                      <span className="inline-flex items-center gap-2 px-3 sm:px-4 py-1 sm:py-1.5 rounded-full bg-teal-500/15 border border-teal-400/30 text-teal-300 text-[11px] sm:text-sm font-bold uppercase tracking-wider backdrop-blur-md shadow-sm">
+                        <BadgeIcon className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-teal-300 shrink-0" />
                         <span>{slide.badgeText}</span>
                       </span>
                     </div>
 
                     {/* Main Headline */}
                     <div>
-                      <h1 className="text-3xl sm:text-5xl lg:text-[56px] xl:text-[60px] font-black text-white tracking-tight leading-[1.15]">
+                      <h1 className="text-2xl sm:text-4xl lg:text-[56px] xl:text-[60px] font-black text-white tracking-tight leading-[1.2] lg:leading-[1.15]">
                         {slide.headlineMain}{' '}
                         <span className="bg-gradient-to-r from-teal-300 via-teal-200 to-emerald-300 bg-clip-text text-transparent">
                           {slide.headlineAccent}
@@ -154,18 +154,18 @@ export default function HeroSlider({ onOpenAppointment }: HeroSliderProps = {}) 
                     </div>
 
                     {/* Supporting Description */}
-                    <div className="mt-5 sm:mt-6">
-                      <p className="text-slate-200 text-base sm:text-lg lg:text-[19px] leading-relaxed font-normal max-w-2xl">
+                    <div className="mt-3.5 sm:mt-6">
+                      <p className="text-slate-200 text-sm sm:text-lg lg:text-[19px] leading-relaxed font-normal max-w-2xl">
                         {slide.subtitle}
                       </p>
                     </div>
 
                     {/* CTA Actions */}
-                    <div className="mt-9 flex flex-wrap items-center gap-4 sm:gap-5">
+                    <div className="mt-6 sm:mt-9 flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-5">
                       {/* Primary Button */}
                       <button
                         onClick={onOpenAppointment}
-                        className="px-7 sm:px-8 py-4 bg-[#14B8A6] hover:bg-[#0D9488] text-[#0A192F] font-extrabold text-sm sm:text-base rounded-2xl shadow-lg shadow-teal-500/30 hover:shadow-xl hover:shadow-teal-500/40 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 flex items-center gap-2.5 cursor-pointer shine-sweep"
+                        className="w-full sm:w-auto justify-center px-6 sm:px-8 py-3.5 sm:py-4 bg-[#14B8A6] hover:bg-[#0D9488] text-[#0A192F] font-extrabold text-sm sm:text-base rounded-2xl shadow-lg shadow-teal-500/30 hover:shadow-xl hover:shadow-teal-500/40 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 flex items-center gap-2.5 cursor-pointer shine-sweep"
                       >
                         <Calendar className="w-5 h-5 text-[#0A192F]" />
                         <span>{slide.ctaPrimary}</span>
@@ -174,7 +174,7 @@ export default function HeroSlider({ onOpenAppointment }: HeroSliderProps = {}) 
                       {/* Secondary Action */}
                       <Link
                         href={slide.linkSecondary}
-                        className="px-6 sm:px-7 py-4 bg-white/10 hover:bg-white/20 text-white border border-white/20 hover:border-white/40 font-bold text-sm sm:text-base rounded-2xl backdrop-blur-md shadow-xs hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 flex items-center gap-2 group"
+                        className="w-full sm:w-auto justify-center px-6 sm:px-7 py-3.5 sm:py-4 bg-white/10 hover:bg-white/20 text-white border border-white/20 hover:border-white/40 font-bold text-sm sm:text-base rounded-2xl backdrop-blur-md shadow-xs hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 flex items-center gap-2 group"
                       >
                         <Stethoscope className="w-5 h-5 text-teal-300" />
                         <span>{slide.ctaSecondary}</span>
@@ -192,17 +192,17 @@ export default function HeroSlider({ onOpenAppointment }: HeroSliderProps = {}) 
                     </div>
 
                     {/* Compact Trust Indicators Strip */}
-                    <div className="mt-9 pt-7 border-t border-white/15 flex flex-wrap items-center gap-4 sm:gap-6 text-xs sm:text-[13px] font-semibold text-slate-300">
+                    <div className="mt-6 sm:mt-9 pt-5 sm:pt-7 border-t border-white/15 flex flex-wrap items-center gap-2.5 sm:gap-6 text-xs sm:text-[13px] font-semibold text-slate-300">
                       <span className="flex items-center gap-1.5 text-teal-300">
                         <CheckCircle2 className="w-4 h-4 text-teal-400" />
                         <span>Guaranteed Zero-Wait OPD</span>
                       </span>
-                      <span className="text-white/20">•</span>
+                      <span className="text-white/20 hidden sm:inline">•</span>
                       <span className="flex items-center gap-1.5 text-slate-200">
                         <ShieldCheck className="w-4 h-4 text-teal-400" />
                         <span>100% Cashless TPA Network</span>
                       </span>
-                      <span className="text-white/20">•</span>
+                      <span className="text-white/20 hidden sm:inline">•</span>
                       <span className="flex items-center gap-1.5 text-slate-200">
                         <Activity className="w-4 h-4 text-teal-400" />
                         <span>24/7 ICU &amp; Level-1 Trauma</span>
@@ -212,10 +212,10 @@ export default function HeroSlider({ onOpenAppointment }: HeroSliderProps = {}) 
                   </div>
 
                   {/* Right Column: Doctor Specialist Imagery with Badges */}
-                  <div className="w-full lg:w-[460px] xl:w-[520px] flex items-center justify-center relative shrink-0">
+                  <div className="w-full lg:w-[460px] xl:w-[520px] flex items-center justify-center relative shrink-0 mt-2 lg:mt-0">
                     
                     {/* Glowing Backing Frame */}
-                    <div className="relative w-full h-[340px] sm:h-[400px] lg:h-[460px] rounded-3xl overflow-hidden border border-teal-500/30 bg-gradient-to-b from-white/10 to-teal-950/40 backdrop-blur-md shadow-2xl flex items-end justify-center">
+                    <div className="relative w-full max-w-[340px] sm:max-w-none h-[280px] sm:h-[400px] lg:h-[460px] rounded-3xl overflow-hidden border border-teal-500/30 bg-gradient-to-b from-white/10 to-teal-950/40 backdrop-blur-md shadow-2xl flex items-end justify-center mx-auto">
                       <Image
                         src={slide.image}
                         alt="Medlix Hospital Doctor Specialist"
@@ -226,24 +226,24 @@ export default function HeroSlider({ onOpenAppointment }: HeroSliderProps = {}) 
                     </div>
 
                     {/* Top Floating Glass Badge */}
-                    <div className="absolute top-4 -left-3 sm:-left-6 bg-[#0A192F]/90 backdrop-blur-md p-3 sm:p-3.5 rounded-2xl border border-teal-500/30 shadow-2xl flex items-center gap-3 animate-float z-20">
-                      <div className="w-10 sm:w-11 h-10 sm:h-11 rounded-xl bg-teal-500/20 text-teal-300 flex items-center justify-center shrink-0">
-                        <Sparkles className="w-5 h-5 text-teal-300" />
+                    <div className="absolute top-3 left-2 sm:-left-6 bg-[#0A192F]/90 backdrop-blur-md p-2.5 sm:p-3.5 rounded-2xl border border-teal-500/30 shadow-2xl flex items-center gap-2.5 sm:gap-3 animate-float z-20">
+                      <div className="w-8 sm:w-11 h-8 sm:h-11 rounded-xl bg-teal-500/20 text-teal-300 flex items-center justify-center shrink-0">
+                        <Sparkles className="w-4 sm:w-5 h-4 sm:h-5 text-teal-300" />
                       </div>
                       <div>
-                        <div className="text-xs sm:text-sm font-bold text-white leading-tight">{slide.badge1Title}</div>
-                        <div className="text-[11px] font-semibold text-teal-200/80 mt-0.5">{slide.badge1Sub}</div>
+                        <div className="text-[11px] sm:text-sm font-bold text-white leading-tight">{slide.badge1Title}</div>
+                        <div className="text-[10px] sm:text-[11px] font-semibold text-teal-200/80 mt-0.5">{slide.badge1Sub}</div>
                       </div>
                     </div>
 
                     {/* Bottom Floating Glass Badge */}
-                    <div className="absolute bottom-6 -right-2 sm:-right-4 bg-[#0A192F]/90 backdrop-blur-md p-3 sm:p-3.5 rounded-2xl border border-teal-500/30 shadow-2xl flex items-center gap-3 animate-float-reverse z-20">
-                      <div className="w-10 sm:w-11 h-10 sm:h-11 rounded-xl bg-teal-500 text-[#0A192F] flex items-center justify-center shrink-0 shadow-md">
-                        <ShieldCheck className="w-5 h-5 text-[#0A192F]" />
+                    <div className="absolute bottom-3 right-2 sm:-right-4 bg-[#0A192F]/90 backdrop-blur-md p-2.5 sm:p-3.5 rounded-2xl border border-teal-500/30 shadow-2xl flex items-center gap-2.5 sm:gap-3 animate-float-reverse z-20">
+                      <div className="w-8 sm:w-11 h-8 sm:h-11 rounded-xl bg-teal-500 text-[#0A192F] flex items-center justify-center shrink-0 shadow-md">
+                        <ShieldCheck className="w-4 sm:w-5 h-4 sm:h-5 text-[#0A192F]" />
                       </div>
                       <div>
-                        <div className="text-xs sm:text-sm font-bold text-white leading-tight">{slide.badge2Title}</div>
-                        <div className="text-[11px] font-semibold text-teal-200/80 mt-0.5">{slide.badge2Sub}</div>
+                        <div className="text-[11px] sm:text-sm font-bold text-white leading-tight">{slide.badge2Title}</div>
+                        <div className="text-[10px] sm:text-[11px] font-semibold text-teal-200/80 mt-0.5">{slide.badge2Sub}</div>
                       </div>
                     </div>
 
@@ -255,7 +255,7 @@ export default function HeroSlider({ onOpenAppointment }: HeroSliderProps = {}) 
           })}
 
           {/* Navigation Controls (Arrows) */}
-          <div className="absolute bottom-5 right-6 sm:right-10 z-30 flex items-center gap-2.5">
+          <div className="hidden sm:flex absolute bottom-5 right-6 sm:right-10 z-30 items-center gap-2.5">
             <button 
               aria-label="Previous Slide"
               className="hero-btn-prev w-11 h-11 rounded-full bg-white/10 hover:bg-[#14B8A6] text-white hover:text-[#0A192F] border border-white/20 flex items-center justify-center transition-all duration-200 backdrop-blur-md shadow-lg cursor-pointer hover:scale-105"
@@ -272,7 +272,7 @@ export default function HeroSlider({ onOpenAppointment }: HeroSliderProps = {}) 
           </div>
 
           {/* Pagination Indicators */}
-          <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-30 flex items-center gap-2">
+          <div className="absolute bottom-3 sm:bottom-6 left-1/2 -translate-x-1/2 z-30 flex items-center gap-2">
             {slides.map((_, idx) => (
               <span
                 key={idx}

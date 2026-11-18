@@ -19,7 +19,7 @@ export default function CircleOfCareSection() {
   ];
 
   return (
-    <section id="circle-of-care" className="py-24 sm:py-32 lg:py-36 bg-white border-b border-slate-200/80 overflow-hidden font-sans">
+    <section id="circle-of-care" className="py-12 sm:py-20 lg:py-36 bg-white border-b border-slate-200/80 overflow-hidden font-sans">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Animated Section Header */}
@@ -32,11 +32,11 @@ export default function CircleOfCareSection() {
           }
           title="The CIRCLE of Care: Our Core Values"
           subtitle="Our sacred commitment to treating every patient with compassion, clinical excellence, and absolute integrity."
-          className="mb-16 sm:mb-20"
+          className="mb-8 sm:mb-14 lg:mb-20"
         />
 
         {/* 6 Value Cards with Healthcare Teal Theme */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 sm:gap-8 lg:gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8 lg:gap-10">
           {values.map((val, idx) => {
             const meta = valueMeta[idx];
             const isHovered = hoveredIndex === idx;
@@ -50,7 +50,7 @@ export default function CircleOfCareSection() {
               >
                 <div
                   onMouseEnter={() => setHoveredIndex(idx)}
-                  className={`relative rounded-3xl p-8 sm:p-9 lg:p-10 border transition-all duration-300 flex flex-col justify-between group overflow-hidden cursor-pointer h-full ${
+                  className={`relative rounded-3xl p-5 sm:p-8 lg:p-10 border transition-all duration-300 flex flex-col justify-between group overflow-hidden cursor-pointer h-full ${
                     isHovered
                       ? 'bg-[#0A5F6B] text-white border-transparent shadow-[0_22px_45px_rgba(10,95,107,0.26)] -translate-y-2'
                       : 'bg-[#F8FAFC] text-slate-900 border-slate-200/90 shadow-[0_4px_20px_rgba(0,0,0,0.03)] hover:shadow-lg hover:-translate-y-1'
@@ -58,9 +58,9 @@ export default function CircleOfCareSection() {
                 >
                   <div>
                     {/* Top Letter Badge & Icon */}
-                    <div className="flex items-center justify-between mb-7">
+                    <div className="flex items-center justify-between mb-4 sm:mb-7">
                       <span 
-                        className={`w-16 h-16 rounded-2xl font-black text-3xl flex items-center justify-center transition-all duration-300 ${
+                        className={`w-12 h-12 sm:w-16 sm:h-16 rounded-xl sm:rounded-2xl font-black text-2xl sm:text-3xl flex items-center justify-center transition-all duration-300 ${
                           isHovered 
                             ? 'bg-white text-[#0A5F6B] shadow-lg scale-105' 
                             : 'bg-white text-[#0A5F6B] border border-teal-200/80 shadow-2xs'

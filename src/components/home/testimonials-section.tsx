@@ -9,21 +9,21 @@ export default function TestimonialsSection() {
   const testimonials = medlixData.testimonials || [];
 
   return (
-    <section className="py-24 sm:py-32 lg:py-36 bg-[#F8FAFC] border-b border-slate-200/80 font-sans">
+    <section className="py-12 sm:py-20 lg:py-36 bg-[#F8FAFC] border-b border-slate-200/80 font-sans">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeadingReveal
           badge={
-            <div className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold uppercase tracking-wider text-[#0A5F6B] bg-[#E6F7F7] px-4 py-1.5 rounded-full border border-teal-200/80 shadow-2xs">
-              <MessageSquareQuote className="w-4 h-4 text-[#0A5F6B]" />
+            <div className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold uppercase tracking-wider text-[#0A5F6B] bg-[#E6F7F7] px-3.5 sm:px-4 py-1 sm:py-1.5 rounded-full border border-teal-200/80 shadow-2xs">
+              <MessageSquareQuote className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#0A5F6B]" />
               <span>Patient Experiences</span>
             </div>
           }
           title="What Our Patients Say"
           subtitle="Real stories of compassionate care, successful clinical treatments, and smooth recovery across Medlix Hospitals."
-          className="mb-16 sm:mb-20"
+          className="mb-8 sm:mb-14 lg:mb-20"
         />
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-9 lg:gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-9 lg:gap-10">
           {testimonials.map((t, idx) => (
             <ScrollReveal
               key={idx}
@@ -32,7 +32,7 @@ export default function TestimonialsSection() {
               delay={0.1 * idx}
             >
               <div
-                className="p-9 sm:p-10 lg:p-11 rounded-3xl bg-white border border-slate-200/90 hover:border-[#0A5F6B] hover:shadow-[0_22px_45px_rgba(10,95,107,0.12)] transition-all duration-300 shadow-[0_4px_20px_rgba(10,37,64,0.04)] flex flex-col justify-between relative group hover:-translate-y-2 h-full overflow-hidden"
+                className="p-6 sm:p-9 lg:p-11 rounded-3xl bg-white border border-slate-200/90 hover:border-[#0A5F6B] hover:shadow-[0_22px_45px_rgba(10,95,107,0.12)] transition-all duration-300 shadow-[0_4px_20px_rgba(10,37,64,0.04)] flex flex-col justify-between relative group hover:-translate-y-2 h-full overflow-hidden"
               >
                 {/* Top border shine on hover */}
                 <div className="absolute top-0 inset-x-0 h-1.5 bg-gradient-to-r from-[#0A5F6B] via-[#2DD4BF] to-[#0A5F6B] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

@@ -27,7 +27,7 @@ export default function WhyChooseSection() {
   ];
 
   return (
-    <section id="why-choose" className="py-24 sm:py-32 lg:py-36 bg-[#F8FAFC] border-b border-slate-200/80 font-sans">
+    <section id="why-choose" className="py-12 sm:py-20 lg:py-36 bg-[#F8FAFC] border-b border-slate-200/80 font-sans">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
@@ -40,11 +40,11 @@ export default function WhyChooseSection() {
           }
           title="Why Choose Medlix Hospital"
           subtitle="Delivering comprehensive, patient-centered care with state-of-the-art medical technology, renowned super specialists, and zero-wait OPDs."
-          className="mb-16 sm:mb-20"
+          className="mb-8 sm:mb-14 lg:mb-20"
         />
 
-        {/* 3x2 Grid - Generous breathing room */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-9 lg:gap-10">
+        {/* 3x2 Grid - Generous breathing room on desktop, compact on mobile */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8 lg:gap-10">
           {items.map((item, index) => (
             <ScrollReveal 
               key={index}
@@ -53,19 +53,19 @@ export default function WhyChooseSection() {
               delay={0.08 * index}
             >
               <div
-                className="bg-white rounded-3xl p-8 sm:p-9 lg:p-10 shadow-[0_4px_20px_rgba(10,37,64,0.04)] border border-slate-200/90 hover:shadow-[0_22px_45px_rgba(10,95,107,0.14)] hover:border-[#0A5F6B] transition-all duration-300 flex flex-col justify-between group hover:-translate-y-2 relative h-full cursor-default overflow-hidden"
+                className="bg-white rounded-3xl p-5 sm:p-8 lg:p-10 shadow-[0_4px_20px_rgba(10,37,64,0.04)] border border-slate-200/90 hover:shadow-[0_22px_45px_rgba(10,95,107,0.14)] hover:border-[#0A5F6B] transition-all duration-300 flex flex-col justify-between group hover:-translate-y-2 relative h-full cursor-default overflow-hidden"
               >
                 {/* Top border shine on hover */}
                 <div className="absolute top-0 inset-x-0 h-1.5 bg-gradient-to-r from-[#0A5F6B] via-[#2DD4BF] to-[#0A5F6B] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
                 {/* Number watermark */}
-                <div className="absolute top-6 right-7 font-black text-4xl sm:text-5xl text-slate-100 group-hover:text-teal-100/60 transition-colors pointer-events-none select-none">
+                <div className="absolute top-4 right-5 sm:top-6 sm:right-7 font-black text-3xl sm:text-5xl text-slate-100 group-hover:text-teal-100/60 transition-colors pointer-events-none select-none">
                   0{index + 1}
                 </div>
 
                 <div>
                   {/* Icon */}
-                  <div className="w-16 h-16 rounded-2xl bg-[#E6F7F7] text-[#0A5F6B] group-hover:bg-[#0A5F6B] group-hover:text-white transition-all duration-300 flex items-center justify-center mb-6 group-hover:scale-105 shadow-2xs border border-teal-200/80 shrink-0">
+                  <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-xl sm:rounded-2xl bg-[#E6F7F7] text-[#0A5F6B] group-hover:bg-[#0A5F6B] group-hover:text-white transition-all duration-300 flex items-center justify-center mb-4 sm:mb-6 group-hover:scale-105 shadow-2xs border border-teal-200/80 shrink-0">
                     {icons[index]}
                   </div>
 

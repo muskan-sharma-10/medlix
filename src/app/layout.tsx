@@ -37,7 +37,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`scroll-smooth ${manrope.variable}`}>
+    <html lang="en" className={`scroll-smooth overflow-x-hidden ${manrope.variable}`}>
       <head>
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=medlix" />
         <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png?v=medlix" />
@@ -51,7 +51,7 @@ export default function RootLayout({
           rel="stylesheet" 
         />
       </head>
-      <body className={`${manrope.className} font-sans antialiased text-slate-700 bg-[#F8FAFB] selection:bg-[#C9F5F3] selection:text-[#0A5F6B]`}>
+      <body className={`${manrope.className} font-sans antialiased text-slate-700 bg-[#F8FAFB] selection:bg-[#C9F5F3] selection:text-[#0A5F6B] overflow-x-hidden`}>
         {children}
       </body>
     </html>

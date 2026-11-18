@@ -11,9 +11,9 @@ export default function HomeLayout({ children }: { children: React.ReactNode }) 
   const [isAppointmentOpen, setIsAppointmentOpen] = useState(false);
 
   return (
-    <div className="flex min-h-screen flex-col bg-white relative">
+    <div className="flex min-h-screen flex-col bg-white relative overflow-x-hidden w-full">
       <Header onOpenAppointment={() => setIsAppointmentOpen(true)} />
-      <main className="flex-1">{children}</main>
+      <main className="flex-1 w-full overflow-x-hidden">{children}</main>
       <Footer onOpenAppointment={() => setIsAppointmentOpen(true)} />
       
       {/* Medlix Left-Docked Quick Action Floating Sidebar */}

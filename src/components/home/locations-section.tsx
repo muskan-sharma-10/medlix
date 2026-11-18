@@ -17,30 +17,30 @@ export default function LocationsSection({ onOpenAppointment }: LocationsSection
   const focusedLocations = allLocations.slice(0, 4);
 
   return (
-    <section id="locations" className="py-24 sm:py-32 lg:py-36 bg-white border-b border-slate-200/80 font-sans">
+    <section id="locations" className="py-12 sm:py-20 lg:py-36 bg-white border-b border-slate-200/80 font-sans">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header with View All 8 Hospitals button */}
         <ScrollReveal direction="up" duration={0.65}>
-          <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 sm:mb-20 gap-6">
-            <div className="space-y-4">
-              <span className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold uppercase tracking-wider text-[#0A5F6B] bg-[#E6F7F7] px-4 py-1.5 rounded-full border border-teal-200/80 shadow-2xs">
-                <Building2 className="w-4 h-4 text-[#0A5F6B]" />
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-14 lg:mb-20 gap-4 sm:gap-6">
+            <div className="space-y-3 sm:space-y-4">
+              <span className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold uppercase tracking-wider text-[#0A5F6B] bg-[#E6F7F7] px-3.5 sm:px-4 py-1 sm:py-1.5 rounded-full border border-teal-200/80 shadow-2xs">
+                <Building2 className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#0A5F6B]" />
                 <span>Multi-Center Hospital Network</span>
               </span>
-              <h2 className="text-3xl sm:text-4xl lg:text-[46px] font-extrabold text-[#0A2540] tracking-tight leading-[1.2]">
+              <h2 className="text-2xl sm:text-4xl lg:text-[46px] font-extrabold text-[#0A2540] tracking-tight leading-[1.2]">
                 Our Hospital Locations
               </h2>
               <div className="w-16 h-1.5 rounded-full bg-gradient-to-r from-[#0A5F6B] to-[#14B8A6]" />
-              <p className="text-slate-600 text-base sm:text-lg max-w-2xl font-normal leading-relaxed">
+              <p className="text-slate-600 text-sm sm:text-lg max-w-2xl font-normal leading-relaxed">
                 Find a Medlix Hospital branch nearest to you equipped with 24x7 emergency response, intensive care, and advanced diagnostics across Haryana &amp; Delhi NCR.
               </p>
             </div>
 
-            <div className="flex flex-wrap items-center gap-3.5 shrink-0">
+            <div className="flex flex-wrap items-center gap-3 sm:gap-3.5 shrink-0">
               <Link
                 href="/locations"
-                className="inline-flex items-center gap-2 px-7 py-4 bg-[#0A5F6B] hover:bg-[#07515C] text-white text-xs sm:text-sm font-bold uppercase tracking-wider rounded-2xl transition-all shadow-md hover:shadow-lg group"
+                className="inline-flex items-center gap-2 px-5 sm:px-7 py-3 sm:py-4 bg-[#0A5F6B] hover:bg-[#07515C] text-white text-xs sm:text-sm font-bold uppercase tracking-wider rounded-2xl transition-all shadow-md hover:shadow-lg group"
               >
                 <span>View All 8 Hospitals</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -58,7 +58,7 @@ export default function LocationsSection({ onOpenAppointment }: LocationsSection
         </ScrollReveal>
 
         {/* Focused 4 Locations Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-7 sm:gap-8 lg:gap-9">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 lg:gap-9">
           {focusedLocations.map((loc, idx) => (
             <ScrollReveal
               key={idx}
@@ -73,7 +73,7 @@ export default function LocationsSection({ onOpenAppointment }: LocationsSection
                 <div className="absolute top-0 inset-x-0 h-1.5 z-20 bg-gradient-to-r from-[#0A5F6B] via-[#2DD4BF] to-[#0A5F6B] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
                 {/* Image Preview Container */}
-                <Link href={`/${loc.slug}`} className="relative h-56 sm:h-60 w-full bg-slate-100 overflow-hidden block">
+                <Link href={`/${loc.slug}`} className="relative h-44 sm:h-56 lg:h-60 w-full bg-slate-100 overflow-hidden block">
                   <Image
                     src={loc.image || '/images/aarvy.jpg'}
                     alt={loc.name}
@@ -83,20 +83,20 @@ export default function LocationsSection({ onOpenAppointment }: LocationsSection
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0A2540]/80 via-transparent to-transparent opacity-80" />
                   
                   {/* Bed capacity badge */}
-                  <div className="absolute top-3.5 left-3.5 bg-[#0A2540]/85 backdrop-blur-md text-white text-[11px] font-bold px-3 py-1 rounded-xl shadow-sm border border-white/20 flex items-center gap-1.5">
+                  <div className="absolute top-3 left-3 sm:top-3.5 sm:left-3.5 bg-[#0A2540]/85 backdrop-blur-md text-white text-[10.5px] sm:text-[11px] font-bold px-2.5 sm:px-3 py-1 rounded-xl shadow-sm border border-white/20 flex items-center gap-1.5">
                     <BedDouble className="w-3.5 h-3.5 text-teal-300" />
                     <span>{loc.beds}</span>
                   </div>
 
                   {/* 24/7 status badge */}
-                  <div className="absolute top-3.5 right-3.5 bg-rose-600 text-white text-[10.5px] font-bold px-2.5 py-0.5 rounded-full uppercase tracking-wider shadow-sm flex items-center gap-1">
+                  <div className="absolute top-3 right-3 sm:top-3.5 sm:right-3.5 bg-rose-600 text-white text-[10px] sm:text-[10.5px] font-bold px-2.5 py-0.5 rounded-full uppercase tracking-wider shadow-sm flex items-center gap-1">
                     <span className="w-1.5 h-1.5 rounded-full bg-white animate-ping" />
                     <span>24x7 ICU</span>
                   </div>
                 </Link>
 
                 {/* Card Body */}
-                <div className="p-7 sm:p-8 flex-1 flex flex-col justify-between space-y-5">
+                <div className="p-5 sm:p-7 lg:p-8 flex-1 flex flex-col justify-between space-y-4 sm:space-y-5">
                   <div className="space-y-2.5">
                     <h3 className="text-xl font-bold text-[#0A2540] group-hover:text-[#0A5F6B] transition-colors leading-snug">
                       <Link href={`/${loc.slug}`}>

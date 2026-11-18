@@ -27,7 +27,7 @@ export default function PageBanner({
   imageSrc = '/images/page-banner.jpg'
 }: PageBannerProps) {
   return (
-    <div className="relative w-full bg-gradient-to-r from-[#0A192F] via-[#0A2540] to-[#0A5F6B] text-white py-16 sm:py-20 lg:py-24 overflow-hidden border-b border-teal-900/40">
+    <div className="relative w-full bg-gradient-to-r from-[#0A192F] via-[#0A2540] to-[#0A5F6B] text-white py-10 sm:py-16 lg:py-24 overflow-hidden border-b border-teal-900/40">
       {/* Background Graphic & Texture Overlay */}
       <motion.div 
         initial={{ scale: 1.05, opacity: 0 }}
@@ -83,12 +83,12 @@ export default function PageBanner({
             </motion.div>
           )}
 
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
+          <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
             {title}
           </h1>
 
           {subtitle && (
-            <p className="text-slate-200 text-sm sm:text-base lg:text-[17px] leading-relaxed max-w-3xl font-normal">
+            <p className="text-slate-200 text-xs sm:text-base lg:text-[17px] leading-relaxed max-w-3xl font-normal">
               {subtitle}
             </p>
           )}

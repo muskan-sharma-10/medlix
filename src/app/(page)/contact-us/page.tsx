@@ -47,11 +47,11 @@ export default function ContactUsPage() {
       />
 
       {/* 2. Direct Contact Cards */}
-      <section className="py-24 sm:py-32 lg:py-36 bg-[#FDFEFE] relative overflow-hidden">
+      <section className="py-12 sm:py-20 lg:py-36 bg-[#FDFEFE] relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-8">
             {/* Phone */}
-            <div className="p-8 sm:p-10 rounded-3xl bg-[#DFF8F8]/40 border border-[#C4DFDF] space-y-4 hover:shadow-xl hover:border-[#0A5F6B]/40 transition-all duration-300 group hover:-translate-y-1 relative overflow-hidden">
+            <div className="p-6 sm:p-8 lg:p-10 rounded-3xl bg-[#DFF8F8]/40 border border-[#C4DFDF] space-y-4 hover:shadow-xl hover:border-[#0A5F6B]/40 transition-all duration-300 group hover:-translate-y-1 relative overflow-hidden">
               <div className="w-14 h-14 rounded-2xl bg-[#0A5F6B] text-white flex items-center justify-center shadow-md group-hover:scale-110 transition-transform">
                 <Phone className="w-7 h-7 text-[#C9F5F3]" />
               </div>
@@ -106,7 +106,7 @@ export default function ContactUsPage() {
       </section>
 
       {/* 3. Hospital Selector & Contact Form */}
-      <section className="py-24 sm:py-32 lg:py-36 bg-[#DFF8F8]/30 border-t border-[#C4DFDF]">
+      <section className="py-12 sm:py-20 lg:py-36 bg-[#DFF8F8]/30 border-t border-[#C4DFDF]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
             {/* Left: Branch Directory Details (5 cols) */}

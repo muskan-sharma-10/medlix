@@ -91,9 +91,9 @@ export default function DoctorsPage() {
       </section>
 
       {/* 3. Doctors List */}
-      <section className="py-24 sm:py-32 lg:py-36 bg-white relative overflow-hidden">
+      <section className="py-12 sm:py-20 lg:py-36 bg-white relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-9">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 lg:gap-9">
             {filteredDoctors.map((doc, idx) => (
               <div
                 key={idx}
